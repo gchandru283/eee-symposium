@@ -2,12 +2,12 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className='w-full bg-slate-600'>
-        <div className='flex text-white flex-wrap'>
-            <div className='flex flex-col w-full lg:w-1/3  p-4'>
-                <div className='flex flex-col jusitfy-center'>
+    <div className='w-full lg:h-screen h-full bg-slate-500 lg:pt-20 border-2 border-black'>
+        <div className='flex text-white flex-wrap border-2 border-black'>
+            <div className='flex flex-col w-full lg:w-1/3  p-4 border-2 border-black'>
+                <div className='flex flex-col justify-center border-2 border-black'>
                     <h2 className='text-center text-4xl my-4 cookie'>Location</h2>
-                    <div className='mx-auto w-full'>
+                    <div className='mx-auto w-full border-2 border-black'>
                          {/* <!-- Map --> */}
                          <div className="map-outer tm-mb-40">
                              <div className="gmap-canvas">
@@ -18,12 +18,12 @@ function Footer() {
                         </div>
                     </div>
                     <h2 className='text-center text-4xl my-4 cookie'>Address</h2>
-                    <div className='mx-auto w-full p-2 text-lg'>
-                        <div className='mx-auto text-justify monts'>
-                            <p className='text-base'>Anna University Regional Campus - Coimbatore,</p>
-                            <p className='text-base'>Maruthamalai Main Road,</p>
-                            <p className='text-base'>Navavoor,</p>
-                            <p className='text-base'>Coimbatore - 641046.</p>
+                    <div className='mx-auto w-full p-2 text-lg border-2 border-black'>
+                        <div className='mx-auto  monts '>
+                            <p className='text-xl'>Anna University Regional Campus - Coimbatore,</p>
+                            <p className='text-xl'>Maruthamalai Main Road,</p>
+                            <p className='text-xl'>Navavoor,</p>
+                            <p className='text-xl'>Coimbatore - 641046.</p>
                         </div>
                     </div>
                 </div>
@@ -32,34 +32,12 @@ function Footer() {
                 <img src="/assets/icons/anna.png" alt="" className='w-fit h-fit' />
             </div>
             <div className='flex flex-col w-full lg:w-1/3  p-4'>
-                <div className='flex flex-col jusitfy-center'>
+                <div className='flex flex-col justify-center'>
                     
                     <a id="contact">
                         <h2 className='text-center text-4xl my-4 cookie' id='contact'>Contact Us</h2>
                     </a>
-                    <div className='w-full flex flex-col  mb-5 text-left'>
-                        <h3 className='text-xl font-bold text-left'>General Queries:</h3>
-                        <ul className='list-decimal monts text-base mx-7'>
-                            <li>Yazhini S - 75300 74020</li>
-                            <li>Balaji S - 78689 28433</li>
-                            <li> Arjun R - 9790790148</li>
-                        </ul>
-                        <h3 className='text-xl font-bold'>Technical Event Queries:</h3>
-                        <ul className='list-decimal monts text-base mx-7'>
-                            <li>Vigneshwaran V - 8072899835</li>
-                            <li>Naveenraj K - 6380824773</li>
-                        </ul>
-                        <h3 className='text-xl font-bold'>Non-Technical Event Queries:</h3>
-                        <ul className='list-decimal monts text-base mx-7'>
-                            <li>Sakthivel G R - 9789735839</li>
-                            <li>Obliraj R - 7010069143</li>
-                        </ul>
-                        <h3 className='text-xl font-bold'>Payment related Queries:</h3>
-                        <ul className='list-decimal monts text-base mx-7'>
-                            <li>Santhosh Kumar P - 7356591700</li>
-                            <li>Boopathi B - 9150406393</li>
-                        </ul>
-                    </div>
+                    
                     <div className='mx-auto w-full flex justify-center'>
                         <a href="https://www.instagram.com/_ekna2k22_">
                             <img src="/assets/icons/instagram.svg" alt=""  className='w-8 h-8 mx-2 my-1'/>
