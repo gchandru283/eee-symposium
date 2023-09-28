@@ -32,8 +32,8 @@ function Main() {
         </p>
         </div>
 
-        <div className=" flex justify-center items-center py-10">
-        <iframe className='mt-5 w-4/5 lg:h-72 lg:w-2/5' src="https://www.youtube.com/embed/X6VaBPzjh6A" title="EKNA'22 || It's a grand opening of an amazing event Ekna'22 by AURCC  || Department of EEE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div className=" flex justify-center items-center py-5 lg:py-10">
+        <iframe className='mt-5 w-4/5 lg:h-72 h-48 lg:w-2/5' src="https://www.youtube.com/embed/X6VaBPzjh6A" title="EKNA'22 || It's a grand opening of an amazing event Ekna'22 by AURCC  || Department of EEE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div> 
         <div className='flex flex-wrap w-full pb-5 justify-center items-center'>
           <div className='w-full lg:w-1/2'>
@@ -52,7 +52,7 @@ function Main() {
             </ul>
             <p className='text-cyan-500 text-lg my-4 font-bold'>To register for any 3 events with just ₹150 of ticket,</p>
             </div>
-            <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold text-xl py-2 px-4 rounded inline-flex items-center justify-center">
+            <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold text-xl py-2 px-4 mx-10 rounded inline-flex items-center justify-center">
            <img src="assets/icons/register.png" className="w-9"/>
             <span>Register</span>
             </button>

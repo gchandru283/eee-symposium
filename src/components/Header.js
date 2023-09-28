@@ -13,7 +13,7 @@ const Header = () => {
         <div className="h-16 w-16 ">
         <img src="/assets/ekna-logo.png" className="object-contain" />
       </div>
-      <div className="mt-5 hidden lg:block bg-amber-600 hover:bg-amber-700 text-white  px-2 rounded-full h-7">
+      <div className="mt-5 hidden lg:block bg-orange-100 text-gray-800 hover:bg-orange-200 text-sm monts align-center px-2 py-0.5 rounded-md h-6">
         <a href="/student-ambassador">Student Ambassador</a>
       </div></div>
       <div className="lg:hidden pt-5 flex flex-col items-center">
@@ -45,7 +45,7 @@ const Header = () => {
         )}
       </div>
 
-      <div className="mt-5 bg-amber-600 hover:bg-amber-700 text-white lg:hidden px-2 rounded-full h-7">
+      <div className="mt-5 lg:hidden bg-orange-100 text-gray-800 hover:bg-orange-200 focus:bg-orange-200 text-sm monts align-center px-2 py-0.5 rounded-md h-6">
         <a href="/student-ambassador">Student Ambassador</a>
       </div>
       <div className="hidden lg:flex w-3/6 max-w-md pt-4 md:text-xl lg:text-2xl justify-between font-mono text-white">

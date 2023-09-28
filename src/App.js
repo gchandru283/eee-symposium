@@ -6,6 +6,7 @@ import StudentAmbassador from './pages/StudentAmbassador';
 import Sponsors from './pages/Sponsors';
 import Footer from './components/Footer';
 import TechEvent from './pages/TechEvent';
+import NonTechEvent from './pages/NonTechEvent';
 
 
 function App() {
@@ -554,6 +555,16 @@ function App() {
           <Route element={<TechEvent eventDesc={eventsList[7]}/>} path='/events/tech-event/8'/>
           <Route element={<TechEvent eventDesc={eventsList[8]}/>} path='/events/tech-event/9'/>
           <Route element={<TechEvent eventDesc={eventsList[9]}/>} path='/events/tech-event/10'/>
+          <Route element={<NonTechEvent eventDesc={eventsList[10]}/>} path='/events/non-tech-event/1'/>
+          <Route element={<NonTechEvent eventDesc={eventsList[11]}/>} path='/events/non-tech-event/2'/>
+          <Route element={<NonTechEvent eventDesc={eventsList[12]}/>} path='/events/non-tech-event/3'/>
+          <Route element={<NonTechEvent eventDesc={eventsList[13]}/>} path='/events/non-tech-event/4'/>
+          <Route element={<NonTechEvent eventDesc={eventsList[14]}/>} path='/events/non-tech-event/5'/>
+          <Route element={<NonTechEvent eventDesc={eventsList[15]}/>} path='/events/non-tech-event/6'/>
+          <Route element={<NonTechEvent eventDesc={eventsList[16]}/>} path='/events/non-tech-event/7'/>
+          <Route element={<NonTechEvent eventDesc={eventsList[17]}/>} path='/events/non-tech-event/8'/>
+          <Route element={<NonTechEvent eventDesc={eventsList[18]}/>} path='/events/non-tech-event/9'/>
+          <Route element={<NonTechEvent eventDesc={eventsList[19]}/>} path='/events/non-tech-event/10'/>
         </Routes>
       </div>
     </Router>
