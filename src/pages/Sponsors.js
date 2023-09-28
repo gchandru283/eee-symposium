@@ -3,7 +3,7 @@ import Header from '../components/Header'
 
 function Sponsors() {
   return (
-    <div>Sponsors</div>
+    <div><Header/></div>
   )
 }
 

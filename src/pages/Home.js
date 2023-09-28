@@ -8,7 +8,8 @@ function Home() {
   return (
     <div> <Header/>
     <Main/>
-    <Footer/>       
+    <div id='contact'> <Footer/></div>
+          
     </div>
   )
 }

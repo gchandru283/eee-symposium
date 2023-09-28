@@ -3,7 +3,9 @@ import Header from '../components/Header'
 
 function StudentAmbassador() {
   return (
-    <div>StudentAmbassador</div>
+    <div>
+      <Header/>
+      </div>
   )
 }
 

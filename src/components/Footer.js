@@ -15,11 +15,11 @@ function Footer() {
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.9491172651287!2d76.88388301532656!3d11.04244189214134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85910327ab1e3%3A0x9f7a2b4ef20fe07!2sAnna%20University%20Regional%20Campus%2C%20Coimbatore!5e0!3m2!1sen!2sin!4v1653732177820!5m2!1sen!2sin" 
                                  title="Map"></iframe>
                             </div>
-                        </div>
+                        </div>  
                     </div>
                     <h2 className='text-center text-4xl my-4 cookie'>Address</h2>
                     <div className='mx-auto w-full p-2 text-lg border-2 border-black'>
-                        <div className='mx-auto  monts '>
+                        <div className='mx-auto'>
                             <p className='text-xl'>Anna University Regional Campus - Coimbatore,</p>
                             <p className='text-xl'>Maruthamalai Main Road,</p>
                             <p className='text-xl'>Navavoor,</p>
