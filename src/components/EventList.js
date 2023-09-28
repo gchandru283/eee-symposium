@@ -14,7 +14,7 @@ function EventList({eventsList}) {
       
 
   return (
-    <div>
+    <>
         <div className='pt-24 text-center m-auto w-full lg:text-5xl md:text-4xl text-3xl font-bold font-mono'>
             <span>Events</span>
         <div className='pt-7 '>
@@ -28,7 +28,7 @@ function EventList({eventsList}) {
             </span>
         </div>
         </div>
-        <div className=' h-full flex gap-10 flex-wrap lg:m-16 m-5 justify-evenly pb-10'>
+        <div className='flex gap-10 flex-wrap lg:mx-36 lg:my-20 justify-evenly pb-10 mx-12'>
             {choiceList(choice).map(eventDesc=> (
                 <a href={eventDesc.eventUrl}>
                   <EventBox key={eventDesc.id} eventDesc={eventDesc}/>
@@ -37,7 +37,7 @@ function EventList({eventsList}) {
         </div>
 
 
-    </div>
+    </>
   )
 }
 

@@ -25,16 +25,16 @@ function App() {
       time: 'null',
       prize:["null"], //Trophy + Certificate
       rules: [
-        '1. The event will be conducted in three rounds . Preliminary, Secondary and Finale.',
-        '2. Each team must have two members, they will be provided with question to solve.',
-        '3. The teams that are able to pass each rounds will be promote to next with calculating the time taken to complete.',
-        '4. The chosen option for all the question by the team members must be remember by the team members through out their last question.',
-        '5. After completing all the questions the correctness of the answer chosen and the time taken to solve the question will be taken into the account and credits will be given .',
-        '6. Total time given for both first and second round will be 15 mins . First, two rounds will have a five questions to solve and the time taken to solve each question is not particularly calculated but the total time(15 mins) is taken into the account.',
-        '7. Final round consists of three questions and the total time allotted for this finale round is 10 mins.',
-        '8.The time taken and correctness of answer in the finale will be awarded as winner followed by runner and second runner.',
-        '9. Participants are excepted to maintain a respectful and good attitude throughout the event .Any form of cheating plagiarism or disruptive will result in immediate disqualification.',
-        '10. By clearing outlining these rules and regulations you can ensure a fair and enjoyable event for all participants.',
+        'The event will be conducted in three rounds. Preliminary, Secondary and Finale.',
+        'Each team must have two members, they will be provided with question to solve.',
+        'The teams that are able to pass each rounds will be promote to next with calculating the time taken to complete.',
+        'The chosen option for all the question by the team members must be remember by the team members through out their last question.',
+        'After completing all the questions the correctness of the answer chosen and the time taken to solve the question will be taken into the account and credits will be given .',
+        'Total time given for both first and second round will be 15 mins. First, two rounds will have a five questions to solve and the time taken to solve each question is not particularly calculated but the total time(15 mins) is taken into the account.',
+        'Final round consists of three questions and the total time allotted for this finale round is 10 mins.',
+        'The time taken and correctness of answer in the finale will be awarded as winner followed by runner and second runner.',
+        'Participants are excepted to maintain a respectful and good attitude throughout the event .Any form of cheating plagiarism or disruptive will result in immediate disqualification.',
+        'By clearing outlining these rules and regulations you can ensure a fair and enjoyable event for all participants.',
       ],
       eventOrganizers: [
         'Viswa S - 9345315673',
@@ -56,12 +56,12 @@ function App() {
       time: 'null',
       prize:["null"], //Trophy + Certificate
       rules: [
-        '1. Two rounds will be conducted.',
-        '2. Top 10 scorers from the first round will compete in the second round for top 3 positions.',
-        '3. Each challenge has a pre-determined score.',
-        "4. A participant's score depends on the number of test cases successfully passed.",
-        '5. Participants are ranked by score.',
-        '6. If two or more participants achieve the same score, then the tie is broken by the total time taken to submit the last solution resulting in a higher score.',
+        'Two rounds will be conducted.',
+        'Top 10 scorers from the first round will compete in the second round for top 3 positions.',
+        'Each challenge has a pre-determined score.',
+        "A participant's score depends on the number of test cases successfully passed.",
+        'Participants are ranked by score.',
+        'If two or more participants achieve the same score, then the tie is broken by the total time taken to submit the last solution resulting in a higher score.',
         '',
         '**(Note- everyone must have a hacker rank account for participating in the contest.)'
       ],
@@ -84,13 +84,13 @@ function App() {
       time: 'null',
       prize:["null"], //Trophy + Certificate
       rules: [
-        '1. It is an individual event where two rounds will be conducted.',
-        '2. In the first round, technical topics written in a lot and on the spot,the given topic should be spoken for 3-5minutes.',
-        '3. Top 10 scorers from the first round will qualify for second round.',
-        '4. In the second round, general questions will be asked from the chosen topic from the lot(Questions may also be asked based on your answers). ',
-        '5. The  best 3 candidates will be selected from the second round and the scores at each level will be added.',
-        '6. The prizes will be distributed depending on the final score. ',
-        '7. The decision of the judges will be the final.'
+        'It is an individual event where two rounds will be conducted.',
+        'In the first round, technical topics written in a lot and on the spot,the given topic should be spoken for 3-5minutes.',
+        'Top 10 scorers from the first round will qualify for second round.',
+        'In the second round, general questions will be asked from the chosen topic from the lot(Questions may also be asked based on your answers.',
+        'The  best 3 candidates will be selected from the second round and the scores at each level will be added.',
+        'The prizes will be distributed depending on the final score.',
+        'The decision of the judges will be the final.'
       ],
       eventOrganizers: [
 
@@ -111,10 +111,10 @@ function App() {
       time: 'null',
       prize:["null"], //Trophy + Certificate
       rules: [
-        '1. Each team should have 2 participants.',
-        '2. Only one device is allowed.',
-        '3. Kahoot app should be installed in the device.',
-        '4. If there is any connectivity error, The team will be eliminated.'
+        'Each team should have 2 participants.',
+        'Only one device is allowed.',
+        'Kahoot app should be installed in the device.',
+        'If there is any connectivity error, The team will be eliminated.'
       ],
       eventOrganizers: [
 
@@ -135,11 +135,11 @@ function App() {
       time: 'null',
       prize:["null"], //Trophy + Certificate
       rules: [
-        '1. The Team should consist of 4 members.',
-        '2. The Event will be based on Basis Electrical and Electronics quizzes or riddles.',        
-        '3. Find the clues,solve the riddles and discover the gem(Component).',        
-        '4. Complete the Final circuit with the gem to win the Treasure .',        
-        '5. This Event is based on time.Each team will be provided 5 minutes.'
+        'The Team should consist of 4 members.',
+        'The Event will be based on Basis Electrical and Electronics quizzes or riddles.',        
+        'Find the clues,solve the riddles and discover the gem(Component).',        
+        'Complete the Final circuit with the gem to win the Treasure .',        
+        'This Event is based on time.Each team will be provided 5 minutes.'
       ],
       eventOrganizers: [
         'Srihari Subramanian V - 9360149213',
@@ -161,10 +161,10 @@ function App() {
       time: 'null',
       prize:["null"], //Trophy + Certificate
       rules: [
-        '1. All should bring 1.5 litre bottle only.',
-        '2. Best of 2 chance(distance base).',
-        '3. Air pressure is about 80 psi.',
-        '4. 2 members per team or single person in a team.'
+        'All should bring 1.5 litre bottle only.',
+        'Best of 2 chance(distance base).',
+        'Air pressure is about 80 psi.',
+        '2 members per team or single person in a team.'
       ],
       eventOrganizers: [
 
@@ -185,12 +185,12 @@ function App() {
       time: 'null',
       prize:["null"], //Trophy + Certificate
       rules: [
-        '1. A team should consist of two members. ',
-        '2. There will be two rounds. First round topics will be reveal two days before the event, kindly prepare the model. ',       
-        '3. Based on the first round results, two teams per topic will be qualify for second round. ',
-        '4. Second round will be the final round . ',
-        '5. Participants are expected to maintain a respectful and good attitude throughout the event. Any form of cheating plagiarism or disruptive will result in immediate disqualification. ',
-        '6. By clearing outlining these rules and regulations you can ensure a fair and enjoyable event for all participant.'
+        'A team should consist of two members. ',
+        'There will be two rounds. First round topics will be reveal two days before the event, kindly prepare the model. ',       
+        'Based on the first round results, two teams per topic will be qualify for second round. ',
+        'Second round will be the final round . ',
+        'Participants are expected to maintain a respectful and good attitude throughout the event. Any form of cheating plagiarism or disruptive will result in immediate disqualification. ',
+        'By clearing outlining these rules and regulations you can ensure a fair and enjoyable event for all participant.'
       ],
       eventOrganizers: [
         'Kabilan D - 8903357414',
@@ -212,7 +212,7 @@ function App() {
       time: 'null',
       prize:["null"], //Trophy + Certificate
       rules: [
-        '1. Only individuals are allowed. No teams.',
+        'Only individuals are allowed. No teams.',
         '2. Only Motors and batteries may be use. ',
         '3. Compulsorily bring your model.',
         '4. Based on the workload winner and runner up will be announced.',
@@ -279,6 +279,257 @@ function App() {
       ],
       eventOrganizers: [
        
+      ]
+    },
+
+    {
+      eventName: 'FotoFlick',
+      eventDescription:'FotoFlick - Photography',
+      id: 'non-tech-event-1',
+      eventUrl:'/events/non-tech-event/1',
+      type: 1,
+      imgUrl: '/assets/nontechEvents/fotoflick.jpeg',
+      registrationLink: 'null',
+      description: '',
+      location: 'Main Campus',
+      date: 'null',
+      time: 'null',
+      prize:["null"], //Trophy + Certificate
+      rules: [
+        ''
+      ],
+      eventOrganizers: [
+       
+      ]
+    },
+
+    {
+      eventName: 'Frenetic Fiesta',
+      eventDescription:'Frenetic Fiesta - Dance',
+      id: 'non-tech-event-2',
+      eventUrl:'/events/non-tech-event/2',
+      type: 1,
+      imgUrl: '/assets/nontechEvents/frenetic-feista.jpeg',
+      registrationLink: 'null',
+      description: '',
+      location: 'Main Campus',
+      date: 'null',
+      time: 'null',
+      prize:["null"], //Trophy + Certificate
+      rules: [
+        ''
+      ],
+      eventOrganizers: [
+       
+      ]
+    },
+
+    {
+      eventName: 'Jokes on the Rocks',
+      eventDescription:'Stand-up comedy',
+      id: 'non-tech-event-3',
+      eventUrl:'/events/non-tech-event/3',
+      type: 1,
+      imgUrl: '/assets/nontechEvents/stand-up.jpeg',
+      registrationLink: 'null',
+      description: '',
+      location: 'Main Campus',
+      date: 'null',
+      time: 'null',
+      prize:["null"], //Trophy + Certificate
+      rules: [
+        ''
+      ],
+      eventOrganizers: [
+       
+      ]
+    },
+
+    {
+      eventName: 'Euphony',
+      eventDescription:'Euphony - Singing',
+      id: 'non-tech-event-4',
+      eventUrl:'/events/non-tech-event/4',
+      type: 1,
+      imgUrl: '/assets/nontechEvents/euphony.jpg',
+      registrationLink: 'null',
+      description: 'Euphony is a grand singing event which is a great platform to showcase their innate talent through their euphonious voice .The event can be either in the form of solo or group singing (Max 6 participants). So Participate and share your talent and gear yourself up for this exhilarating event.',
+      location: 'Main Campus',
+      date: 'null',
+      time: 'null',
+      prize:["null"], //Trophy + Certificate
+      rules: [
+        'Duration of the song can be 3 to 4 minutes.',
+        'The song can be either in the form of classical or western.',
+        'Only Karaoke are allowed and so all are requested bring your karaoke in the Pendrive itself.',
+        'The participants will be judged based on the Song selection, Voice quality, Rhythm and also based on their appeal to audience.',
+        'Obscenity of any kind of activities is prohibited.',
+        'Decision of the judges will be the final.',
+        'The general guidelines and time constraints must be rigorously adhered in order to avoid participants disqualification.'
+      ],
+      eventOrganizers: [
+       'Srenath S B - 6382688387',
+       'Rekshanambiga G-8072732246'
+      ]
+    },
+
+    {
+      eventName: 'Quizzathon',
+      eventDescription:'Quizzathon - Quizite',
+      id: 'non-tech-event-5',
+      eventUrl:'/events/non-tech-event/5',
+      type: 1,
+      imgUrl: '/assets/nontechEvents/quizzathon.jpg',
+      registrationLink: 'null',
+      description: 'Are you ready to put your Knowledge to the Test ? Join Us for an Exhilarating and Mind Boggling experience at QUIZZATHON where intellect and quick thinking take center stage. Get ready to answer questions that span a wide range of topics, from History, Science, Mathematics, Aptitude, Logical Reasoning, General Knowledge. Compete against other Brilliant Minds,proving that you have what it takes to be the ultimate quiz champion.',
+      location: 'Main Campus',
+      date: 'null',
+      time: 'null',
+      prize:["null"], //Trophy + Certificate
+      rules: [
+        'A Team should consist of Two Members.',
+        'There will be Three rounds.Those who crack the First Round and Second Round Criteria shall attend the Third Round. Third Round will be the Final Deciding Round.',
+        'First Round will be a Pen and Paper based round.Second Round will be conducted in Online mode through ‘Kahoot’ Mobile Application. Third Round will be revealed on the Spot.',
+        'Participants are expected to maintain a respectful and sportsmanship attitude throughout the event. Any form of cheating, plagiarism or disruptive behavior will result in immediate disqualification.',
+        'Participants must adhere to the designated time limits for each question or round.',
+        'By clearly outlining these rules and regulations,you can ensure a fair and enjoyable event for all participants.'
+      ],
+      eventOrganizers: [
+       'Andro Mahilarasi D - 9080787620',
+       'Harishkumar R - 8098414353'
+      ]
+    },
+
+    {
+      eventName: 'Picasso',
+      eventDescription:'Picasso - Modern',
+      id: 'non-tech-event-6',
+      eventUrl:'/events/non-tech-event/6',
+      type: 1,
+      imgUrl: '/assets/nontechEvents/.jpg',
+      registrationLink: 'null',
+      description: '',
+      location: 'Main Campus',
+      date: 'null',
+      time: 'null',
+      prize:["null"], //Trophy + Certificate
+      rules: [
+        ''
+      ],
+      eventOrganizers: [
+       ''
+      ]
+    },
+
+    {
+      eventName: 'Go Rubix',
+      eventDescription:'Go Rubix - Cube solving',
+      id: 'non-tech-event-7',
+      eventUrl:'/events/non-tech-event/7',
+      type: 1,
+      imgUrl: '/assets/nontechEvents/go-rubix.jpg',
+      registrationLink: 'null',
+      description: "Are you a speedcuber...? Then, here is the suitable platform you are searching for...! Unleash the  power of your mind with Rubik's cube...Twist, turn and solve the Rubik's cube puzzle...Let's cube it...! Join the Rubik's cube revolution!!!",
+      location: 'Main Campus',
+      date: 'null',
+      time: 'null',
+      prize:["null"], //Trophy + Certificate
+      rules: [
+        'Only 3×3×3 cubes are allowed.',
+        "All must bring their own Rubik's cube. No cubes will be provided here.",
+        "Event organizers won't be responsible for any faults in the Rubik's cube.",
+        'The cubes must not have any electronic components and any type of modifications.',
+        'Minimum of 3 rounds will be conducted.',
+        'The results will be declared on Time-basis [ Shortest Average Time ]',
+        "'The judges' decision is final.",
+        'Violation of the above rules might end in disqualification from the event.'
+      ],
+      eventOrganizers: [
+       'Akash G - 6385858415',
+       'Vinil H - 8072812182'
+      ]
+    },
+
+    {
+      eventName: 'Snap Cinema',
+      eventDescription:'Snap Cinema - Short film',
+      id: 'non-tech-event-8',
+      eventUrl:'/events/non-tech-event/8',
+      type: 1,
+      imgUrl: '/assets/nontechEvents/snap-cinema.jpg',
+      registrationLink: 'null',
+      description: "Step into the spotlight and share your cinematic vision with the world. Snap Cinema Showcase invites creators of all levels to submit their short films. It's time to ignite the screen with your creativity!",
+      location: 'Main Campus',
+      date: 'null',
+      time: 'null',
+      prize:["null"], //Trophy + Certificate
+      rules: [
+        'Duration: Maximum 10 minutes.',
+        'Any theme of your content.',        
+        'No vulgarity in your videos.',        
+        'Videos should be send before 3 days of the symposium.',
+        'Judge decision are final.',
+        'The snap cinema can be your own creative story'
+      ],
+      eventOrganizers: [
+       'Nasir Hussain S - 9360447279',
+       'Akkash K - 96591 10292'
+      ]
+    },
+
+    {
+      eventName: 'Avant Garde',
+      eventDescription:'Avant Garde - Fashion',
+      id: 'non-tech-event-10',
+      eventUrl:'/events/non-tech-event/10',
+      type: 1,
+      imgUrl: '/assets/nontechEvents/.jpg',
+      registrationLink: 'null',
+      description: "",
+      location: 'Main Campus',
+      date: 'null',
+      time: 'null',
+      prize:["null"], //Trophy + Certificate
+      rules: [
+        ''
+        
+      ],
+      events:[
+        'Solo Performance',
+        'Group Performance'        
+      ],
+      eventOrganizers: [
+       ''
+      ]
+    },
+
+    {
+      eventName: 'Pantomimist',
+      eventDescription:'Pantomimist - Mime',
+      id: 'non-tech-event-9',
+      eventUrl:'/events/non-tech-event/9',
+      type: 1,
+      imgUrl: '/assets/nontechEvents/pantomime.jpg',
+      registrationLink: 'null',
+      description: "Pantomime is a mime event. It is a theatrical technique of suggesting action, character or emotion without words, using only gesture, expression and movement.",
+      location: 'Main Campus',
+      date: 'null',
+      time: 'null',
+      prize:["null"], //Trophy + Certificate
+      rules: [
+        'Group Performance: Maximum 8 members per team.',
+        'Duration:4-5 minutes.',
+        'Carry your own properties and things for the performance.',
+        'Judges Decisions are Final.'
+        
+      ],
+      events:[
+        'Solo Performance',
+        'Group Performance'        
+      ],
+      eventOrganizers: [
+       'Nasir Hussain S - 9360447279',
+       'Akkash K - 96591 10292'
       ]
     },
   ]

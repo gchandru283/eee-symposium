@@ -2,7 +2,7 @@ import React, {useEffect} from 'react'
 import Header from '../components/Header';
 
 
-function TechEvent({ eventDesc }) {
+function NonTechEvent({ eventDesc }) {
 
     useEffect(()=>{
       document.title = `${eventDesc.eventName} | Ekna2k23`
@@ -15,4 +15,4 @@ function TechEvent({ eventDesc }) {
     )
 }
 
-export default TechEvent
+export default NonTechEvent

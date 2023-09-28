@@ -3,7 +3,7 @@ import React from "react";
 function EventBox({ eventDesc }) {
   return (
     <>
-      <div class="my-5 relative group bg-gray-800 rounded-t-md lg:h-60 h-44 md:h-52 lg:w-96 md:w-80 w-64">
+      <div class="my-5 relative group bg-gray-800 rounded-t-md lg:h-56 h-40 md:h-48 lg:w-80 md:w-72 w-60">
         <img
           src={eventDesc.imgUrl}
           alt="Event Image"
