@@ -18,7 +18,7 @@ function Main() {
           auspicious occasion, 7 technical and 10 cultural events are scheduled
           to be conducted.Some of the activities of the Techno-Cultural Fest
           include Electro-Matrix, IQuid, Analogy-O-Mania !, Paper presentation,
-          Fashion show, Slick Standups, Music, Dance, Shortfilm, Photography and
+          Fashion show, Slick Stand-ups, Music, Dance, Short film, Photography and
           a lot more. It is a unique window of opportunity for students from
           various disciplines to demonstrate their abilities and expertise. This
           event will undoubtedly give an opportunity for aspiring engineers to

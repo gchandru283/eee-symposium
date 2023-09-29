@@ -22,9 +22,9 @@ function App() {
       registrationLink: 'null',
       description: "IQuid is the most unique quest of all the events where all fields of engineering disciplines can participate in it. This event comprises various mathematical puzzles to solve in sequential stages with increasing difficulty of finding clues and some challenges for the human IO and memory in every stage to pass on. The person who cracks the overall twists and turns will top the event.",
       location: 'Main Campus',
-      date: 'null',
-      time: 'null',
-      prize:["null"], //Trophy + Certificate
+      date: 'November 7',
+      time: '9 am to 1 pm',
+      prize:["Exciting prizes + Certificate"], //Trophy + Certificate
       rules: [
         'The event will be conducted in three rounds. Preliminary, Secondary and Finale.',
         'Each team must have two members, they will be provided with question to solve.',
@@ -53,9 +53,9 @@ function App() {
       registrationLink: 'null',
       description: 'A contest to find the master coder in the room. Participants are faced with challenges like, writing code, debugging code, understanding logic and rewriting code. Marks are rewarded as per difficulty level and difficulty increases through stages. Top three coders will be rewarded and the winner will snatch the title of "Mr. coder" and cash prize.',
       location: 'Main Campus',
-      date: 'null',
-      time: 'null',
-      prize:["null"], //Trophy + Certificate
+      date: 'November 7',
+      time: '9 am to 1 pm',
+      prize:["Exciting prizes + Certificate"], //Trophy + Certificate
       rules: [
         'Two rounds will be conducted.',
         'Top 10 scorers from the first round will compete in the second round for top 3 positions.',
@@ -81,9 +81,9 @@ function App() {
       registrationLink: 'null',
       description: "Techno talk are the talks that focus on explaining various aspects of technology, innovations,or emerging technologies. Techno talk examines the current trends and make predictions about the future technology. It includes a Q&A session for  further knowledge.",
       location: 'Main Campus',
-      date: 'null',
-      time: 'null',
-      prize:["null"], //Trophy + Certificate
+      date: 'November 7',
+      time: '9 am to 1 pm',
+      prize:["Exciting prizes + Certificate"], //Trophy + Certificate
       rules: [
         'It is an individual event where two rounds will be conducted.',
         'In the first round, technical topics written in a lot and on the spot,the given topic should be spoken for 3-5minutes.',
@@ -108,9 +108,9 @@ function App() {
       registrationLink: 'null',
       description: "A game of comparing science with nature. It's a kind of quiz game. All the participants are asked to install KAHOOT app, where the game will be conducted. The game will be conducted in 2 rounds. First round will be the easy round and the second round will be the toughest round. Each participants will get scores for each questions they answer on the basis of the time taken to answer. The scores are added for each question and the team with highest scores will be the winner. ",
       location: 'Main Campus',
-      date: 'null',
-      time: 'null',
-      prize:["null"], //Trophy + Certificate
+      date: 'November 7',
+      time: '9 am to 1 pm',
+      prize:["Exciting prizes + Certificate"], //Trophy + Certificate
       rules: [
         'Each team should have 2 participants.',
         'Only one device is allowed.',
@@ -132,9 +132,9 @@ function App() {
       registrationLink: 'null',
       description: "Teams with handmade water rockets compete against each other to find the best rocket among them. Top 3 Water rockets that perfectly manages the best aerodynamics, size to weight ratio and low wind drag would be rewarded",
       location: 'Main Campus',
-      date: 'null',
-      time: 'null',
-      prize:["null"], //Trophy + Certificate
+      date: 'November 7',
+      time: '9 am to 1 pm',
+      prize:["Exciting prizes + Certificate"], //Trophy + Certificate
       rules: [
         'The Team should consist of 4 members.',
         'The Event will be based on Basis Electrical and Electronics quizzes or riddles.',        
@@ -158,9 +158,9 @@ function App() {
       registrationLink: 'null',
       description: "Teams with handmade water rockets compete against each other to find the best rocket among them. Top 3 Water rockets that perfectly manages the best aerodynamics, size to weight ratio and low wind drag would be rewarded.",
       location: 'Main Campus',
-      date: 'null',
-      time: 'null',
-      prize:["null"], //Trophy + Certificate
+      date: 'November 7',
+      time: '9 am to 1 pm',
+      prize:["Exciting prizes + Certificate"], //Trophy + Certificate
       rules: [
         'All should bring 1.5 litre bottle only.',
         'Best of 2 chance(distance base).',
@@ -182,9 +182,9 @@ function App() {
       registrationLink: 'null',
       description: "CAD modeling is the process of using specialized computer software to create precise digital representations of objects or systems. It involves designing and defining shapes, dimensions, and properties in a virtual environment, revolved, or manipulated to create 3D models. CAD modeling is crucial for accurate visualization, analysis, simulation, and prototyping of designs in various industries, ensuring efficiency and precision in the product development cycle.",
       location: 'Main Campus',
-      date: 'null',
-      time: 'null',
-      prize:["null"], //Trophy + Certificate
+      date: 'November 7',
+      time: '9 am to 1 pm',
+      prize:['null'], //Trophy + Certificate
       rules: [
         'A team should consist of two members. ',
         'There will be two rounds. First round topics will be reveal two days before the event, kindly prepare the model. ',       
@@ -209,16 +209,16 @@ function App() {
       registrationLink: 'null',
       description: '"Recycle and reinvent" is a concept that encourages the recycling of materials and the creative reinvention of existing products or objects. It involves taking items that are no longer in their original form or have served their primary purpose and finding new ways to use them or giving them a fresh, innovative purpose.',
       location: 'Main Campus',
-      date: 'null',
-      time: 'null',
-      prize:["null"], //Trophy + Certificate
+      date: 'November 7',
+      time: '9 am to 1 pm',
+      prize:["Exciting prizes + Certificate"], //Trophy + Certificate
       rules: [
         'Only individuals are allowed. No teams.',
         '2. Only Motors and batteries may be use. ',
         '3. Compulsorily bring your model.',
         '4. Based on the workload winner and runner up will be announced.',
-        '5. Participants are expected to maintain a respectful and good attitude throughout the event. Any form of cheating plagiarism or disruptive will result in immediate disqualification. ',
-        '6. By clearing outlining these rules and regulations you can ensure a fair and enjoyable event for all participant.'
+        ' Participants are expected to maintain a respectful and good attitude throughout the event. Any form of cheating plagiarism or disruptive will result in immediate disqualification. ',
+        ' By clearing outlining these rules and regulations you can ensure a fair and enjoyable event for all participant.'
       ],
       eventOrganizers: [
         'Kabilan D - 8903357414',
@@ -236,23 +236,22 @@ function App() {
       registrationLink: 'null',
       description: 'Paper presentations are a way to communicate research findings, insights, or ideas to an audience.They are typically delivered in front of an audience that may consist of peers, experts,or colleagues interested in topic. They usually follow a structured format.  After presentation there is usually a Q&A session for clarifications.',
       location: 'Main Campus',
-      date: 'null',
-      time: 'null',
-      prize:["null"], //Trophy + Certificate
+      date: 'November 7',
+      time: '9 am to 1 pm',
+      prize:["Exciting prizes + Certificate"], //Trophy + Certificate
       rules: [
-        '1.Maximum number of participants in a team is three.',
-        '2.One person may not be a part of multiple teams for the same event.',
-        '3.Paper should be in IEEE Format and should not exceed  15 pages.',
-        '4.Kindly mail your soft copy of the paper document and ppt.The difficulties will be addressed through the same.Mail ID:',
-        '5.The mail of the subject should contain:Title-Theme of the paper,team name and name of the authors.',
-        '6.Presentations file must be in the .ppt format',
-        '7.Hard copies should be submitted to the panel of judges before the starting of presentation enclosed in a stick file.',
-        '8.The teams will get 10 minutes for presentation and followed by question and answer session.',
-        '9.Last day to submit your soft copies of paper document and ppt (via email) will be a week prior of presentation (02.11.2023).',
-        '10.The decision of the judges will be final and no arguments or appeal will be entertained.',
-        '',
-        '**Topics are general and free style.You can choose any topic for your presentation.'
+        'Maximum number of participants in a team is three.',
+        'One person may not be a part of multiple teams for the same event.',
+        'Paper should be in IEEE Format and should not exceed  15 pages.',
+        'Kindly mail your soft copy of the paper document and ppt.The difficulties will be addressed through the same.Mail ID:',
+        'The mail of the subject should contain:Title-Theme of the paper,team name and name of the authors.',
+        'Presentations file must be in the .ppt format',
+        'Hard copies should be submitted to the panel of judges before the starting of presentation enclosed in a stick file.',
+        'The teams will get 10 minutes for presentation and followed by question and answer session.',
+        'Last day to submit your soft copies of paper document and ppt (via email) will be a week prior of presentation (02.11.2023).',
+        'The decision of the judges will be final and no arguments or appeal will be entertained.',
       ],
+      note: ["**Topics are general and free style.You can choose any topic for your presentation."],
       eventOrganizers: [
        
       ]
@@ -268,15 +267,15 @@ function App() {
       registrationLink: 'null',
       description: 'A way to communicate your research or your understanding of a topic in a concise and visually engaging format.',
       location: 'Main Campus',
-      date: 'null',
-      time: 'null',
-      prize:["null"], //Trophy + Certificate
+      date: 'November 7',
+      time: '9 am to 1 pm',
+      prize:["Exciting prizes + Certificate"], //Trophy + Certificate
       rules: [
-        '1.Minimum 2 maximum 4 members per team.',
-        '2.The poster dimension should be 36 inches wide by 40 inches wide .',
-        '3.Posters will be on display for the duration of conference.',
-        '4.Presentation-5 min of duration.',
-        '5.Topic of poster should be clearly mentioned at the top margin.'
+        'Minimum 2 maximum 4 members per team.',
+        'The poster dimension should be 36 inches wide by 40 inches wide .',
+        'Posters will be on display for the duration of conference.',
+        'Presentation-5 min of duration.',
+        'Topic of poster should be clearly mentioned at the top margin.'
       ],
       eventOrganizers: [
        
@@ -293,9 +292,9 @@ function App() {
       registrationLink: 'null',
       description: '',
       location: 'Main Campus',
-      date: 'null',
-      time: 'null',
-      prize:["null"], //Trophy + Certificate
+      date: 'November 7',
+      time: '2 pm to 6 pm',
+      prize:["Exciting prizes + Certificate"], //Trophy + Certificate
       rules: [
         ''
       ],
@@ -310,13 +309,13 @@ function App() {
       id: 'non-tech-event-2',
       eventUrl:'/events/non-tech-event/2',
       type: 1,
-      imgUrl: '/assets/nontechEvents/frenetic-feista.jpeg',
+      imgUrl: '/assets/nontechEvents/dance.jpg',
       registrationLink: 'null',
       description: '',
       location: 'Main Campus',
-      date: 'null',
-      time: 'null',
-      prize:["null"], //Trophy + Certificate
+      date: 'November 7',
+      time: '2 pm to 6 pm',
+      prize:["Exciting prizes + Certificate"], //Trophy + Certificate
       rules: [
         ''
       ],
@@ -335,9 +334,9 @@ function App() {
       registrationLink: 'null',
       description: '',
       location: 'Main Campus',
-      date: 'null',
-      time: 'null',
-      prize:["null"], //Trophy + Certificate
+      date: 'November 7',
+      time: '2 pm to 6 pm',
+      prize:["Exciting prizes + Certificate"], //Trophy + Certificate
       rules: [
         ''
       ],
@@ -356,9 +355,9 @@ function App() {
       registrationLink: 'null',
       description: 'Euphony is a grand singing event which is a great platform to showcase their innate talent through their euphonious voice .The event can be either in the form of solo or group singing (Max 6 participants). So Participate and share your talent and gear yourself up for this exhilarating event.',
       location: 'Main Campus',
-      date: 'null',
-      time: 'null',
-      prize:["null"], //Trophy + Certificate
+      date: 'November 7',
+      time: '2 pm to 6 pm',
+      prize:["Exciting prizes + Certificate"], //Trophy + Certificate
       rules: [
         'Duration of the song can be 3 to 4 minutes.',
         'The song can be either in the form of classical or western.',
@@ -384,9 +383,9 @@ function App() {
       registrationLink: 'null',
       description: 'Are you ready to put your Knowledge to the Test ? Join Us for an Exhilarating and Mind Boggling experience at QUIZZATHON where intellect and quick thinking take center stage. Get ready to answer questions that span a wide range of topics, from History, Science, Mathematics, Aptitude, Logical Reasoning, General Knowledge. Compete against other Brilliant Minds,proving that you have what it takes to be the ultimate quiz champion.',
       location: 'Main Campus',
-      date: 'null',
-      time: 'null',
-      prize:["null"], //Trophy + Certificate
+      date: 'November 7',
+      time: '2 pm to 6 pm',
+      prize:["Exciting prizes + Certificate"], //Trophy + Certificate
       rules: [
         'A Team should consist of Two Members.',
         'There will be Three rounds.Those who crack the First Round and Second Round Criteria shall attend the Third Round. Third Round will be the Final Deciding Round.',
@@ -403,17 +402,17 @@ function App() {
 
     {
       eventName: 'Picasso',
-      eventDescription:'Picasso - Modern',
+      eventDescription:'Picasso - Modern art',
       id: 'non-tech-event-6',
       eventUrl:'/events/non-tech-event/6',
       type: 1,
-      imgUrl: '/assets/nontechEvents/.jpg',
+      imgUrl: '/assets/nontechEvents/picaso.png',
       registrationLink: 'null',
       description: '',
       location: 'Main Campus',
-      date: 'null',
-      time: 'null',
-      prize:["null"], //Trophy + Certificate
+      date: 'November 7',
+      time: '2 pm to 6 pm',
+      prize:["Exciting prizes + Certificate"], //Trophy + Certificate
       rules: [
         ''
       ],
@@ -432,9 +431,9 @@ function App() {
       registrationLink: 'null',
       description: "Are you a speedcuber...? Then, here is the suitable platform you are searching for...! Unleash the  power of your mind with Rubik's cube...Twist, turn and solve the Rubik's cube puzzle...Let's cube it...! Join the Rubik's cube revolution!!!",
       location: 'Main Campus',
-      date: 'null',
-      time: 'null',
-      prize:["null"], //Trophy + Certificate
+      date: 'November 7',
+      time: '2 pm to 6 pm',
+      prize:["Exciting prizes + Certificate"], //Trophy + Certificate
       rules: [
         'Only 3×3×3 cubes are allowed.',
         "All must bring their own Rubik's cube. No cubes will be provided here.",
@@ -461,9 +460,9 @@ function App() {
       registrationLink: 'null',
       description: "Step into the spotlight and share your cinematic vision with the world. Snap Cinema Showcase invites creators of all levels to submit their short films. It's time to ignite the screen with your creativity!",
       location: 'Main Campus',
-      date: 'null',
-      time: 'null',
-      prize:["null"], //Trophy + Certificate
+      date: 'November 7',
+      time: '2 pm to 6 pm',
+      prize:["Exciting prizes + Certificate"], //Trophy + Certificate
       rules: [
         'Duration: Maximum 10 minutes.',
         'Any theme of your content.',        
@@ -488,9 +487,9 @@ function App() {
       registrationLink: 'null',
       description: "",
       location: 'Main Campus',
-      date: 'null',
-      time: 'null',
-      prize:["null"], //Trophy + Certificate
+      date: 'November 7',
+      time: '2 pm to 6 pm',
+      prize:["Exciting prizes + Certificate"], //Trophy + Certificate
       rules: [
         ''
         
@@ -514,9 +513,9 @@ function App() {
       registrationLink: 'null',
       description: "Pantomime is a mime event. It is a theatrical technique of suggesting action, character or emotion without words, using only gesture, expression and movement.",
       location: 'Main Campus',
-      date: 'null',
-      time: 'null',
-      prize:["null"], //Trophy + Certificate
+      date: 'November 7',
+      time: '2 pm to 6 pm',
+      prize:["Exciting prizes + Certificate"], //Trophy + Certificate
       rules: [
         'Group Performance: Maximum 8 members per team.',
         'Duration:4-5 minutes.',
