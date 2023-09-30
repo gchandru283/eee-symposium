@@ -78,16 +78,27 @@ function TechEvent({ eventDesc }) {
           <span className="text-xl lg:text-3xl text-center font-semibold">
             Description
           </span>
-          <div className="p-4 lg:text-justify pr-0 text-md md:text-xl ">
+          <div className="p-4 lg:pl-14 lg:text-justify pr-0 text-md md:text-xl ">
             {eventDesc.description}
           </div>         
         </div>
+
+        {eventDesc.events ? (<div className="lg:w-4/5 w-11/12">
+          <span className="text-xl lg:text-3xl text-center font-semibold">
+            Events
+          </span>
+          <ol className="p-4 lg:pl-20 pl-8 lg:text-justify pr-0 text-md md:text-xl ">
+            {eventDesc.rules.events((rule) => (
+              <li className="list-decimal py-0.5">{rule}</li>
+            ))}
+          </ol>         
+        </div>) : null }
 
         <div className="lg:w-4/5 w-11/12">
           <span className="text-xl lg:text-3xl text-center font-semibold">
             Rules and Regulations
           </span>
-          <ol className="p-4 lg:pl-20 pl-10 lg:text-justify pr-0 text-md md:text-xl ">
+          <ol className="p-4 lg:pl-20 pl-8 lg:text-justify pr-0 text-md md:text-xl ">
             {eventDesc.rules.map((rule) => (
               <li className="list-decimal py-0.5">{rule}</li>
             ))}
@@ -95,11 +106,11 @@ function TechEvent({ eventDesc }) {
           {eventDesc.note ? (<div className="p-2 lg:pl-20 pl-10 font-semibold text-md md:text-xl">{eventDesc.note}</div>) : null}
         </div>
 
-        <div className="w-5/6">
+        <div className="lg:w-4/5 w-11/12">
           <span className="text-xl lg:text-3xl text-center font-semibold">
             Event Organizers
           </span>
-          <ol className="p-4 lg:pl-20 pl-10 lg:text-justify pr-0 text-md md:text-xl ">
+          <ol className="p-4 lg:pl-20 pl-8 lg:text-justify pr-0 text-md md:text-xl ">
             {eventDesc.eventOrganizers.map((organizer) => (
               <li className="list-decimal py-0.5">{organizer}</li>
             ))}

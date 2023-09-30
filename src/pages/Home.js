@@ -8,7 +8,7 @@ function Home() {
   return (
     <div> <Header/>
     <Main/>
-    <div id='contact'> <Footer/></div>
+    <div> <Footer/></div>
           
     </div>
   )

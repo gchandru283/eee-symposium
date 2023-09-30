@@ -4,7 +4,7 @@ function Main() {
   return (
     <div className="pt-10">
       <section className="flex h-screen w-100 bg-black justify-center items-center ">
-        <img src="assets/ekna-logo.png" alt="" />
+        <img src="assets/ekna-logo.png" alt="" className="h-4/5 "/>
       </section>
       <section className="h-fit w-100 py-10 bg-slate-800">
         <div className="  w-10/12 m-auto items-center justify-center">

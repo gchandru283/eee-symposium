@@ -63,9 +63,8 @@ function App() {
         "A participant's score depends on the number of test cases successfully passed.",
         'Participants are ranked by score.',
         'If two or more participants achieve the same score, then the tie is broken by the total time taken to submit the last solution resulting in a higher score.',
-        '',
-        '**(Note- everyone must have a hacker rank account for participating in the contest.)'
-      ],
+        ],
+      note:['**(Note- everyone must have a hacker rank account for participating in the contest.)'],
       eventOrganizers: [
       
       ]
@@ -283,12 +282,12 @@ function App() {
     },
 
     {
-      eventName: 'FotoFlick',
-      eventDescription:'FotoFlick - Photography',
+      eventName: 'J-Peg Jury',
+      eventDescription:'J-Peg Jury - Photography',
       id: 'non-tech-event-1',
       eventUrl:'/events/non-tech-event/1',
       type: 1,
-      imgUrl: '/assets/nontechEvents/fotoflick.jpeg',
+      imgUrl: '/assets/nontechEvents/.jpeg',
       registrationLink: 'null',
       description: '',
       location: 'Main Campus',
@@ -299,7 +298,8 @@ function App() {
         ''
       ],
       eventOrganizers: [
-       
+       'Sachin N - 9360298785',
+       'Yuvaraj S - 9790239512'
       ]
     },
 
@@ -312,6 +312,7 @@ function App() {
       imgUrl: '/assets/nontechEvents/dance.jpg',
       registrationLink: 'null',
       description: '',
+      subEvents:['Solo Steale - Solo Dance','Rythemic Squad - Group Dance','Tongo Tippers - Free Style'],
       location: 'Main Campus',
       date: 'November 7',
       time: '2 pm to 6 pm',
@@ -320,7 +321,8 @@ function App() {
         ''
       ],
       eventOrganizers: [
-       
+       'Sneha K - 7806889146',
+       'Ram Kumar A - 9344093084'
       ]
     },
 
@@ -341,7 +343,8 @@ function App() {
         ''
       ],
       eventOrganizers: [
-       
+       'Sri Ram Kumar E - 7558164331',
+       'Hari Prasath R - 6384388654'
       ]
     },
 
@@ -369,7 +372,7 @@ function App() {
       ],
       eventOrganizers: [
        'Srenath S B - 6382688387',
-       'Rekshanambiga G-8072732246'
+       'Rekshanambiga G - 8072732246'
       ]
     },
 
@@ -417,7 +420,9 @@ function App() {
         ''
       ],
       eventOrganizers: [
-       ''
+       'Abishekkumar M - 9384908240',
+       'Babu S - 9047989599',
+      'Devi M - 9345682218'
       ]
     },
 
@@ -481,7 +486,7 @@ function App() {
       eventName: 'Avant Garde',
       eventDescription:'Avant Garde - Fashion',
       id: 'non-tech-event-10',
-      eventUrl:'/events/non-tech-event/10',
+      eventUrl:'/events/non-tech-event/9',
       type: 1,
       imgUrl: '/assets/nontechEvents/.jpg',
       registrationLink: 'null',
@@ -494,12 +499,13 @@ function App() {
         ''
         
       ],
-      events:[
+      sunEvents:[
         'Solo Performance',
         'Group Performance'        
       ],
       eventOrganizers: [
-       ''
+       'Ajay N - 9159719445',
+       'Abinesh P - 9003392453'
       ]
     },
 
@@ -507,7 +513,7 @@ function App() {
       eventName: 'Pantomimist',
       eventDescription:'Pantomimist - Mime',
       id: 'non-tech-event-9',
-      eventUrl:'/events/non-tech-event/9',
+      eventUrl:'/events/non-tech-event/10',
       type: 1,
       imgUrl: '/assets/nontechEvents/pantomime.jpg',
       registrationLink: 'null',
@@ -518,18 +524,18 @@ function App() {
       prize:["Exciting prizes + Certificate"], //Trophy + Certificate
       rules: [
         'Group Performance: Maximum 8 members per team.',
-        'Duration:4-5 minutes.',
+        'Duration: 4-5 minutes.',
         'Carry your own properties and things for the performance.',
         'Judges Decisions are Final.'
         
       ],
-      events:[
+      subEvents: [
         'Solo Performance',
         'Group Performance'        
       ],
       eventOrganizers: [
-       'Nasir Hussain S - 9360447279',
-       'Akkash K - 96591 10292'
+       'Avinash S - 8610570814',
+       'Kamesh M - 9786954854'
       ]
     },
   ]

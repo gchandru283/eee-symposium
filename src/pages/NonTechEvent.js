@@ -3,16 +3,15 @@ import Header from '../components/Header';
 
 
 function NonTechEvent({ eventDesc }) {
+  useEffect(() => {
+    document.title = `${eventDesc.eventName} | Ekna2k23`;
+  });
 
-    useEffect(()=>{
-      document.title = `${eventDesc.eventName} | Ekna2k23`
-    });
-
-    return(
-<>
-  <Header/>
-  <div className="pt-20 pb-10 flex flex-col items-center gap-7 bg-gray-200">
-        <div className="text-center lg:text-5xl text-3xl font-bold lg:pb-8 pb-4 pt-2">
+  return (
+    <>
+      <Header />
+      <div className="pt-24 pb-10 flex flex-col items-center gap-7 bg-gray-200">
+        <div className="text-center lg:text-5xl text-3xl font-bold pb-3">
           {eventDesc.eventDescription}
         </div>
         <img
@@ -23,20 +22,20 @@ function NonTechEvent({ eventDesc }) {
           <div className="w-28 md:flex-grow">
             <img
               src="/assets/icons/location.png"
-              className="lg:h-40 h-28 lg:p-3 py-3 m-auto object-fill"
+              className="lg:h-40 h-28 p-3 m-auto"
             />
             <figcaption className="text-center lg:text-xl text-lg font-semibold">
               {eventDesc.location}
             </figcaption>
           </div>
           <div className="w-28 md:flex-grow">
-            <img src="/assets/icons/date.png" className="lg:h-40 h-28 m-auto object-contain" />
+            <img src="/assets/icons/date.png" className="lg:h-40 h-28 m-auto" />
             <figcaption className="text-center lg:text-xl text-lg font-semibold">
               {eventDesc.date}
             </figcaption>
           </div>
           <div className="w-28 md:flex-grow">
-            <img src="/assets/icons/time.png" className="lg:h-40 h-28 m-auto object-contain" />
+            <img src="/assets/icons/time.png" className="lg:h-40 h-28 m-auto" />
             <figcaption className="text-center lg:text-xl text-lg font-semibold">
               {eventDesc.time}
             </figcaption>
@@ -44,7 +43,7 @@ function NonTechEvent({ eventDesc }) {
           <div className="w-28 md:flex-grow">
             <img
               src="/assets/icons/trophy.png"
-              className="lg:h-40 h-28 lg:p-3 py-3 m-auto object-fill"
+              className="lg:h-40 h-28 p-1 m-auto"
             />
             <figcaption className="text-center lg:text-xl text-lg font-semibold">
               {eventDesc.prize.map((prize) => (
@@ -80,16 +79,27 @@ function NonTechEvent({ eventDesc }) {
           <span className="text-xl lg:text-3xl text-center font-semibold">
             Description
           </span>
-          <div className="p-4 lg:text-justify pr-0 text-md md:text-xl ">
+          <div className="p-4 lg:pl-14 lg:text-justify pr-0 text-md md:text-xl ">
             {eventDesc.description}
           </div>         
         </div>
+
+        {eventDesc.subEvents ? (<div className="lg:w-4/5 w-11/12">
+          <span className="text-xl lg:text-3xl text-center font-semibold">
+            Events
+          </span>
+          <ol className="p-4 lg:pl-20 pl-8 lg:text-justify pr-0 text-md md:text-xl ">
+            {eventDesc.subEvents.map((rule) => (
+              <li className="list-decimal py-0.5">{rule}</li>
+            ))}
+          </ol>         
+        </div>) : null }
 
         <div className="lg:w-4/5 w-11/12">
           <span className="text-xl lg:text-3xl text-center font-semibold">
             Rules and Regulations
           </span>
-          <ol className="p-4 lg:pl-20 pl-10 lg:text-justify pr-0 text-md md:text-xl ">
+          <ol className="p-4 lg:pl-20 pl-8 lg:text-justify pr-0 text-md md:text-xl ">
             {eventDesc.rules.map((rule) => (
               <li className="list-decimal py-0.5">{rule}</li>
             ))}
@@ -97,19 +107,19 @@ function NonTechEvent({ eventDesc }) {
           {eventDesc.note ? (<div className="p-2 lg:pl-20 pl-10 font-semibold text-md md:text-xl">{eventDesc.note}</div>) : null}
         </div>
 
-        <div className="w-5/6">
+        <div className="lg:w-4/5 w-11/12">
           <span className="text-xl lg:text-3xl text-center font-semibold">
             Event Organizers
           </span>
-          <ol className="p-4 lg:pl-20 pl-10 lg:text-justify pr-0 text-md md:text-xl ">
+          <ol className="p-4 lg:pl-20 pl-8 lg:text-justify pr-0 text-md md:text-xl ">
             {eventDesc.eventOrganizers.map((organizer) => (
               <li className="list-decimal py-0.5">{organizer}</li>
             ))}
           </ol>
         </div>
       </div>
-</>
-    )
+    </>
+  );
 }
 
 export default NonTechEvent
