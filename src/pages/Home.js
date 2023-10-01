@@ -5,12 +5,14 @@ import Footer from '../components/Footer'
 
 function Home() {
   document.title = 'Home | Ekna2k23'
+
   return (
-    <div> <Header/>
+    <> 
+    <Header/>
     <Main/>
-    <div> <Footer/></div>
+    <Footer id="help"/>
           
-    </div>
+    </>
   )
 }
 

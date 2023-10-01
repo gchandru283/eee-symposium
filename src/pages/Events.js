@@ -4,8 +4,8 @@ import EventList from "../components/EventList";
 
 function Events({ eventsList}) {
   return (
-    <div className="">
-      <Header/>
+    <div>
+     <Header/>
     <EventList eventsList={eventsList}/>
     </div>
   );

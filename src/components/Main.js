@@ -2,13 +2,13 @@ import React from "react";
 
 function Main() {
   return (
-    <div className="pt-10">
-      <section className="flex h-screen w-100 bg-black justify-center items-center ">
-        <img src="assets/ekna-logo.png" alt="" className="h-4/5 "/>
+    <div className="">
+      <section className="flex h-screen w-100 bg-gradient-to-b from-black to-slate-950 justify-center items-center ">
+        <img src="assets/icons/ekna-logo.png" alt="" className="h-4/5 object-contain"/>
       </section>
-      <section className="h-fit w-100 py-10 bg-slate-800">
+      <section className="h-fit w-100 py-10 bg-gradient-to-b from-slate-950 to-slate-800">
         <div className="  w-10/12 m-auto items-center justify-center">
-        <h2 className="text-4xl lg:text-6xl my-5 text-center font-bold text-green-400">
+        <h2 className="text-4xl lg:text-6xl my-5 text-center font-oswald font-medium text-green-400">
           About Ekna'23
         </h2>
         <p className="lg:text-justify text-white lg:text-2xl text-lg lg:pt-10 pt-5">
@@ -37,11 +37,11 @@ function Main() {
         </div> 
         <div className='flex flex-wrap w-full pb-5 justify-center items-center'>
           <div className='w-full lg:w-1/2'>
-            <img src="/assets/ticket.png" alt="" className='w-56 mx-auto lg:w-96'/>
+            <img src="/assets/icons/ticket.png" alt="" className='w-56 mx-auto lg:w-96'/>
           </div>
           <div className='w-4/5 mx-auto lg:w-1/2 pb-5'>
            
-            <ul className='mx-auto list-disc text-white lg:text-xl text-md font-semibold'>
+            <ul className='mx-auto text-white lg:text-xl text-md font-semibold'>
               <li className='mx-auto my-1'>It's an one day Inter-college Techno-Cultural fest.</li>
               <li className='mx-auto my-1'>Overall championship will be awarded.</li>
               <li className='mx-auto my-1'>It's an Inter-department and inter-college fest so that any college student can participate.</li>

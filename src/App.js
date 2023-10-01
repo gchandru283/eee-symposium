@@ -1,12 +1,11 @@
-import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Events from './pages/Events';
 import StudentAmbassador from './pages/StudentAmbassador';
 import Sponsors from './pages/Sponsors';
 import Footer from './components/Footer';
-import TechEvent from './pages/TechEvent';
-import NonTechEvent from './pages/NonTechEvent';
+import EventPage from './pages/EventPage';
+
 
 
 function App() {
@@ -18,7 +17,7 @@ function App() {
       id: 'tech-event-1',
       eventUrl:'/events/tech-event/1',
       type: 0,
-      imgUrl: '/assets/techEvents/analogy-o-mania.jpeg',
+      imgUrl: '/assets/techEvents/iquid.jpeg',
       registrationLink: 'null',
       description: "IQuid is the most unique quest of all the events where all fields of engineering disciplines can participate in it. This event comprises various mathematical puzzles to solve in sequential stages with increasing difficulty of finding clues and some challenges for the human IO and memory in every stage to pass on. The person who cracks the overall twists and turns will top the event.",
       location: 'Main Campus',
@@ -304,15 +303,57 @@ function App() {
     },
 
     {
-      eventName: 'Frenetic Fiesta',
-      eventDescription:'Frenetic Fiesta - Dance',
+      eventName: 'Solo Steale',
+      eventDescription:'Solo Steale - Solo Dance',
       id: 'non-tech-event-2',
       eventUrl:'/events/non-tech-event/2',
       type: 1,
-      imgUrl: '/assets/nontechEvents/dance.jpg',
+      imgUrl: '/assets/nontechEvents/solo-steale.jpg',
       registrationLink: 'null',
       description: '',
-      subEvents:['Solo Steale - Solo Dance','Rythemic Squad - Group Dance','Tongo Tippers - Free Style'],
+      location: 'Main Campus',
+      date: 'November 7',
+      time: '2 pm to 6 pm',
+      prize:["Exciting prizes + Certificate"], //Trophy + Certificate
+      rules: [
+        ''
+      ],
+      eventOrganizers: [
+       'Sneha K - 7806889146',
+       'Ram Kumar A - 9344093084'
+      ]
+    },
+
+    {
+      eventName: 'Rythmic Squad',
+      eventDescription:'Rythmic Squad - Group Dance',
+      id: 'non-tech-event-3',
+      eventUrl:'/events/non-tech-event/3',
+      type: 1,
+      imgUrl: '/assets/nontechEvents/rythmic-squad.jpg',
+      registrationLink: 'null',
+      description: '',
+      location: 'Main Campus',
+      date: 'November 7',
+      time: '2 pm to 6 pm',
+      prize:["Exciting prizes + Certificate"], //Trophy + Certificate
+      rules: [
+        ''
+      ],
+      eventOrganizers: [
+       'Sneha K - 7806889146',
+       'Ram Kumar A - 9344093084'
+      ]
+    },
+    {
+      eventName: 'Tongo Tippers',
+      eventDescription:'Tongo Tippers - Free Style',
+      id: 'non-tech-event-4',
+      eventUrl:'/events/non-tech-event/4',
+      type: 1,
+      imgUrl: '/assets/nontechEvents/tango-tippers.jpg',
+      registrationLink: 'null',
+      description: '',
       location: 'Main Campus',
       date: 'November 7',
       time: '2 pm to 6 pm',
@@ -329,8 +370,8 @@ function App() {
     {
       eventName: 'Jokes on the Rocks',
       eventDescription:'Stand-up comedy',
-      id: 'non-tech-event-3',
-      eventUrl:'/events/non-tech-event/3',
+      id: 'non-tech-event-5',
+      eventUrl:'/events/non-tech-event/5',
       type: 1,
       imgUrl: '/assets/nontechEvents/stand-up.jpeg',
       registrationLink: 'null',
@@ -351,8 +392,8 @@ function App() {
     {
       eventName: 'Euphony',
       eventDescription:'Euphony - Singing',
-      id: 'non-tech-event-4',
-      eventUrl:'/events/non-tech-event/4',
+      id: 'non-tech-event-6',
+      eventUrl:'/events/non-tech-event/6',
       type: 1,
       imgUrl: '/assets/nontechEvents/euphony.jpg',
       registrationLink: 'null',
@@ -379,8 +420,8 @@ function App() {
     {
       eventName: 'Quizzathon',
       eventDescription:'Quizzathon - Quizite',
-      id: 'non-tech-event-5',
-      eventUrl:'/events/non-tech-event/5',
+      id: 'non-tech-event-7',
+      eventUrl:'/events/non-tech-event/7',
       type: 1,
       imgUrl: '/assets/nontechEvents/quizzathon.jpg',
       registrationLink: 'null',
@@ -406,8 +447,8 @@ function App() {
     {
       eventName: 'Picasso',
       eventDescription:'Picasso - Modern art',
-      id: 'non-tech-event-6',
-      eventUrl:'/events/non-tech-event/6',
+      id: 'non-tech-event-8',
+      eventUrl:'/events/non-tech-event/8',
       type: 1,
       imgUrl: '/assets/nontechEvents/picaso.png',
       registrationLink: 'null',
@@ -429,8 +470,8 @@ function App() {
     {
       eventName: 'Go Rubix',
       eventDescription:'Go Rubix - Cube solving',
-      id: 'non-tech-event-7',
-      eventUrl:'/events/non-tech-event/7',
+      id: 'non-tech-event-9',
+      eventUrl:'/events/non-tech-event/9',
       type: 1,
       imgUrl: '/assets/nontechEvents/go-rubix.jpg',
       registrationLink: 'null',
@@ -458,8 +499,8 @@ function App() {
     {
       eventName: 'Snap Cinema',
       eventDescription:'Snap Cinema - Short film',
-      id: 'non-tech-event-8',
-      eventUrl:'/events/non-tech-event/8',
+      id: 'non-tech-event-10',
+      eventUrl:'/events/non-tech-event/10',
       type: 1,
       imgUrl: '/assets/nontechEvents/snap-cinema.jpg',
       registrationLink: 'null',
@@ -485,8 +526,8 @@ function App() {
     {
       eventName: 'Avant Garde',
       eventDescription:'Avant Garde - Fashion',
-      id: 'non-tech-event-10',
-      eventUrl:'/events/non-tech-event/9',
+      id: 'non-tech-event-11',
+      eventUrl:'/events/non-tech-event/11',
       type: 1,
       imgUrl: '/assets/nontechEvents/.jpg',
       registrationLink: 'null',
@@ -512,8 +553,8 @@ function App() {
     {
       eventName: 'Pantomimist',
       eventDescription:'Pantomimist - Mime',
-      id: 'non-tech-event-9',
-      eventUrl:'/events/non-tech-event/10',
+      id: 'non-tech-event-12',
+      eventUrl:'/events/non-tech-event/12',
       type: 1,
       imgUrl: '/assets/nontechEvents/pantomime.jpg',
       registrationLink: 'null',
@@ -549,27 +590,29 @@ function App() {
           <Route element={<Events eventsList={eventsList} />} path="/events" /> 
           <Route element={<Sponsors/>} path='/sponsors' />
           <Route element={<StudentAmbassador/>} path='/student-ambassador'/>
-          <Route element={<Footer/>} path='/#contact'/>
-          <Route element={<TechEvent eventDesc={eventsList[0]}/>} path='/events/tech-event/1'/>
-          <Route element={<TechEvent eventDesc={eventsList[1]}/>} path='/events/tech-event/2'/>
-          <Route element={<TechEvent eventDesc={eventsList[2]}/>} path='/events/tech-event/3'/>
-          <Route element={<TechEvent eventDesc={eventsList[3]}/>} path='/events/tech-event/4'/>
-          <Route element={<TechEvent eventDesc={eventsList[4]}/>} path='/events/tech-event/5'/>
-          <Route element={<TechEvent eventDesc={eventsList[5]}/>} path='/events/tech-event/6'/>
-          <Route element={<TechEvent eventDesc={eventsList[6]}/>} path='/events/tech-event/7'/>
-          <Route element={<TechEvent eventDesc={eventsList[7]}/>} path='/events/tech-event/8'/>
-          <Route element={<TechEvent eventDesc={eventsList[8]}/>} path='/events/tech-event/9'/>
-          <Route element={<TechEvent eventDesc={eventsList[9]}/>} path='/events/tech-event/10'/>
-          <Route element={<NonTechEvent eventDesc={eventsList[10]}/>} path='/events/non-tech-event/1'/>
-          <Route element={<NonTechEvent eventDesc={eventsList[11]}/>} path='/events/non-tech-event/2'/>
-          <Route element={<NonTechEvent eventDesc={eventsList[12]}/>} path='/events/non-tech-event/3'/>
-          <Route element={<NonTechEvent eventDesc={eventsList[13]}/>} path='/events/non-tech-event/4'/>
-          <Route element={<NonTechEvent eventDesc={eventsList[14]}/>} path='/events/non-tech-event/5'/>
-          <Route element={<NonTechEvent eventDesc={eventsList[15]}/>} path='/events/non-tech-event/6'/>
-          <Route element={<NonTechEvent eventDesc={eventsList[16]}/>} path='/events/non-tech-event/7'/>
-          <Route element={<NonTechEvent eventDesc={eventsList[17]}/>} path='/events/non-tech-event/8'/>
-          <Route element={<NonTechEvent eventDesc={eventsList[18]}/>} path='/events/non-tech-event/9'/>
-          <Route element={<NonTechEvent eventDesc={eventsList[19]}/>} path='/events/non-tech-event/10'/>
+          <Route element={<Footer />} path='/#help' />
+          <Route element={<EventPage eventDesc={eventsList[0]}/>} path='/events/tech-event/1'/>
+          <Route element={<EventPage eventDesc={eventsList[1]}/>} path='/events/tech-event/2'/>
+          <Route element={<EventPage eventDesc={eventsList[2]}/>} path='/events/tech-event/3'/>
+          <Route element={<EventPage eventDesc={eventsList[3]}/>} path='/events/tech-event/4'/>
+          <Route element={<EventPage eventDesc={eventsList[4]}/>} path='/events/tech-event/5'/>
+          <Route element={<EventPage eventDesc={eventsList[5]}/>} path='/events/tech-event/6'/>
+          <Route element={<EventPage eventDesc={eventsList[6]}/>} path='/events/tech-event/7'/>
+          <Route element={<EventPage eventDesc={eventsList[7]}/>} path='/events/tech-event/8'/>
+          <Route element={<EventPage eventDesc={eventsList[8]}/>} path='/events/tech-event/9'/>
+          <Route element={<EventPage eventDesc={eventsList[9]}/>} path='/events/tech-event/10'/>
+          <Route element={<EventPage eventDesc={eventsList[10]}/>} path='/events/non-tech-event/1'/>
+          <Route element={<EventPage eventDesc={eventsList[11]}/>} path='/events/non-tech-event/2'/>
+          <Route element={<EventPage eventDesc={eventsList[12]}/>} path='/events/non-tech-event/3'/>
+          <Route element={<EventPage eventDesc={eventsList[13]}/>} path='/events/non-tech-event/4'/>
+          <Route element={<EventPage eventDesc={eventsList[14]}/>} path='/events/non-tech-event/5'/>
+          <Route element={<EventPage eventDesc={eventsList[15]}/>} path='/events/non-tech-event/6'/>
+          <Route element={<EventPage eventDesc={eventsList[16]}/>} path='/events/non-tech-event/7'/>
+          <Route element={<EventPage eventDesc={eventsList[17]}/>} path='/events/non-tech-event/8'/>
+          <Route element={<EventPage eventDesc={eventsList[18]}/>} path='/events/non-tech-event/9'/>
+          <Route element={<EventPage eventDesc={eventsList[19]}/>} path='/events/non-tech-event/10'/>
+          <Route element={<EventPage eventDesc={eventsList[20]}/>} path='/events/non-tech-event/11'/>
+          <Route element={<EventPage eventDesc={eventsList[21]}/>} path='/events/non-tech-event/12'/>
         </Routes>
       </div>
     </Router>

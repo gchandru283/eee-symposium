@@ -14,21 +14,21 @@ function EventList({eventsList}) {
       
 
   return (
-    <>
-        <div className='pt-24 text-center m-auto w-full lg:text-5xl md:text-4xl text-3xl font-bold font-mono'>
-            <span>Events</span>
-        <div className='pt-7 '>
-        <span onClick={()=> chooseEventList(0)} className={`${!choice ? 'underline text-neutral-900' : 'text-neutral-500'} md:text-3xl text-2xl mx-2 lg:text-5xl cursor-pointer`}>
+    <div className='bg-gradient-to-b from-stone-200 to-stone-400'>
+        <div className='pt-20 text-center w-full'>
+            <span className='lg:text-6xl md:text-5xl text-4xl font-semibold font-labrada'> Events</span>
+        <div className='lg:pt-7 pt-4 font-medium font-oswald flex lg:gap-16 gap-10 justify-center md:text-3xl text-2xl lg:text-5xl cursor-pointer'>
+        <span onClick={()=> chooseEventList(0)} className={`duration-300 ${!choice ? 'border-b-2 lg:pb-2 pb-1 border-slate-800 text-slate-800 duration-1000 scale-105' : 'text-lime-900'}`}>
               
               Technical
             </span>
-            <span onClick={()=> chooseEventList(1)} className={`${!choice ? 'text-neutral-500' : 'underline text-neutral-900'} md:text-3xl text-2xl mx-2 lg:text-5xl cursor-pointer`}>
+            <span onClick={()=> chooseEventList(1)} className={`duration-300 ${!choice ? 'text-lime-900' : 'border-b-2 lg:pb-2 pb-1 border-slate-800 text-slate-800 duration-1000 scale-105'}`}>
             
               Non-Technical
             </span>
         </div>
         </div>
-        <div className='flex gap-10 flex-wrap lg:mx-36 lg:my-20 justify-evenly pb-10 mx-12'>
+        <div className='flex gap-10 flex-wrap lg:px-36 lg:py-24 justify-evenly pb-10 mx-12 bg-inherit'>
             {choiceList(choice).map(eventDesc=> (
                 <a href={eventDesc.eventUrl}>
                   <EventBox key={eventDesc.id} eventDesc={eventDesc}/>
@@ -37,7 +37,7 @@ function EventList({eventsList}) {
         </div>
 
 
-    </>
+    </div>
   )
 }
 
