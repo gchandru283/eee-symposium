@@ -10,7 +10,7 @@ function EventPage({ eventDesc }) {
   return (
     <>
       <Header />
-      <div className="pt-24 pb-20 flex flex-col items-center gap-7 bg-gradient-to-t from-gray-400 to-cyan-300">
+      <div className="pt-24 pb-20 flex flex-col items-center gap-7 bg-gradient-to-t from-gray-300 to-cyan-200">
         <div className="text-center lg:text-5xl text-3xl font-semibold pb-3 font-labrada">
           {eventDesc.eventDescription}
         </div>
@@ -24,19 +24,19 @@ function EventPage({ eventDesc }) {
               src="/assets/icons/location.png"
               className="lg:h-40 select-none h-28 lg:p-3 m-auto object-contain"
             />
-            <figcaption className= "text-center lg:text-xl text-lg font-semibold">
+            <figcaption className= "text-center lg:text-xl text-md font-semibold">
               {eventDesc.location}
             </figcaption>
           </div>
           <div className="w-32 lg:w-24 md:flex-grow">
             <img src="/assets/icons/date.png" className=" lg:h-40 select-none h-28 m-auto" />
-            <figcaption className= "text-center lg:text-xl text-lg font-semibold">
+            <figcaption className= "text-center lg:text-xl text-md font-semibold">
               {eventDesc.date}
             </figcaption>
           </div>
           <div className="w-32 lg:w-24 md:flex-grow">
             <img src="/assets/icons/time.png" className=" lg:h-40 select-none h-28 m-auto" />
-            <figcaption className= "text-center lg:text-xl text-lg font-semibold">
+            <figcaption className= "text-center lg:text-xl text-md font-semibold">
               {eventDesc.time}
             </figcaption>
           </div>
@@ -45,7 +45,7 @@ function EventPage({ eventDesc }) {
               src="/assets/icons/trophy.png"
               className="lg:h-40 select-none h-28 lg:p-1 m-auto object-contain object-bottom pb-2"
             />
-            <figcaption className= "text-center lg:text-xl text-lg font-semibold">
+            <figcaption className= "text-center lg:text-xl text-md font-semibold">
               {eventDesc.prize.map((prize) => (
                 <ol>
                   <li key={prize} className="w-28 lg:w-36 mx-auto ">
@@ -69,7 +69,7 @@ function EventPage({ eventDesc }) {
         ) : null}
 
         <div className="py-5">
-          <button class="bg-sky-700 hover:bg-sky-800 text-white font-semibold text-lg lg:text-xl py-1 lg:py-2 lg:px-5 px-3 mx-10 rounded inline-flex items-center justify-center">
+          <button class="bg-sky-700 hover:bg-sky-800 text-white font-medium text-lg lg:text-xl py-1 lg:py-2 lg:px-5 px-3 mx-10 rounded inline-flex items-center justify-center">
             <img src="/assets/icons/register1.png" className="w-9" />
             <span>Register</span>
           </button>
