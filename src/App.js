@@ -296,7 +296,7 @@ function App() {
       id: 'non-tech-event-1',
       eventUrl:'/events/non-tech-event/1',
       type: 1,
-      imgUrl: '/assets/nontechEvents/.jpeg',
+      imgUrl: '/assets/nontechEvents/Jpeg-jury.jpg',
       registrationLink: 'null',
       description: '',
       location: 'Main Campus',
