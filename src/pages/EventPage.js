@@ -68,7 +68,7 @@ function EventPage({ eventDesc }) {
           ></iframe>
         ) : null}
 
-        <div className="py-5">
+        <div className="py-5 select-none">
           <a href={eventDesc.registrationLink} target="blank">
           <button class="bg-sky-700 hover:bg-sky-800 text-white font-semibold text-lg lg:text-xl py-1 lg:py-2 lg:px-5 px-3 mx-10 rounded inline-flex items-center justify-center">
             <img src="/assets/icons/register1.png" className="w-9" />
@@ -76,7 +76,7 @@ function EventPage({ eventDesc }) {
           </button></a>
         </div>
 
-        <div className="lg:w-4/ select-none5 w-11/12">
+        <div className="lg:w-4/ select-none w-11/12">
           <span className="text-xl lg:text-3xl font-semibold">
             Description
           </span>
@@ -85,18 +85,29 @@ function EventPage({ eventDesc }) {
           </div>         
         </div>
 
-        {eventDesc.events ? (<div className="lg:w-4/ select-none5 w-11/12">
+        {eventDesc.events ? (<div className="lg:w-4/ select-none w-11/12">
           <span className="text-xl lg:text-3xl font-semibold">
             Events
           </span>
           <ol className="p-4 lg:pl-20 pl-8 lg:text-justify pr-0 text-md md:text-xl ">
-            {eventDesc.rules.events((rule) => (
+            {eventDesc.events.map((rule) => (
               <li className="list-decimal py-0.5">{rule}</li>
             ))}
           </ol>         
         </div>) : null }
 
-        <div className="lg:w-4/ select-none5 w-11/12">
+         {eventDesc.themes ? (<div className="lg:w-4/ select-none w-11/12">
+          <span className="text-xl lg:text-3xl font-semibold">
+            Themes
+          </span>
+          <ol className="p-4 lg:pl-20 pl-8 lg:text-justify pr-0 text-md md:text-xl">
+            {eventDesc.themes.map((theme) => (
+              <li className="list-decimal py-0.5">{theme}</li>
+            ))}
+          </ol>         
+        </div>) : null }
+
+        <div className="lg:w-4/ select-none w-11/12">
           <span className="text-xl lg:text-3xl font-semibold">
             Rules and Regulations
           </span>
@@ -105,10 +116,10 @@ function EventPage({ eventDesc }) {
               <li className="list-decimal py-0.5">{rule}</li>
             ))}
           </ol>
-          {eventDesc.note ? (<div className="p-2 lg:pl-20 pl-10 font-semibold text-md md:text-xl">{eventDesc.note}</div>) : null}
+          {eventDesc.note ? (<div className="p-2 pt-0 lg:pl-20 pl-10 font-semibold text-md md:text-xl flex flex-wrap gap-x-5 gap-y-1">{eventDesc.note.map((note) => (<div>{note}</div>))}</div>) : null}
         </div>
 
-        <div className="lg:w-4/ select-none5 w-11/12">
+        <div className="lg:w-4/ select-none w-11/12">
           <span className="text-xl lg:text-3xl font-semibold">
             Event Organizers
           </span>

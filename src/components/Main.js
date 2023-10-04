@@ -82,10 +82,10 @@ function Main() {
               </li>
             </ul>
             <p className="text-cyan-500 text-lg my-4 font-bold">
-              To register for any 3 events with just ₹150 of ticket,
+              Register for a technical event and non-technical event with just ₹150 of ticket,
             </p>
           </div>
-          <a href="/events"><button class="bg-gray-300 hover:bg-gray-200 text-gray-800 lg:font-bold font-medium text-xl py-2 px-4 mx-10 rounded inline-flex items-center justify-center">
+          <a href="/events"><button class= "select-none bg-gray-300 hover:bg-gray-200 text-gray-800 lg:font-bold font-medium text-xl py-2 px-4 mx-10 rounded inline-flex items-center justify-center">
             <img src="assets/icons/register.png" className="w-9" />
             <span>Register</span>
           </button></a>

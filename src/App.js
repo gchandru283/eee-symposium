@@ -298,14 +298,25 @@ function App() {
       type: 1,
       imgUrl: '/assets/nontechEvents/Jpeg-jury.jpg',
       registrationLink: 'null',
-      description: '',
+      description: "Join us for 'J-Peg Jury', where every click tells a story! Immerse yourself in capturing moments and freezing emotions. Let your captured moments and emotions speak for themselves and for yourself. Share your unique perspective with fellow photography enthusiasts. Unleash your creativity and create memories that will last a lifetime.",
       location: 'Main Campus',
       date: 'November 7',
       time: '2 pm to 6 pm',
       prize:["Exciting prizes + Certificate"], //Trophy + Certificate
       rules: [
-        ''
+        'Edit should be subtle.',
+        'Team participation is not allowed.',
+        'You may be asked to explain how you enjoyed taking the shot.', 
+        'Photo should be in .jpeg format.',
+        'Photos can be sent using the following methods along with your necessary details.'
       ],
+      themes :[ 'Vintage retro',
+                'Street Photography',
+                'Manmade Forest ',
+                'Sports',
+                'Macro',
+                'Wildlife'],
+      note:['WhatsApp : 9360298785','Email Id : yuvasyad1250@gmail.com'],
       eventOrganizers: [
        'Sachin N - 9360298785',
        'Yuvaraj S - 9790239512'
@@ -342,13 +353,18 @@ function App() {
       type: 1,
       imgUrl: '/assets/nontechEvents/rythmic-squad.jpg',
       registrationLink: 'null',
-      description: '',
+      description: ' Rythmic Squad is a group dance contest , where the dance troops perform synchronised level of Grace and expression . You are welcomed to showcase your rich creativity in dance',
       location: 'Main Campus',
       date: 'November 7',
       time: '2 pm to 6 pm',
       prize:["Exciting prizes + Certificate"], //Trophy + Certificate
       rules: [
-        ''
+        'Team consist of minimum 5 participants and maximum upto 10 participants.',
+        'Any style of dance is allowed.',
+        'Maximum timing 5 minutes.',
+        'No vulgarity in music, performance and costumes.',
+        'Bring your own sound tracks.',
+        'Judges decision will be final.'
       ],
       eventOrganizers: [
        'Sneha K - 7806889146',
