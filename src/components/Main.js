@@ -87,7 +87,7 @@ function Main() {
             </p>
           </div>
             <a href="/events">
-            <button class="select-none bg-gray-300 hover:bg-gray-200 text-gray-800 lg:font-bold text-xl py-2 px-4 mx-10 rounded inline-flex items-center justify-center">
+            <button class="select-none bg-gray-300 hover:bg-gray-200 text-gray-800 font-bold text-xl py-2 px-4 mx-10 rounded inline-flex items-center justify-center">
               <img src="assets/icons/register.png" className="w-9" />
               <span>Register</span>
             </button>
