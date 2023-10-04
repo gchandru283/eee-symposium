@@ -85,10 +85,10 @@ function Main() {
               To register for any 3 events with just ₹150 of ticket,
             </p>
           </div>
-          <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 lg:font-bold font-medium text-xl py-2 px-4 mx-10 rounded inline-flex items-center justify-center">
+          <a href="/events"><button class="bg-gray-300 hover:bg-gray-200 text-gray-800 lg:font-bold font-medium text-xl py-2 px-4 mx-10 rounded inline-flex items-center justify-center">
             <img src="assets/icons/register.png" className="w-9" />
             <span>Register</span>
-          </button>
+          </button></a>
         </div>
       </section>
     </div>

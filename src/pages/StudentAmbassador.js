@@ -3,30 +3,30 @@ import Header from '../components/Header'
 
 function StudentAmbassador() {
   return (
-    <><Header/>
-    <div className='flex flex-col justify-start gap-2 '>
+    <div><Header/>
+    <div className='flex flex-col justify-start lg:p-2 p-1 '>
      
-        <div className=" lg:pt-24 pt-20 font-bold font-sans border-2 border-blue-600">
-          <p className="lg:text-5xl text-3xl text-gray-900 text-center font-labrada">Student Ambassador</p>
+        <div className=" lg:pt-20 pt-16 mt-2 font-semibold font-sans" >
+          <p className="lg:text-5xl text-3xl text-gray-900 text-center font-labrada pb-5">Student Ambassador</p>
         </div>
-        <div class="border-2 border-blue-600 w-5/6 mt-8 ml-5 lg:ml-10 ">
-          <h2 class="text-2xl font-bold text-gray-800 ml-10">Hello Ambassador,</h2>
-          <p class=" lg:text-xl text-lg mt-4 lg:text-justify my-3">
+        <div class="lg:py-4 py-2 mx-5 lg:mx-20 ">
+          <p class="lg:text-3xl text-xl font-semibold text-gray-800">Hello Ambassador,</p>
+          <p class=" lg:text-xl mt-4 lg:text-justify my-3 lg:pl-12 pl-3">
               Student Ambassadors act as the pillars of Ekna'23 and work to promote the event in their respective colleges. Student ambassadors are selected to positively represent a college or university as they help prospective students by answering questions and helping students participate in the fest. Those selected to be student ambassadors will build a professional resume, strengthen their leadership skills and improve their communication abilities.
           </p>
         </div>
-        <div className='border-2 border-blue-600'>
-          <h2 className='text-3xl font-bold text-gray-800 mx-auto pb-4'>Roles and Responsibilities</h2>
-          <ul className=' text-xl text-gray-900 list-disc space-y-1 pl-10'>
+        <div className='lg:py-4 py-2 mx-5 lg:mx-20 '>
+          <p className='lg:text-3xl text-xl font-semibold text-gray-800 mx-auto pb-4'>Roles and Responsibilities</p>
+          <ul className=' lg:text-xl text-gray-900 list-disc space-y-1 lg:lg:px-20 pl-6'>
             <li> To promote about the Events in their college</li>
             <li>Should post stories in social media and tag the < i>#Ekna2k23</i> handle as means of promoting the event.</li>
             <li>Should update their status and stories with Ekna content in Social Media Handles everyday.</li>
             <li>Should encourage your friends to register the event by means of your referral code.</li>
           </ul>
         </div>
-        <div className='border-2 border-blue-600'>
-          <h2 className='text-3xl font-bold text-gray-800 text-center '>Why to become a Student Ambassador</h2>
-          <ul className='space-y-1 text-gray-900 list-disc text-xl pl-10 mx-auto text-justify my-5'>
+        <div className='lg:py-4 py-2 mx-5 lg:mx-20 '>
+          <p className='lg:text-3xl text-xl font-semibold text-gray-800 mx-auto pb-4'>Why to become a Student Ambassador</p>
+          <ul className='lg:text-xl text-gray-900 list-disc space-y-1 lg:px-20 pl-6'>
             <li>Enhance your communication skills.</li>
             <li>Polish your professional skills for future career opportunities.</li>
             <li>Gain valuable volunteer experience.</li>
@@ -36,87 +36,90 @@ function StudentAmbassador() {
             <li>Opportunity to represent your institution.</li>
           </ul>
         </div>
-        <div className='border-2 border-blue-600'>
-        <h2 className='text-3xl font-bold text-gray-800 text-center mx-auto w-fit'>Benefits of becoming a Student Ambassador</h2>
-        <table className="table-fixed border-spacing-2 border-black border-2 my-10 mx-auto">
-            <thead className='text-xl'>
+        <div className='lg:py-4 py-2 lg:mt-8 mt-4 mx-5 lg:mx-20 '>
+        <p className='lg:text-3xl text-lg font-semibold text-gray-800 text-center mx-auto'>Benefits of becoming a Student Ambassador</p>
+        <table className="table-fixed lg:border-spacing-2 border-gray-700 border-2 lg:my-10 my-4 mx-auto lg:text-lg">
+            <thead className='lg:text-xl'>
               <tr>
-                <th className='p-2 border-black border-2 text-gray-700 '>Silver</th>
-                <th className='p-2 border-black border-2 text-yellow-500'>Gold</th>
-                <th className='p-2 border-black border-2 text-gray-400'>Diamond</th>
+                <th className='lg:p-2 p-1 border-gray-700 border-2 text-gray-700 '>Silver</th>
+                <th className='lg:p-2 p-1 border-gray-700 border-2 text-yellow-600'>Gold</th>
+                <th className='lg:p-2 p-1 border-gray-700 border-2 text-gray-500'>Diamond</th>
               </tr>
             </thead>
-            <tbody className='border-spacing-2 border-black border-2 text-sm'>
-              <tr className='border-spacing-2 border-black border-2'>
-                <td className='p-2 border-black border-2 '>Certificates</td>
-                <td className='p-2 border-black border-2 '>Certificates</td>
-                <td className='p-2 border-black border-2 '>Certificates</td>
+            <tbody className='lg:border-spacing-2 border-gray-700 border-2'>
+              <tr className='lg:border-spacing-2 border-gray-700 border-2'>
+                <td className='lg:p-2 p-1 border-gray-700 border-2 '>Certificates</td>
+                <td className='lg:p-2 p-1 border-gray-700 border-2 '>Certificates</td>
+                <td className='lg:p-2 p-1 border-gray-700 border-2 '>Certificates</td>
               </tr>
-              <tr className='border-spacing-2 border-black border-2'>
-                <td className='p-2 border-black border-2 '>Food & Registration</td>
-                <td className='p-2 border-black border-2 '>Food & Registration</td>
-                <td className='p-2 border-black border-2 '>Food & Registration</td>
+              <tr className='lg:border-spacing-2 border-gray-700 border-2'>
+                <td className='lg:p-2 p-1 border-gray-700 border-2 '>Food & Registration</td>
+                <td className='lg:p-2 p-1 border-gray-700 border-2 '>Food & Registration</td>
+                <td className='lg:p-2 p-1 border-gray-700 border-2 '>Food & Registration</td>
               </tr>
-              <tr className='border-spacing-2 border-black border-2'>
-                <td className='p-2 border-black border-2 '>-</td>
-                <td className='p-2 border-black border-2 '>T-shirts</td>
-                <td className='p-2 border-black border-2 '>T-shirts</td>
+              <tr className='lg:border-spacing-2 border-gray-700 border-2'>
+                <td className='lg:p-2 p-1 border-gray-700 border-2 text-center'>-</td>
+                <td className='lg:p-2 p-1 border-gray-700 border-2 '>T-shirts</td>
+                <td className='lg:p-2 p-1 border-gray-700 border-2 '>T-shirts</td>
               </tr>
-              <tr className='border-spacing-2 border-black border-2'>
-                <td className='p-2 border-black border-2 '>-</td>
-                <td className='p-2 border-black border-2 '>Can participate in more than 2 events</td>
-                <td className='p-2 border-black border-2 '>Can participate in any event</td>
+              <tr className='lg:border-spacing-2 border-gray-700 border-2'>
+                <td className='lg:p-2 p-1 border-gray-700 border-2 text-center'>-</td>
+                <td className='lg:p-2 p-1 border-gray-700 border-2 '>Can participate in more than 2 events</td>
+                <td className='lg:p-2 p-1 border-gray-700 border-2 '>Can participate in any event</td>
               </tr>
-              <tr className='border-spacing-2 border-black border-2'>
-                <td className='p-2 border-black border-2 '>-</td>
-                <td className='p-2 border-black border-2 '>-</td>
-                <td className='p-2 border-black border-2 '>Gift Vouchers</td>
+              <tr className='lg:border-spacing-2 border-gray-700 border-2'>
+                <td className='lg:p-2 p-1 border-gray-700 border-2 text-center'>-</td>
+                <td className='lg:p-2 p-1 border-gray-700 border-2 text-center'>-</td>
+                <td className='lg:p-2 p-1 border-gray-700 border-2 '>Gift Vouchers</td>
               </tr>
             </tbody>
             </table>
         </div>
-        <div className='border-2 border-blue-600'>
-        <h2 className='text-3xl font-bold text-gray-800 text-center mx-auto w-fit'>Category Criteria</h2>
-        <table className="table-fixed border-spacing-2 border-black border-2 my-10 mx-auto">
-            <thead className='text-xl'>
+        <div className='lg:py-4 py-2 mx-5 lg:mx-20 '>
+        <p className='lg:text-3xl text-lg font-semibold text-gray-800 text-center mx-auto'>Category Criteria</p>
+        <table className="table-fixed lg:border-spacing-2 border-gray-700 border-2 lg:my-10 my-4 mx-auto lg:text-lg">
+            <thead className='lg:text-xl'>
               <tr>
-                <th className='p-2 border-black border-2 '>Zones</th>
-                <th className='p-2 border-black border-2 text-gray-700'>Gold</th>
-                <th className='p-2 border-black border-2 text-yellow-500'>Diamond</th>
-                <th className='p-2 border-black border-2 text-gray-500'>Diamond</th>
+                <th className='lg:p-2 p-1 lg:px-3 px-2 border-gray-700 border-2 '>Zones</th>
+                <th className='lg:p-2 p-1 lg:px-3 px-2 border-gray-700 border-2 text-gray-700'>Gold</th>
+                <th className='lg:p-2 p-1 lg:px-3 px-2 border-gray-700 border-2 text-yellow-600'>Diamond</th>
+                <th className='lg:p-2 p-1 lg:px-3 px-2 border-gray-700 border-2 text-gray-600'>Diamond</th>
               </tr>
             </thead>
-            <tbody className='border-spacing-2 border-black border-2 text-sm'>
-              <tr className='border-spacing-2 border-black border-2'>
-                <td className='p-2 border-black border-2 '>Coimbatore</td>
-                <td className='p-2 border-black border-2 '>15-20</td>
-                <td className='p-2 border-black border-2 '>25-40</td>
-                <td className='p-2 border-black border-2 '>40-60</td>
+            <tbody className='lg:border-spacing-2 border-gray-700 border-2  text-center'>
+              <tr className='lg:border-spacing-2 border-gray-700 border-2'>
+                <td className='lg:p-2 p-1 border-gray-700 border-2 '>Coimbatore</td>
+                <td className='lg:p-2 p-1 border-gray-700 border-2 '>15-20</td>
+                <td className='lg:p-2 p-1 border-gray-700 border-2 '>25-40</td>
+                <td className='lg:p-2 p-1 border-gray-700 border-2 '>40-60</td>
               </tr>
-              <tr className='border-spacing-2 border-black border-2'>
-                <td className='p-2 border-black border-2 '>Other districts</td>
-                <td className='p-2 border-black border-2 '>10-20</td>
-                <td className='p-2 border-black border-2 '>20-30</td>
-                <td className='p-2 border-black border-2 '>30-50</td>
+              <tr className='lg:border-spacing-2 border-gray-700 border-2'>
+                <td className='lg:p-2 p-1 border-gray-700 border-2 '>Other districts</td>
+                <td className='lg:p-2 p-1 border-gray-700 border-2 '>10-20</td>
+                <td className='lg:p-2 p-1 border-gray-700 border-2 '>20-30</td>
+                <td className='lg:p-2 p-1 border-gray-700 border-2 '>30-50</td>
               </tr>
             </tbody>
         </table>
-        <p className='text-red-600 mb-3 text-center'>**The above counts in the table represents the number of referral participants</p>
+        <p className='text-red-600 mb-3 text-center lg:text-lg font-medium'>**The above counts in the table represents the number of referral participants</p>
         </div>
-        <div className='p-6 border-2 border-blue-600'>
-          <h2 className='text-3xl font-bold text-gray-800 text-left w-fit'>Note</h2>
-          <p>Student Participants should enter your referral code ( Ex. ASHISH20) on the registration form and complete the registration.Then only, Your credit count will be raised. So, Ensure till end of the registration of your referral participants.</p>
-          <p className='text-red-600 mb-3 text-center'>** Your referral credit count will be intimated through the mail on daily basis</p>
+        <div className='lg:py-4 py-2 mx-5 lg:mx-20 '>
+          <p className='lg:text-3xl text-lg font-semibold text-gray-800 text-left'>Note</p>
+          <p className='lg:text-xl pt-2 lg:pt-5 text-gray-900 pl-6'>Student Participants should enter your referral code ( Ex. ASHISp0) on the registration form and complete the registration.Then only, Your credit count will be raised. So, Ensure till end of the registration of your referral participants.</p>
+          <p className='text-red-600 lg:pt-8 pt-2 mb-3 text-center lg:text-lg font-medium'>** Your referral credit count will be intimated through the mail on daily basis</p>
         </div>
-        <div className='border-2 border-blue-600 text-center mx-auto items-center'>
-        <a href='' target="_blank " className='px-4 py-2 rounded-md bg-blue-800 hover:bg-gray-600 text-black'>Apply</a>
+        <div className='text-center mx-auto items-center py-3'>
+        <a href='/' target='blank'><button class="bg-blue-600 hover:bg-blue-700 lg:font-semibold font-medium lg:text-xl text-lg lg:px-7 px-5 mx-10 rounded lg:p-2 p-0.5 flex gap-2 items-center justify-center text-gray-200">
+            <img src="assets/icons/apply.png" className="w-5" />
+            <span>Apply</span>
+          </button></a>
         </div>
-        <div className='my-4 p-6 border-2 border-blue-600'>
-          <h3 className='text-2xl font-bold  text-left w-fit my-3 '>For enquiries</h3>
-          <p>EEE department</p>
+        <div className='lg:pt-8 pt-2 mx-5 lg:mx-20 pb-10 '>
+          <p className='text-lg lg:text-2xl font-semibold text-center text-gray-800'>For enquiries, Contact EEE department, AURCCBE.</p>
+          
         </div>
     </div>
-  </> )
+  </div> )
 }
 
 export default StudentAmbassador
