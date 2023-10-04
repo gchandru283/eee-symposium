@@ -26,7 +26,7 @@ function Footer() {
           <div className="text-center font-medium text-2xl lg:text-4xl m-auto border-b-2 px-2 lg:pb-1 font-oswald text-green-300 border-green-200">
             Address
           </div>
-          <ul className="lg:pl-3 text-lg lg:text-xl ">
+          <ul className="lg:pl-7 text-lg lg:text-xl lg:scale-110 font-roboto-condensed">
             <li>Anna University Regional Campus - CBE,</li>
             <li>Maruthamalai Main Road,</li>
             <li>Navavoor,</li>
@@ -42,8 +42,8 @@ function Footer() {
         <div className="text-center font-medium text-2xl lg:text-4xl mb-5 mx-auto border-b-2 px-2 lg:pb-1 font-oswald text-green-300 border-green-200">
           Contact Us
         </div>
-        <div className="flex flex-col gap-4 lg:pl-8">
-          <div className="">
+        <div className="flex flex-col gap-4 lg:gap-7 lg:pl-12 font-roboto-condensed">
+          <div className="lg:scale-110">
             <p className="text-xl font-medium">Payment</p>
             <ul className="pl-5 text-lg ">
               <li> Jegan - +91 9025450960</li>
@@ -51,7 +51,7 @@ function Footer() {
             </ul>
           </div>
 
-          <div className="">
+          <div className="lg:scale-110">
             <p className="text-xl font-medium">General Queries</p>
             <ul className="pl-5 text-lg">
               <li> Gokul - +91 9597208840</li>
@@ -61,7 +61,7 @@ function Footer() {
             </ul>
           </div>
 
-          <div className="">
+          <div className="lg:scale-110">
             <p className="text-xl font-medium">Tech events</p>
             <ul className="pl-5 text-lg">
               <li> Srihari - +919360149213.</li>
@@ -69,9 +69,9 @@ function Footer() {
             </ul>
           </div>
 
-          <div className="">
+          <div className="lg:scale-110">
             <p className="text-xl font-medium">Non tech events</p>
-            <ul className="pl-5 text-lg">
+            <ul className="pl-5 text-lg ">
               <li> Revanth - +919940827095</li>
               <li> Mythili - +91 86103 06385</li>
             </ul>
@@ -80,7 +80,7 @@ function Footer() {
       </div>
 
       <div className="max-w-2xl w-full h-fit">
-        <p className="lg:text-3xl text-2xl font-medium px-5 pb-5">Follow us on..</p>
+        <p className="lg:text-3xl text-2xl font-medium font-fira-sans-condensed px-5 pb-5">Follow us on..</p>
         <div className="flex justify-between lg:px-40 md:px-20 px-12 pb-10 lg:pb-0">
           <Link to="https://www.facebook.com/eknasympo">
             <img

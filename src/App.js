@@ -18,7 +18,7 @@ function App() {
       eventUrl:'/events/tech-event/1',
       type: 0,
       imgUrl: '/assets/techEvents/iquid.jpeg',
-      registrationLink: 'null',
+      registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSetSIslxOdMq2jtn_ljf7TXMJ-dx3FlJf2UYwxu-8gbsDZlqQ/viewform?usp=pp_url',
       description: "IQuid is the most unique quest of all the events where all fields of engineering disciplines can participate in it. This event comprises various mathematical puzzles to solve in sequential stages with increasing difficulty of finding clues and some challenges for the human IO and memory in every stage to pass on. The person who cracks the overall twists and turns will top the event.",
       location: 'Main Campus',
       date: 'November 7',
@@ -49,7 +49,7 @@ function App() {
       eventUrl:'/events/tech-event/2',
       type: 0,
       imgUrl: '/assets/techEvents/mr-coder.jpeg',
-      registrationLink: 'null',
+      registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdVSOZuPuG5X5MpYnEYfWHoaj2tkgd8V96GKgoD-QLPR-EBTQ/viewform?usp=pp_url',
       description: 'A contest to find the master coder in the room. Participants are faced with challenges like, writing code, debugging code, understanding logic and rewriting code. Marks are rewarded as per difficulty level and difficulty increases through stages. Top three coders will be rewarded and the winner will snatch the title of "Mr. coder" and cash prize.',
       location: 'Main Campus',
       date: 'November 7',
@@ -65,6 +65,8 @@ function App() {
         ],
       note:['**(Note- everyone must have a hacker rank account for participating in the contest.)'],
       eventOrganizers: [
+        'Akkash K - 9659110292',
+        'Edward A - 6383210554'
       
       ]
     },
@@ -76,7 +78,7 @@ function App() {
       eventUrl:'/events/tech-event/3',
       type: 0,
       imgUrl: '/assets/techEvents/techno-talk.jpeg',
-      registrationLink: 'null',
+      registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSeies7RHSRYasCfDyXvE3gRA8eLCfaw2qeW2d9ROlzcg5KXeg/viewform?usp=pp_url',
       description: "Techno talk are the talks that focus on explaining various aspects of technology, innovations,or emerging technologies. Techno talk examines the current trends and make predictions about the future technology. It includes a Q&A session for  further knowledge.",
       location: 'Main Campus',
       date: 'November 7',
@@ -92,7 +94,8 @@ function App() {
         'The decision of the judges will be the final.'
       ],
       eventOrganizers: [
-
+        'Deepika P - 9345514731',
+        'Rekshanambiga G - 8072732246'
       ]
     },
 
@@ -103,7 +106,7 @@ function App() {
       eventUrl:'/events/tech-event/4',
       type: 0,
       imgUrl: '/assets/techEvents/analagy-o-mania.jpeg',
-      registrationLink: 'null',
+      registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdNyU7JvYLKiguLpOz4it80dNuxT6tbOo4QO3gLI8zjo6GkUQ/viewform?usp=pp_url',
       description: "A game of comparing science with nature. It's a kind of quiz game. All the participants are asked to install KAHOOT app, where the game will be conducted. The game will be conducted in 2 rounds. First round will be the easy round and the second round will be the toughest round. Each participants will get scores for each questions they answer on the basis of the time taken to answer. The scores are added for each question and the team with highest scores will be the winner. ",
       location: 'Main Campus',
       date: 'November 7',
@@ -116,7 +119,8 @@ function App() {
         'If there is any connectivity error, The team will be eliminated.'
       ],
       eventOrganizers: [
-
+        'Sudharsan S - 9003321969',
+        'Vishnupriya V - 9941283045'
       ]
     },
 
@@ -141,7 +145,7 @@ function App() {
         'This Event is based on time.Each team will be provided 5 minutes.'
       ],
       eventOrganizers: [
-        'Srihari Subramanian V - 9360149213',
+        'Srihari V - 9360149213',
         'Suruthika S - 7598280648'
       ]
     },
@@ -153,7 +157,7 @@ function App() {
       eventUrl:'/events/tech-event/6',
       type: 0,
       imgUrl: '/assets/techEvents/water-rocketry.jpeg',
-      registrationLink: 'null',
+      registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSc0LleuBSJbswt60UnEZArRhwAEe5rCgHkFzI3qjNWD9cXPPA/viewform?usp=pp_url',
       description: "Teams with handmade water rockets compete against each other to find the best rocket among them. Top 3 Water rockets that perfectly manages the best aerodynamics, size to weight ratio and low wind drag would be rewarded.",
       location: 'Main Campus',
       date: 'November 7',
@@ -166,7 +170,9 @@ function App() {
         '2 members per team or single person in a team.'
       ],
       eventOrganizers: [
-
+        'Vijayakumar B - 8220442736',
+        'Dhinesh Kumar A - 7708416127',
+        'Nareshkanth S - 8637663889'
       ]
     },
 
@@ -177,7 +183,7 @@ function App() {
       eventUrl:'/events/tech-event/7',
       type: 0,
       imgUrl: '/assets/techEvents/deri-d-modula.jpeg',
-      registrationLink: 'null',
+      registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfHsj6hKZP0Hf3jmN9yyUbtq_adEPQmeRKfPWoyj2y9wCrugg/viewform?usp=pp_url',
       description: "CAD modeling is the process of using specialized computer software to create precise digital representations of objects or systems. It involves designing and defining shapes, dimensions, and properties in a virtual environment, revolved, or manipulated to create 3D models. CAD modeling is crucial for accurate visualization, analysis, simulation, and prototyping of designs in various industries, ensuring efficiency and precision in the product development cycle.",
       location: 'Main Campus',
       date: 'November 7',
@@ -193,7 +199,7 @@ function App() {
       ],
       eventOrganizers: [
         'Kabilan D - 8903357414',
-        'Viswa S - 9345315673'
+        'Dharrun singh M - 8637664377'
       ]
     },
 
@@ -204,12 +210,12 @@ function App() {
       eventUrl:'/events/tech-event/8',
       type: 0,
       imgUrl: '/assets/techEvents/recycle-reinvent.jpeg',
-      registrationLink: 'null',
+      registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLScvJZ0s2MFd6qPcJMv75BlNTuCnzlOzhpu7w68cXyp5RDhZYw/viewform?usp=pp_url',
       description: '"Recycle and reinvent" is a concept that encourages the recycling of materials and the creative reinvention of existing products or objects. It involves taking items that are no longer in their original form or have served their primary purpose and finding new ways to use them or giving them a fresh, innovative purpose.',
       location: 'Main Campus',
       date: 'November 7',
       time: '9 am to 1 pm',
-      prize:["Exciting prizes + Certificate"], //Trophy + Certificate
+      prize:["Exciting prizes + Certificate"], 
       rules: [
         'Only individuals are allowed. No teams.',
         '2. Only Motors and batteries may be use. ',
@@ -220,7 +226,7 @@ function App() {
       ],
       eventOrganizers: [
         'Kabilan D - 8903357414',
-        'Clara J - 8778289527'
+        'Abinesh P - 9003392453'
       ]
     },
 
@@ -231,7 +237,7 @@ function App() {
       eventUrl:'/events/tech-event/9',
       type: 0,
       imgUrl: '/assets/techEvents/papier-presentella.jpeg',
-      registrationLink: 'null',
+      registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLScm4eUtscNwRRa1zvpyuvfU6h2KCuip1w1ddb7sgouxeVMl5w/viewform?usp=pp_url',
       description: 'Paper presentations are a way to communicate research findings, insights, or ideas to an audience.They are typically delivered in front of an audience that may consist of peers, experts,or colleagues interested in topic. They usually follow a structured format.  After presentation there is usually a Q&A session for clarifications.',
       location: 'Main Campus',
       date: 'November 7',
@@ -251,7 +257,10 @@ function App() {
       ],
       note: ["**Topics are general and free style.You can choose any topic for your presentation."],
       eventOrganizers: [
-       
+       'Roshan J - 9894462395',
+       'Archana H - 6374847337',
+       'Aishwarya P S - 8903018115',
+       'Chakaravarthi K - 6384996685'
       ]
     },
 
@@ -262,7 +271,7 @@ function App() {
       eventUrl:'/events/tech-event/10',
       type: 0,
       imgUrl: '/assets/techEvents/poster-presentation.jpeg',
-      registrationLink: 'null',
+      registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSc0LleuBSJbswt60UnEZArRhwAEe5rCgHkFzI3qjNWD9cXPPA/viewform?usp=pp_url',
       description: 'A way to communicate your research or your understanding of a topic in a concise and visually engaging format.',
       location: 'Main Campus',
       date: 'November 7',
@@ -276,7 +285,8 @@ function App() {
         'Topic of poster should be clearly mentioned at the top margin.'
       ],
       eventOrganizers: [
-       
+       'Harish S - 9345329412',
+       'Griffin B - 7010373305'
       ]
     },
 
@@ -373,15 +383,19 @@ function App() {
       id: 'non-tech-event-5',
       eventUrl:'/events/non-tech-event/5',
       type: 1,
-      imgUrl: '/assets/nontechEvents/stand-up.jpeg',
+      imgUrl: '/assets/nontechEvents/standup-comedy.jpg',
       registrationLink: 'null',
-      description: '',
+      description: 'Jokes on the rocks is a stand-up comedy event. It is an individual competition. Winner will be selected based on their content, fluency, sense of humour and spontaneity.',
       location: 'Main Campus',
       date: 'November 7',
       time: '2 pm to 6 pm',
       prize:["Exciting prizes + Certificate"], //Trophy + Certificate
       rules: [
-        ''
+        'Duration maximum 5 minutes.',
+        'Avoid hate speech, offensive content, or material that may incite violence or discrimination. Comedy should entertain without causing harm.',
+        'Decision of the judges will be final and binding.',
+        'Languages allowed: Tamil and English.',
+        'Negative marking for exceeding time limit.'
       ],
       eventOrganizers: [
        'Sri Ram Kumar E - 7558164331',
@@ -452,18 +466,25 @@ function App() {
       type: 1,
       imgUrl: '/assets/nontechEvents/picaso.png',
       registrationLink: 'null',
-      description: '',
+      description: 'PICASSO is a modern art contest where the artists have chance to show their fantastic painting. Each participants will be given a time period of 1hour 30 minutes. Within the time period the participants can showcase their talent in modern art of any theme.',
       location: 'Main Campus',
       date: 'November 7',
       time: '2 pm to 6 pm',
       prize:["Exciting prizes + Certificate"], //Trophy + Certificate
       rules: [
-        ''
+        ' No of participants – 1',
+        'Artwork can be abstract, still life, symbolism, cubism, landscape, portraits etc.',
+        'Painting can also be on any drawing paper, charts or canvas.',
+        'Artwork cannot be larger than A4 (8.3*11.7 in) size.',
+        'Carry your own properties, things will not be provided here.',
+        'Participants should explain their painting in front of judge.',
+        'Judges decision are final.',
+        'General rules & the time limits should be strictly followed.'
       ],
       eventOrganizers: [
        'Abishekkumar M - 9384908240',
        'Babu S - 9047989599',
-      'Devi M - 9345682218'
+       'Devi M - 9345682218'
       ]
     },
 
@@ -529,7 +550,7 @@ function App() {
       id: 'non-tech-event-11',
       eventUrl:'/events/non-tech-event/11',
       type: 1,
-      imgUrl: '/assets/nontechEvents/.jpg',
+      imgUrl: '/assets/nontechEvents/avant-garde.jpg',
       registrationLink: 'null',
       description: "",
       location: 'Main Campus',

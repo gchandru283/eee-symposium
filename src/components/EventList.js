@@ -28,7 +28,7 @@ function EventList({eventsList}) {
             </span>
         </div>
         </div>
-        <div className='flex gap-10 flex-wrap lg:px-36 lg:py-24 justify-evenly pb-10 mx-12 bg-inherit'>
+        <div className='flex gap-10 flex-wrap lg:px-32 lg:pt-20 lg:pb-28 justify-evenly pb-16 mx-12 bg-inherit'>
             {choiceList(choice).map(eventDesc=> (
                 <a href={eventDesc.eventUrl}>
                   <EventBox key={eventDesc.id} eventDesc={eventDesc}/>

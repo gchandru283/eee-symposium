@@ -10,7 +10,7 @@ function EventPage({ eventDesc }) {
   return (
     <>
       <Header />
-      <div className="pt-24 pb-20 flex flex-col items-center gap-7 bg-gradient-to-t from-gray-400 to-cyan-300">
+      <div className="pt-24 pb-20 flex flex-col items-center gap-7 bg-gradient-to-t from-gray-300 to-gray-200 font-sans">
         <div className="text-center lg:text-5xl text-3xl font-semibold pb-3 font-labrada">
           {eventDesc.eventDescription}
         </div>
@@ -69,10 +69,11 @@ function EventPage({ eventDesc }) {
         ) : null}
 
         <div className="py-5">
+          <a href={eventDesc.registrationLink} target="blank">
           <button class="bg-sky-700 hover:bg-sky-800 text-white font-semibold text-lg lg:text-xl py-1 lg:py-2 lg:px-5 px-3 mx-10 rounded inline-flex items-center justify-center">
             <img src="/assets/icons/register1.png" className="w-9" />
             <span>Register</span>
-          </button>
+          </button></a>
         </div>
 
         <div className="lg:w-4/ select-none5 w-11/12">

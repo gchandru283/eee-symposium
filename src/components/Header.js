@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -8,10 +8,18 @@ const Header = () => {
     setIsNavOpen(!isNavOpen);
   };
 
+  useEffect(() => {
+    const shrinkTimer = setTimeout(() => {
+      setIsNavOpen(false);
+    }, 2500);
+
+    return () => clearTimeout(shrinkTimer);
+  }, [isNavOpen]);
+
     return (
     <div
-      className={`fixed z-20 bg-black bg-opacity-80 w-screen md:px-16 px-3 ${
-        isNavOpen ? "h-48" : "h-16"
+      className={`select-none fixed z-20 bg-black bg-opacity-80 w-screen md:px-16 px-3 ${
+        isNavOpen ? "h-52  will-change-scroll duration-150" : "h-16"
       } overflow-hidden items-center`}
     >
       <div className=" flex w-full h-16 justify-between items-center">
@@ -25,7 +33,7 @@ const Header = () => {
           </div>
         </div>
         <img
-          className={`h-4 w-7 object-fill cursor-pointer lg:hidden ${isNavOpen ? 'rotate-180' : null }`}
+          className={`h-4 w-7 transition-transform duration-700 select-none object-fill cursor-pointer lg:hidden ${isNavOpen ? 'rotate-180' : null }`}
           onClick={toggleNav}
           src="/assets/icons/menu.png"
         />
@@ -59,20 +67,20 @@ const Header = () => {
           </Link>
         </div>
       </div>
-      <div className="flex flex-col gap-0.5 text-lg items-center">
-        <Link to="/" className=" w-3/5 text-gray-100 ">
+      <div className="flex flex-col gap-1 text-lg items-center transition">
+        <Link to="/" className=" w-auto pr-14 text-gray-100 transition-all duration-300 will-change-transform hover:scale-105">
           Home
         </Link>
         <hr className=" border-gray-800 w-full" />
-        <Link className=" w-3/5 text-gray-100" to="/events">
+        <Link className=" w-auto pr-14 text-gray-100 transition-all duration-300 will-change-transform hover:scale-105" to="/events">
           Events
         </Link>
         <hr className=" border-gray-800 w-full" />
-        <Link className=" w-3/5 text-gray-100" to="/sponsors">
+        <Link className=" w-auto pr-14 text-gray-100 transition-all duration-300 will-change-transform hover:scale-105" to="/sponsors">
           Sponsors
         </Link>
         <hr className=" border-gray-800 w-full" />
-        <Link className=" w-3/5 text-gray-100" to="/#help">
+        <Link className=" w-auto pr-14 text-gray-100 transition-all duration-300 will-change-transform hover:scale-105" to="/#help">
           Help
         </Link>
       </div>

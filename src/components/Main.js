@@ -11,7 +11,7 @@ function Main() {
         <h2 className="text-4xl lg:text-6xl my-5 text-center font-oswald font-medium text-green-400">
           About Ekna'23
         </h2>
-        <p className="lg:text-justify text-white lg:text-2xl text-lg lg:pt-10 pt-5">
+        <p className="lg:text-justify text-white font-roboto lg:text-2xl text-lg lg:pt-10 pt-5">
           Ekna'23 is a National Level Techno-Cultural Fest that will be held on
           November 4,2023. It is a whimsical creation of the staff and students
           at AURCC's Electrical and Electronics Engineering department. On this
@@ -36,7 +36,7 @@ function Main() {
         <iframe className='mt-5 w-4/5 lg:h-72 h-48 lg:w-2/5' src="https://www.youtube.com/embed/X6VaBPzjh6A" title="EKNA'22 || It's a grand opening of an amazing event Ekna'22 by AURCC  || Department of EEE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div> 
         <div className='flex flex-wrap w-full pb-5 justify-center items-center'>
-          <div className='w-full lg:w-1/2'>
+          <div className='w-full lg:w-2/5'>
             <img src="/assets/icons/ticket.png" alt="" className='w-56 mx-auto lg:w-96'/>
           </div>
           <div className='w-4/5 mx-auto lg:w-1/2 pb-5'>
@@ -52,7 +52,7 @@ function Main() {
             </ul>
             <p className='text-cyan-500 text-lg my-4 font-bold'>To register for any 3 events with just ₹150 of ticket,</p>
             </div>
-            <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold text-xl py-2 px-4 mx-10 rounded inline-flex items-center justify-center">
+            <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 lg:font-bold font-medium text-xl py-2 px-4 mx-10 rounded inline-flex items-center justify-center">
            <img src="assets/icons/register.png" className="w-9"/>
             <span>Register</span>
             </button>
