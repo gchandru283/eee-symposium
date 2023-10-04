@@ -48,6 +48,7 @@ function Footer() {
             <ul className="pl-5 text-lg ">
               <li> Jegan - +91 9025450960</li>
               <li> Gowtham - +91 8778293837</li>
+              <li> UPI ID - ravijegan2003@okicici</li>
             </ul>
           </div>
 
@@ -79,7 +80,7 @@ function Footer() {
         </div>
       </div>
 
-      <div className="max-w-2xl w-full h-fit">
+      <div className="max-w-2xl w-full h-fit select-none">
         <p className="lg:text-3xl text-2xl font-medium font-fira-sans-condensed px-5 pb-5">Follow us on..</p>
         <div className="flex justify-between lg:px-40 md:px-20 px-12 pb-10 lg:pb-0">
           <Link to="https://www.facebook.com/eknasympo">

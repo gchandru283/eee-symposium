@@ -10,7 +10,7 @@ function EventPage({ eventDesc }) {
   return (
     <>
       <Header />
-      <div className="pt-24 pb-20 flex flex-col items-center gap-7 bg-gradient-to-t from-gray-300 to-gray-200 font-sans">
+      <div className="pt-24 pb-20 flex flex-col items-center gap-5 lg:gap-7 bg-gradient-to-t from-gray-300 to-gray-200 font-sans">
         <div className="text-center lg:text-5xl text-3xl font-semibold pb-3 font-labrada">
           {eventDesc.eventDescription}
         </div>
@@ -57,6 +57,7 @@ function EventPage({ eventDesc }) {
           </div>
         </div>
 
+
         {eventDesc.youtubeLink ? (
           <iframe
             className="mt-5 w-4/5 lg:h-72 h-48 lg:w-2/5"
@@ -76,7 +77,12 @@ function EventPage({ eventDesc }) {
           </button></a>
         </div>
 
-        <div className="lg:w-4/ select-none w-11/12">
+          {eventDesc.template ? (<p className="font-semibold text-center text-md md:text-xl flex flex-wrap gap-x-2"> ** To download IEEE Template,<span className="underline underline-offset-4 text-blue-800"><a href={eventDesc.template}>Click here!</a></span></p>) : null }
+
+          <p className="font-semibold text-center text-md md:text-xl px-4"> *Use the below QR for payment. Payment proof Screenshot should be attached while registering for an event.</p>
+          <img src="/assets/qr.png" className="lg:p-2 p-1 bg-white lg:w-44 w-32"/>
+
+        <div className="lg:w-4/5 w-11/12">
           <span className="text-xl lg:text-3xl font-semibold">
             Description
           </span>
@@ -85,18 +91,18 @@ function EventPage({ eventDesc }) {
           </div>         
         </div>
 
-        {eventDesc.events ? (<div className="lg:w-4/ select-none w-11/12">
+        {eventDesc.subEvents ? (<div className="lg:w-4/5 w-11/12">
           <span className="text-xl lg:text-3xl font-semibold">
             Events
           </span>
           <ol className="p-4 lg:pl-20 pl-8 lg:text-justify pr-0 text-md md:text-xl ">
-            {eventDesc.events.map((rule) => (
+            {eventDesc.subEvents.map((rule) => (
               <li className="list-decimal py-0.5">{rule}</li>
             ))}
           </ol>         
         </div>) : null }
 
-         {eventDesc.themes ? (<div className="lg:w-4/ select-none w-11/12">
+         {eventDesc.themes ? (<div className="lg:w-4/ w-11/12">
           <span className="text-xl lg:text-3xl font-semibold">
             Themes
           </span>
@@ -107,7 +113,7 @@ function EventPage({ eventDesc }) {
           </ol>         
         </div>) : null }
 
-        <div className="lg:w-4/ select-none w-11/12">
+        <div className="lg:w-4/5 w-11/12">
           <span className="text-xl lg:text-3xl font-semibold">
             Rules and Regulations
           </span>
@@ -116,10 +122,10 @@ function EventPage({ eventDesc }) {
               <li className="list-decimal py-0.5">{rule}</li>
             ))}
           </ol>
-          {eventDesc.note ? (<div className="p-2 pt-0 lg:pl-20 pl-10 font-semibold text-md md:text-xl flex flex-wrap gap-x-5 gap-y-1">{eventDesc.note.map((note) => (<div>{note}</div>))}</div>) : null}
+          {eventDesc.note ? (<div className="p-2 pt-0 lg:pl-20 text-center font-semibold text-md md:text-xl flex flex-wrap gap-x-5 gap-y-1">{eventDesc.note.map((note) => (<div>{note}</div>))}</div>) : null}
         </div>
 
-        <div className="lg:w-4/ select-none w-11/12">
+        <div className="lg:w-4/5 w-11/12">
           <span className="text-xl lg:text-3xl font-semibold">
             Event Organizers
           </span>

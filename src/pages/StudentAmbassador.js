@@ -5,8 +5,8 @@ function StudentAmbassador() {
   return (
     <div><Header/>
     <div className="flex flex-col justify-start lg:p-2 p-1 font-sans">
-        <div className=" lg:pt-20 pt-16 mt-2 font-semibold" >
-          <p className="lg:text-5xl text-3xl text-gray-900 text-center font-labrada pb-5">Student Ambassador</p>
+        <div className=" lg:pt-20 pt-16 mt-2 lg:mt-0 font-semibold" >
+          <p className="lg:text-6xl text-3xl text-gray-900 text-center font-labrada pb-5">Student Ambassador</p>
         </div>
         <div class="lg:py-4 py-2 mx-5 lg:mx-20 ">
           <p class="lg:text-3xl text-xl font-semibold text-gray-800">Hello Ambassador,</p>
@@ -80,8 +80,8 @@ function StudentAmbassador() {
             <thead className='lg:text-xl'>
               <tr>
                 <th className='lg:p-2 p-1 lg:px-3 px-2 border-gray-700 border-2 '>Zones</th>
-                <th className='lg:p-2 p-1 lg:px-3 px-2 border-gray-700 border-2 text-gray-700'>Gold</th>
-                <th className='lg:p-2 p-1 lg:px-3 px-2 border-gray-700 border-2 text-yellow-600'>Diamond</th>
+                <th className='lg:p-2 p-1 lg:px-3 px-2 border-gray-700 border-2 text-gray-700'>Silver</th>
+                <th className='lg:p-2 p-1 lg:px-3 px-2 border-gray-700 border-2 text-yellow-600'>Gold</th>
                 <th className='lg:p-2 p-1 lg:px-3 px-2 border-gray-700 border-2 text-gray-600'>Diamond</th>
               </tr>
             </thead>
@@ -107,8 +107,8 @@ function StudentAmbassador() {
           <p className='lg:text-xl pt-2 lg:pt-5 text-gray-900 pl-6'>Student Participants should enter your referral code ( Ex. ASHISp0) on the registration form and complete the registration.Then only, Your credit count will be raised. So, Ensure till end of the registration of your referral participants.</p>
           <p className='text-red-600 lg:pt-8 pt-2 mb-3 text-center lg:text-lg font-medium'>** Your referral credit count will be intimated through the mail on daily basis</p>
         </div>
-        <div className='text-center mx-auto items-center py-3'>
-        <a href='/' target='blank'><button class="bg-blue-600 hover:bg-blue-700 lg:font-semibold font-medium lg:text-xl text-lg lg:px-7 px-5 mx-10 rounded lg:p-2 p-1 flex gap-2 items-center justify-center text-gray-200">
+        <div className='text-center mx-auto items-center py-3 select-none'>
+        <a href='https://docs.google.com/forms/d/e/1FAIpQLScQUOaydM_t1hnHAiFEcY3y8_BLCPRm8M5inDgve2pLG9itpA/viewform?usp=pp_url' target='blank'><button class="bg-blue-600 hover:bg-blue-700 lg:font-semibold font-medium lg:text-xl text-lg lg:px-7 px-5 mx-10 rounded lg:p-2 p-1 flex gap-2 items-center justify-center text-gray-200">
             <img src="assets/icons/apply.png" className="w-5" />
             <span>Apply</span>
           </button></a>

@@ -60,7 +60,7 @@ const Header = () => {
             Sponsors
           </Link>
           <Link
-             to="/#help" 
+             to="/#footer" 
             className="transition-all duration-500 will-change-transform hover:scale-110"
           >
             Help

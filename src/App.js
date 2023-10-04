@@ -63,7 +63,7 @@ function App() {
         'Participants are ranked by score.',
         'If two or more participants achieve the same score, then the tie is broken by the total time taken to submit the last solution resulting in a higher score.',
         ],
-      note:['**(Note- everyone must have a hacker rank account for participating in the contest.)'],
+      note:['**(Note- everyone must have a hackerrank account for participating in the contest.)'],
       eventOrganizers: [
         'Akkash K - 9659110292',
         'Edward A - 6383210554'
@@ -86,9 +86,9 @@ function App() {
       prize:["Exciting prizes + Certificate"], //Trophy + Certificate
       rules: [
         'It is an individual event where two rounds will be conducted.',
-        'In the first round, technical topics written in a lot and on the spot,the given topic should be spoken for 3-5minutes.',
+        'In the first round, technical topics written in a lot and on the spot,the given topic should be spoken for 2-3 minutes.',
         'Top 10 scorers from the first round will qualify for second round.',
-        'In the second round, general questions will be asked from the chosen topic from the lot(Questions may also be asked based on your answers.',
+        'In the second round, general questions will be asked from the chosen topic from the lot (Questions may also be asked based on your answers).',
         'The  best 3 candidates will be selected from the second round and the scores at each level will be added.',
         'The prizes will be distributed depending on the final score.',
         'The decision of the judges will be the final.'
@@ -132,7 +132,7 @@ function App() {
       type: 0,
       imgUrl: '/assets/techEvents/electro-hunt.png',
       registrationLink: 'null',
-      description: "Teams with handmade water rockets compete against each other to find the best rocket among them. Top 3 Water rockets that perfectly manages the best aerodynamics, size to weight ratio and low wind drag would be rewarded",
+      description: "Electro hunt is a treasure hunt event based on electronic components, clues will be related to electronics and solving the clue will lead to a final component(eg. Resistor,capacitor,etc...). With that you will be completing the circuit. This is a technical mixed with fun event on time basis.",
       location: 'Main Campus',
       date: 'November 7',
       time: '9 am to 1 pm',
@@ -177,12 +177,12 @@ function App() {
     },
 
     {
-      eventName: ' Deri D- Modula ',
-      eventDescription:' Deri D- Modula ',
+      eventName: ' Drei D- Modula ',
+      eventDescription:' Drei D- Modula ',
       id: 'tech-event-7',
       eventUrl:'/events/tech-event/7',
       type: 0,
-      imgUrl: '/assets/techEvents/deri-d-modula.jpeg',
+      imgUrl: '/assets/techEvents/drei-d-modula.jpeg',
       registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfHsj6hKZP0Hf3jmN9yyUbtq_adEPQmeRKfPWoyj2y9wCrugg/viewform?usp=pp_url',
       description: "CAD modeling is the process of using specialized computer software to create precise digital representations of objects or systems. It involves designing and defining shapes, dimensions, and properties in a virtual environment, revolved, or manipulated to create 3D models. CAD modeling is crucial for accurate visualization, analysis, simulation, and prototyping of designs in various industries, ensuring efficiency and precision in the product development cycle.",
       location: 'Main Campus',
@@ -218,9 +218,9 @@ function App() {
       prize:["Exciting prizes + Certificate"], 
       rules: [
         'Only individuals are allowed. No teams.',
-        '2. Only Motors and batteries may be use. ',
-        '3. Compulsorily bring your model.',
-        '4. Based on the workload winner and runner up will be announced.',
+        'Only Motors and batteries may be use.',
+        'Compulsorily bring your model.',
+        'Based on the workload winner and runner up will be announced.',
         ' Participants are expected to maintain a respectful and good attitude throughout the event. Any form of cheating plagiarism or disruptive will result in immediate disqualification. ',
         ' By clearing outlining these rules and regulations you can ensure a fair and enjoyable event for all participant.'
       ],
@@ -239,6 +239,7 @@ function App() {
       imgUrl: '/assets/techEvents/papier-presentella.jpeg',
       registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLScm4eUtscNwRRa1zvpyuvfU6h2KCuip1w1ddb7sgouxeVMl5w/viewform?usp=pp_url',
       description: 'Paper presentations are a way to communicate research findings, insights, or ideas to an audience.They are typically delivered in front of an audience that may consist of peers, experts,or colleagues interested in topic. They usually follow a structured format.  After presentation there is usually a Q&A session for clarifications.',
+      template:'https://drive.google.com/file/d/19ZXZtO5UMFQNXX4daFE02Ex8OSXp3dMx/view?usp=drivesdk',
       location: 'Main Campus',
       date: 'November 7',
       time: '9 am to 1 pm',
@@ -331,13 +332,18 @@ function App() {
       type: 1,
       imgUrl: '/assets/nontechEvents/solo-steale.jpg',
       registrationLink: 'null',
-      description: '',
+      description: "Soul Steale is a solo dance contest , where you can convey emotions and themes . Yes it's your time to showcase your dance skills and mesmerizing talents !",
       location: 'Main Campus',
       date: 'November 7',
       time: '2 pm to 6 pm',
       prize:["Exciting prizes + Certificate"], //Trophy + Certificate
       rules: [
-        ''
+        'Any style of Dance is allowed to perform.',
+        'Maximum timing 3 minutes.',
+        'Bring your own sound track to perform.',
+        'Properties will be used.',
+        'No vulgarity in music, performance and costumes.',
+        'Judges decision will be final.'
       ],
       eventOrganizers: [
        'Sneha K - 7806889146',
@@ -379,23 +385,28 @@ function App() {
       type: 1,
       imgUrl: '/assets/nontechEvents/tango-tippers.jpg',
       registrationLink: 'null',
-      description: '',
+      description: "Tongo Tippers is a Freestyle dance contest . If you are a spontaneous dancer , the stage is yours. It's your time to express your emotions, thoughts and creativity . You are welcomed to Show your raw and authentic performance !",
       location: 'Main Campus',
       date: 'November 7',
       time: '2 pm to 6 pm',
       prize:["Exciting prizes + Certificate"], //Trophy + Certificate
       rules: [
-        ''
+        'Only Solo performance.',
+        'Sound track will be played on the spot the participant will be perform.',
+        'Maximum timing 2 minutes.',
+        'Round 1 - Prelims & Round 2 - Final',
+        'No vulgarity in performance and costumes.',
+        'Judges decision will be final.'
       ],
       eventOrganizers: [
        'Sneha K - 7806889146',
-       'Ram Kumar A - 9344093084'
+       'Ramkumar A - 9344093084'
       ]
     },
 
     {
       eventName: 'Jokes on the Rocks',
-      eventDescription:'Stand-up comedy',
+      eventDescription:'Jokes on the Rocks',
       id: 'non-tech-event-5',
       eventUrl:'/events/non-tech-event/5',
       type: 1,
@@ -449,7 +460,7 @@ function App() {
 
     {
       eventName: 'Quizzathon',
-      eventDescription:'Quizzathon - Quizite',
+      eventDescription:'Quizzathon - Quiz',
       id: 'non-tech-event-7',
       eventUrl:'/events/non-tech-event/7',
       type: 1,
@@ -568,16 +579,22 @@ function App() {
       type: 1,
       imgUrl: '/assets/nontechEvents/avant-garde.jpg',
       registrationLink: 'null',
-      description: "",
+      description: "“Avant Garde”, is a show that provides the platform for the fashion designers to showcase their work and skills. Let’s make the world fancy!",
       location: 'Main Campus',
       date: 'November 7',
       time: '2 pm to 6 pm',
       prize:["Exciting prizes + Certificate"], //Trophy + Certificate
       rules: [
-        ''
+        'Group Performance: Maximum: 10 participants',
+		'Select any theme accordingly',
+		'Carry your own props and costumes',
+		'Bring your sound Track',
+		'No vulgarity in music/costumes',
+		'Judges decision are final',
+		 'The general rules should be followed strictly otherwise the team or the person will get eliminated.'
         
       ],
-      sunEvents:[
+      subEvents:[
         'Solo Performance',
         'Group Performance'        
       ],
@@ -588,8 +605,8 @@ function App() {
     },
 
     {
-      eventName: 'Pantomimist',
-      eventDescription:'Pantomimist - Mime',
+      eventName: 'Pantomime',
+      eventDescription:'Pantomime - Mime',
       id: 'non-tech-event-12',
       eventUrl:'/events/non-tech-event/12',
       type: 1,
@@ -616,7 +633,38 @@ function App() {
        'Kamesh M - 9786954854'
       ]
     },
-  ]
+  ];
+
+  const sponsors = [
+    {
+        sponsorName: 'Twinbirds',
+        sponsorLogo: '/assets/sponsors/twin-birds.jpeg',
+    },
+    {
+        sponsorName: 'M3 La-Di-Da',
+        sponsorLogo: '/assets/sponsors/m3-la-di-da.jpg',
+    },
+    {
+        sponsorName: 'S Collections',
+        sponsorLogo: '/assets/sponsors/s-collections.jpg'
+    },
+    {
+      sponsorName: 'What The Waffle',
+      sponsorLogo: '/assets/sponsors/what-the-waffle.jpeg'
+    },
+    {
+      sponsorName: 'Universal',
+      sponsorLogo: '/assets/sponsors/Universal_Logo.png'
+    }
+  ];
+
+  const mediaPartners = [
+    {
+        mediaPartnerName: 'Sun Smart TV',
+        mediaPartnerLogo: '/assets/sponsors/sun-smart.jpg',
+    },
+  ];
+
 
 
   return (
@@ -627,7 +675,7 @@ function App() {
           <Route element={<Events eventsList={eventsList} />} path="/events" /> 
           <Route element={<Sponsors/>} path='/sponsors' />
           <Route element={<StudentAmbassador/>} path='/student-ambassador'/>
-          <Route element={<Footer />} path='/#help' />
+          <Route element={<Footer />} path='/#footer' />
           <Route element={<EventPage eventDesc={eventsList[0]}/>} path='/events/tech-event/1'/>
           <Route element={<EventPage eventDesc={eventsList[1]}/>} path='/events/tech-event/2'/>
           <Route element={<EventPage eventDesc={eventsList[2]}/>} path='/events/tech-event/3'/>

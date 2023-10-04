@@ -41,7 +41,7 @@ function Main() {
           <iframe
             className="mt-5 w-4/5 lg:h-72 h-48 lg:w-2/5"
             src="https://www.youtube.com/embed/X6VaBPzjh6A"
-            title="EKNA'23 || It's a grand opening of an amazing event Ekna'23 by AURCC  || Department of EEE"
+            title="EKNA'23 || It's a grand opening of an amazing event Ekna'23 by AURCC || Department of EEE"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
@@ -82,13 +82,20 @@ function Main() {
               </li>
             </ul>
             <p className="text-cyan-500 text-lg my-4 font-bold">
-              Register for a technical event and non-technical event with just ₹150 of ticket,
+              Register for any two events with just
+              ₹150 of ticket,
             </p>
           </div>
-          <a href="/events"><button class= "select-none bg-gray-300 hover:bg-gray-200 text-gray-800 lg:font-bold font-medium text-xl py-2 px-4 mx-10 rounded inline-flex items-center justify-center">
-            <img src="assets/icons/register.png" className="w-9" />
-            <span>Register</span>
-          </button></a>
+            <a href="/events">
+            <button class="select-none bg-gray-300 hover:bg-gray-200 text-gray-800 lg:font-bold font-medium text-xl py-2 px-4 mx-10 rounded inline-flex items-center justify-center">
+              <img src="assets/icons/register.png" className="w-9" />
+              <span>Register</span>
+            </button>
+          </a>
+          <div className="lg:text-xl text-md font-semibold text-yellow-400 text-center w-full flex justify-center flex-wrap lg:gap-x-4 gap-x-2 pt-10">
+                <p>**Registration Starts on  : Oct 6th</p> <p>&</p> <p> Ends on  : Oct 30th</p>
+          </div>
+
         </div>
       </section>
     </div>
