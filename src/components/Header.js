@@ -33,7 +33,7 @@ const Header = () => {
           </div>
         </div>
         <img
-          className={`h-4 w-7 transition-transform duration-700 select-none object-fill cursor-pointer lg:hidden ${isNavOpen ? 'rotate-180' : null }`}
+          className={`h-4 w-7 transition-transform duration-300 select-none object-fill cursor-pointer lg:hidden ${isNavOpen ? 'rotate-180' : null }`}
           onClick={toggleNav}
           src="/assets/icons/menu.png"
         />

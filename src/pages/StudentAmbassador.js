@@ -4,9 +4,8 @@ import Header from '../components/Header'
 function StudentAmbassador() {
   return (
     <div><Header/>
-    <div className='flex flex-col justify-start lg:p-2 p-1 '>
-     
-        <div className=" lg:pt-20 pt-16 mt-2 font-semibold font-sans" >
+    <div className="flex flex-col justify-start lg:p-2 p-1 font-sans">
+        <div className=" lg:pt-20 pt-16 mt-2 font-semibold" >
           <p className="lg:text-5xl text-3xl text-gray-900 text-center font-labrada pb-5">Student Ambassador</p>
         </div>
         <div class="lg:py-4 py-2 mx-5 lg:mx-20 ">
@@ -109,7 +108,7 @@ function StudentAmbassador() {
           <p className='text-red-600 lg:pt-8 pt-2 mb-3 text-center lg:text-lg font-medium'>** Your referral credit count will be intimated through the mail on daily basis</p>
         </div>
         <div className='text-center mx-auto items-center py-3'>
-        <a href='/' target='blank'><button class="bg-blue-600 hover:bg-blue-700 lg:font-semibold font-medium lg:text-xl text-lg lg:px-7 px-5 mx-10 rounded lg:p-2 p-0.5 flex gap-2 items-center justify-center text-gray-200">
+        <a href='/' target='blank'><button class="bg-blue-600 hover:bg-blue-700 lg:font-semibold font-medium lg:text-xl text-lg lg:px-7 px-5 mx-10 rounded lg:p-2 p-1 flex gap-2 items-center justify-center text-gray-200">
             <img src="assets/icons/apply.png" className="w-5" />
             <span>Apply</span>
           </button></a>
