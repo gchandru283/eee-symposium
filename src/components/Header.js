@@ -88,7 +88,7 @@ const Header = () => {
           Sponsors
         </Link>
         <hr className=" border-gray-800 w-full" />
-        <Link className=" w-auto pr-14 text-gray-100 transition-all duration-300 will-change-transform hover:scale-105" to="#footer">
+        <Link className=" w-auto pr-14 text-gray-100 transition-all duration-300 will-change-transform hover:scale-105" to="/contact">
           Help
         </Link>
       </div>
