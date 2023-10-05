@@ -16,14 +16,6 @@ const Header = () => {
     return () => clearTimeout(shrinkTimer);
   }, [isNavOpen]);
 
-  const scrollToFooter = () => {
-    const footerElement = document.getElementById('footer');
-    if (footerElement) {
-      footerElement.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-  
-
     return (
     <div
       className={`select-none fixed z-20 bg-black bg-opacity-80 w-screen md:px-16 px-3 ${
@@ -68,7 +60,7 @@ const Header = () => {
             Sponsors
           </Link>
           <Link
-             to="/contact" onClick={scrollToFooter}
+             to="/contact"
             className="transition-all duration-500 will-change-transform hover:scale-110"
           >
             Help

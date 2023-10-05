@@ -10,7 +10,7 @@ function EventBox({ eventDesc }) {
           class="h-full rounded-t-lg object-cover w-full transition-opacity duration-300 transform scale-100 group-hover:scale-95 group-hover:opacity-20"
         />
         <div class="absolute cursor-pointer inset-0 flex items-center justify-center opacity-0 transition-opacity duration-500 ease-in-out group-hover:opacity-100">
-          <div class="bg-green-500 text-white text-center lg:text-lg lg:p-1 lg:px-3 select-none rounded-lg text-md px-2 p-0.5">
+          <div class="bg-green-500 text-white text-center lg:text-lg lg:p-1 lg:px-3 select-none rounded text-md px-2 p-0.5">
             Know More
           </div>
         </div>

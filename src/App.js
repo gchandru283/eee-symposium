@@ -29,22 +29,20 @@ function App() {
       type: 0,
       imgUrl: '/assets/techEvents/iquid.jpeg',
       registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSetSIslxOdMq2jtn_ljf7TXMJ-dx3FlJf2UYwxu-8gbsDZlqQ/viewform?usp=pp_url',
-      description: "IQuid is the most unique quest of all the events where all fields of engineering disciplines can participate in it. This event comprises various mathematical puzzles to solve in sequential stages with increasing difficulty of finding clues and some challenges for the human IO and memory in every stage to pass on. The person who cracks the overall twists and turns will top the event.",
+      description: "IQuid stands out as the most unique quest among all events, welcoming participants from diverse engineering disciplines. This event features a series of mathematical puzzles to solve in sequential stages, each escalating in difficulty. Challenges testing human IQ and memory are embedded in every stage. The individual who successfully navigates through the overall twists and turns will emerge as the event's champion!",
       location: 'Main Campus',
       date: 'November 7',
       time: '9 am to 1 pm',
       prize:["Exciting prizes + Certificate"], //Trophy + Certificate
       rules: [
-        'The event will be conducted in three rounds. Preliminary, Secondary and Finale.',
-        'Each team must have two members, they will be provided with question to solve.',
-        'The teams that are able to pass each rounds will be promote to next with calculating the time taken to complete.',
-        'The chosen option for all the question by the team members must be remember by the team members through out their last question.',
-        'After completing all the questions the correctness of the answer chosen and the time taken to solve the question will be taken into the account and credits will be given .',
-        'Total time given for both first and second round will be 15 mins. First, two rounds will have a five questions to solve and the time taken to solve each question is not particularly calculated but the total time(15 mins) is taken into the account.',
-        'Final round consists of three questions and the total time allotted for this finale round is 10 mins.',
-        'The time taken and correctness of answer in the finale will be awarded as winner followed by runner and second runner.',
-        'Participants are excepted to maintain a respectful and good attitude throughout the event .Any form of cheating plagiarism or disruptive will result in immediate disqualification.',
-        'By clearing outlining these rules and regulations you can ensure a fair and enjoyable event for all participants.',
+        'The competition unfolds in three distinct phases: Preliminary, Secondary, and Finale.',
+      'Teams progressing through each round will be contingent on their ability to navigate it successfully, with careful consideration given to the time taken.',
+      'Each participating team, composed of two members, will tackle a variety of questions spanning mathematical, logical, and puzzles.',        
+      'The selected options by team members must be retained throughout their final question. Upon completion of all questions, both correctness and time taken will be factors in determining earned credits.',
+        
+      "The first and second rounds grant a total time of 15 minutes. Each of these rounds includes five questions, and while the time per question isn't individually assessed, the overall time (15 minutes) is considered.",     
+      'The finale round involves three questions, with a specified timeframe of 10 minutes.',        
+      'Winners will be decided based on the time taken and correctness of answers in the final round, followed by the runner-up and second runner-up.',
       ],
       eventOrganizers: [
         'Viswa S - 9345315673',
@@ -288,12 +286,18 @@ function App() {
       date: 'November 7',
       time: '9 am to 1 pm',
       prize:["Exciting prizes + Certificate"], //Trophy + Certificate
+      themes:[' Free style ideas'],
       rules: [
         'Minimum 2 maximum 4 members per team.',
         'The poster dimension should be 36 inches wide by 40 inches wide .',
         'Posters will be on display for the duration of conference.',
         'Presentation-5 min of duration.',
-        'Topic of poster should be clearly mentioned at the top margin.'
+        'Topic of poster should be clearly mentioned at the top margin.',
+        'Font size should be large enough.Normal text should be no smaller than 20 pt.Texts in plots and figures should also be atleast 20 pt.500 words is a good poster length.',
+        'Use italics instead of underlining.Keep graphs clean and simple.',
+        'Graph, table and diagram should be atleast 20×25cm.',
+        'Kindly mail your soft copy of the poster via email.Last date to submit your soft copy of poster is 04.11.2023.',
+        'The poster should be easily read from 1-2 meters distance away.'
       ],
       eventOrganizers: [
        'Harish S - 9345329412',
@@ -359,7 +363,8 @@ function App() {
       ],
       eventOrganizers: [
        'Sneha K - 7806889146',
-       'Ram Kumar A - 9344093084'
+       'Kalai Selvam G - 8778790392',
+       'Ramkumar A - 9344093084'
       ]
     },
 
@@ -534,7 +539,7 @@ function App() {
       eventUrl:'/events/non-tech-event/9',
       type: 1,
       imgUrl: '/assets/nontechEvents/go-rubix.jpg',
-      registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfj-yezggwmzFgZV74NURg7T7DDUkB8qPHKnWIfCYjKIdp80w/viewform?usp=pp_url',
+      registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSczVPDUFOl7KysizMm4dcI8lXIjVZV7nHLa0P0wLm7eikUR2Q/viewform?usp=pp_url',
       description: "Are you a speedcuber...? Then, here is the suitable platform you are searching for...! Unleash the  power of your mind with Rubik's cube...Twist, turn and solve the Rubik's cube puzzle...Let's cube it...! Join the Rubik's cube revolution!!!",
       location: 'Main Campus',
       date: 'November 7',
@@ -579,7 +584,8 @@ function App() {
       ],
       eventOrganizers: [
        'Nasir Hussain S - 9360447279',
-       'Akkash K - 96591 10292'
+       'Akkash K - 96591 10292',
+       'Swathi E - 8148039757'
       ]
     },
 
@@ -612,7 +618,8 @@ function App() {
       ],
       eventOrganizers: [
        'Ajay N - 9159719445',
-       'Abinesh P - 9003392453'
+       'Abinesh P - 9003392453',
+       'Dhiksha M - 7708554304'
       ]
     },
 
@@ -642,38 +649,24 @@ function App() {
       ],
       eventOrganizers: [
        'Avinash S - 8610570814',
-       'Kamesh M - 9786954854'
+       'Kamesh M - 9786954854',
+       'Kaviya S R - 9344677939'
       ]
     },
   ];
 
   const sponsors = [
     {
-        sponsorName: 'Twinbirds',
-        sponsorLogo: '/assets/sponsors/twin-birds.jpeg',
+        sponsorName: '',
+        sponsorLogo: '',
     },
-    {
-        sponsorName: 'M3 La-Di-Da',
-        sponsorLogo: '/assets/sponsors/m3-la-di-da.jpg',
-    },
-    {
-        sponsorName: 'S Collections',
-        sponsorLogo: '/assets/sponsors/s-collections.jpg'
-    },
-    {
-      sponsorName: 'What The Waffle',
-      sponsorLogo: '/assets/sponsors/what-the-waffle.jpeg'
-    },
-    {
-      sponsorName: 'Universal',
-      sponsorLogo: '/assets/sponsors/Universal_Logo.png'
-    }
+    
   ];
 
   const mediaPartners = [
     {
-        mediaPartnerName: 'Sun Smart TV',
-        mediaPartnerLogo: '/assets/sponsors/sun-smart.jpg',
+        mediaPartnerName: '',
+        mediaPartnerLogo: '',
     },
   ];
 

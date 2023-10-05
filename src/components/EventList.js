@@ -17,7 +17,7 @@ function EventList({eventsList}) {
     <div className='bg-gradient-to-b from-stone-200 to-stone-400'>
         <div className='pt-20 text-center w-full select-none'>
             <span className='lg:text-6xl md:text-5xl text-4xl font-semibold font-labrada'> Events</span>
-        <div className='lg:pt-7 pt-4 font-medium font-oswald flex lg:gap-16 gap-10 justify-center md:text-3xl text-2xl lg:text-5xl cursor-pointer'>
+        <div className='lg:pt-7 pt-4 font-medium font-oswald flex lg:gap-16 gap-10 justify-center md:text-3xl text-2xl lg:text-5xl cursor-pointer select-none'>
         <span onClick={()=> chooseEventList(0)} className={`duration-300 ${!choice ? 'border-b-2 lg:pb-2 pb-1 border-slate-800 text-slate-800 duration-1000 scale-105' : 'text-lime-900'}`}>
               
               Technical
