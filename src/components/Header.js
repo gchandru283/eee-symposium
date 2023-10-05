@@ -16,6 +16,14 @@ const Header = () => {
     return () => clearTimeout(shrinkTimer);
   }, [isNavOpen]);
 
+  const scrollToFooter = () => {
+    const footerElement = document.getElementById('footer');
+    if (footerElement) {
+      footerElement.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+  
+
     return (
     <div
       className={`select-none fixed z-20 bg-black bg-opacity-80 w-screen md:px-16 px-3 ${
@@ -60,7 +68,7 @@ const Header = () => {
             Sponsors
           </Link>
           <Link
-             to="/#footer" 
+             to="/contact" onClick={scrollToFooter}
             className="transition-all duration-500 will-change-transform hover:scale-110"
           >
             Help
@@ -80,7 +88,7 @@ const Header = () => {
           Sponsors
         </Link>
         <hr className=" border-gray-800 w-full" />
-        <Link className=" w-auto pr-14 text-gray-100 transition-all duration-300 will-change-transform hover:scale-105" to="/#help">
+        <Link className=" w-auto pr-14 text-gray-100 transition-all duration-300 will-change-transform hover:scale-105" to="#footer">
           Help
         </Link>
       </div>

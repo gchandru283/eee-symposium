@@ -1,12 +1,22 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import React from 'react';
 import Home from './pages/Home';
 import Events from './pages/Events';
 import StudentAmbassador from './pages/StudentAmbassador';
 import Sponsors from './pages/Sponsors';
 import Footer from './components/Footer';
 import EventPage from './pages/EventPage';
+import Contact from './pages/Contact';
 
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
 
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+};
 
 function App() {
 
@@ -131,7 +141,7 @@ function App() {
       eventUrl:'/events/tech-event/5',
       type: 0,
       imgUrl: '/assets/techEvents/electro-hunt.png',
-      registrationLink: 'null',
+      registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLScgz42-rupFAXp2GDZqLtj7yW9SuLlMrCPBRDKDRdrhejOISQ/viewform?usp=pp_url',
       description: "Electro hunt is a treasure hunt event based on electronic components, clues will be related to electronics and solving the clue will lead to a final component(eg. Resistor,capacitor,etc...). With that you will be completing the circuit. This is a technical mixed with fun event on time basis.",
       location: 'Main Campus',
       date: 'November 7',
@@ -221,8 +231,8 @@ function App() {
         'Only Motors and batteries may be use.',
         'Compulsorily bring your model.',
         'Based on the workload winner and runner up will be announced.',
-        ' Participants are expected to maintain a respectful and good attitude throughout the event. Any form of cheating plagiarism or disruptive will result in immediate disqualification. ',
-        ' By clearing outlining these rules and regulations you can ensure a fair and enjoyable event for all participant.'
+        'Participants are expected to maintain a respectful and good attitude throughout the event. Any form of cheating plagiarism or disruptive will result in immediate disqualification. ',
+        'By clearing outlining these rules and regulations you can ensure a fair and enjoyable event for all participant.'
       ],
       eventOrganizers: [
         'Kabilan D - 8903357414',
@@ -298,7 +308,7 @@ function App() {
       eventUrl:'/events/non-tech-event/1',
       type: 1,
       imgUrl: '/assets/nontechEvents/Jpeg-jury.jpg',
-      registrationLink: 'null',
+      registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSf_XkdERg4Q24IoUchtPphSKpqSlrOeywY8aM0PkgeUOl38XQ/viewform?usp=pp_url',
       description: "Join us for 'J-Peg Jury', where every click tells a story! Immerse yourself in capturing moments and freezing emotions. Let your captured moments and emotions speak for themselves and for yourself. Share your unique perspective with fellow photography enthusiasts. Unleash your creativity and create memories that will last a lifetime.",
       location: 'Main Campus',
       date: 'November 7',
@@ -316,7 +326,9 @@ function App() {
                 'Manmade Forest ',
                 'Sports',
                 'Macro',
-                'Wildlife'],
+                'Wildlife',
+                'Women empowerment',
+                'Night photography',],
       note:['WhatsApp : 9360298785','Email Id : yuvasyad1250@gmail.com'],
       eventOrganizers: [
        'Sachin N - 9360298785',
@@ -411,7 +423,7 @@ function App() {
       eventUrl:'/events/non-tech-event/5',
       type: 1,
       imgUrl: '/assets/nontechEvents/standup-comedy.jpg',
-      registrationLink: 'null',
+      registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdzO4AHtjKIZoaD1YEm9SyJQ0vLIbYGiRfBwUIJUmGkQAbu4A/viewform?usp=pp_url',
       description: 'Jokes on the rocks is a stand-up comedy event. It is an individual competition. Winner will be selected based on their content, fluency, sense of humour and spontaneity.',
       location: 'Main Campus',
       date: 'November 7',
@@ -437,7 +449,7 @@ function App() {
       eventUrl:'/events/non-tech-event/6',
       type: 1,
       imgUrl: '/assets/nontechEvents/euphony.jpg',
-      registrationLink: 'null',
+      registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSc4eSKkO990WhrhGiF0GTW4vRpIPK7wWEZ_sURzPAOFb_p31A/viewform?usp=pp_url',
       description: 'Euphony is a grand singing event which is a great platform to showcase their innate talent through their euphonious voice .The event can be either in the form of solo or group singing (Max 6 participants). So Participate and share your talent and gear yourself up for this exhilarating event.',
       location: 'Main Campus',
       date: 'November 7',
@@ -465,7 +477,7 @@ function App() {
       eventUrl:'/events/non-tech-event/7',
       type: 1,
       imgUrl: '/assets/nontechEvents/quizzathon.jpg',
-      registrationLink: 'null',
+      registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfwimZ_KSZ54JpAiTeFYqlMQ5_eEVJ0kN0EXjCzGG8q74vn1w/viewform?usp=pp_url',
       description: 'Are you ready to put your Knowledge to the Test ? Join Us for an Exhilarating and Mind Boggling experience at QUIZZATHON where intellect and quick thinking take center stage. Get ready to answer questions that span a wide range of topics, from History, Science, Mathematics, Aptitude, Logical Reasoning, General Knowledge. Compete against other Brilliant Minds,proving that you have what it takes to be the ultimate quiz champion.',
       location: 'Main Campus',
       date: 'November 7',
@@ -492,7 +504,7 @@ function App() {
       eventUrl:'/events/non-tech-event/8',
       type: 1,
       imgUrl: '/assets/nontechEvents/picaso.png',
-      registrationLink: 'null',
+      registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfj-yezggwmzFgZV74NURg7T7DDUkB8qPHKnWIfCYjKIdp80w/viewform?usp=pp_url',
       description: 'PICASSO is a modern art contest where the artists have chance to show their fantastic painting. Each participants will be given a time period of 1hour 30 minutes. Within the time period the participants can showcase their talent in modern art of any theme.',
       location: 'Main Campus',
       date: 'November 7',
@@ -522,7 +534,7 @@ function App() {
       eventUrl:'/events/non-tech-event/9',
       type: 1,
       imgUrl: '/assets/nontechEvents/go-rubix.jpg',
-      registrationLink: 'null',
+      registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfj-yezggwmzFgZV74NURg7T7DDUkB8qPHKnWIfCYjKIdp80w/viewform?usp=pp_url',
       description: "Are you a speedcuber...? Then, here is the suitable platform you are searching for...! Unleash the  power of your mind with Rubik's cube...Twist, turn and solve the Rubik's cube puzzle...Let's cube it...! Join the Rubik's cube revolution!!!",
       location: 'Main Campus',
       date: 'November 7',
@@ -551,7 +563,7 @@ function App() {
       eventUrl:'/events/non-tech-event/10',
       type: 1,
       imgUrl: '/assets/nontechEvents/snap-cinema.jpg',
-      registrationLink: 'null',
+      registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdwxdqecq_qL3tqTyjLYWY3Z0FLSPekOZ7TzrX1V1CboISKDg/viewform?usp=pp_url',
       description: "Step into the spotlight and share your cinematic vision with the world. Snap Cinema Showcase invites creators of all levels to submit their short films. It's time to ignite the screen with your creativity!",
       location: 'Main Campus',
       date: 'November 7',
@@ -578,7 +590,7 @@ function App() {
       eventUrl:'/events/non-tech-event/11',
       type: 1,
       imgUrl: '/assets/nontechEvents/avant-garde.jpg',
-      registrationLink: 'null',
+      registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLScu8CcEmN7QWLlQoYNApOwaYpk3jGdhJnC-C-uinMN9bECp5Q/viewform?usp=pp_url',
       description: "“Avant Garde”, is a show that provides the platform for the fashion designers to showcase their work and skills. Let’s make the world fancy!",
       location: 'Main Campus',
       date: 'November 7',
@@ -611,7 +623,7 @@ function App() {
       eventUrl:'/events/non-tech-event/12',
       type: 1,
       imgUrl: '/assets/nontechEvents/pantomime.jpg',
-      registrationLink: 'null',
+      registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLScvyctZ4LqsC9sWkyNUzWwM3oTtz4euWGkoRh4o8J-1VFc9iw/viewform?usp=pp_url',
       description: "Pantomime is a mime event. It is a theatrical technique of suggesting action, character or emotion without words, using only gesture, expression and movement.",
       location: 'Main Campus',
       date: 'November 7',
@@ -671,11 +683,12 @@ function App() {
     <Router>
       <div>
         <Routes>
+        
           <Route element={<Home/>} path="/" /> 
           <Route element={<Events eventsList={eventsList} />} path="/events" /> 
-          <Route element={<Sponsors/>} path='/sponsors' />
+          <Route element={<Sponsors sponsors={sponsors} mediaPartners={mediaPartners}/>} path='/sponsors' />
           <Route element={<StudentAmbassador/>} path='/student-ambassador'/>
-          <Route element={<Footer />} path='/#footer' />
+          <Route element={<Contact/>} path='/contact' />
           <Route element={<EventPage eventDesc={eventsList[0]}/>} path='/events/tech-event/1'/>
           <Route element={<EventPage eventDesc={eventsList[1]}/>} path='/events/tech-event/2'/>
           <Route element={<EventPage eventDesc={eventsList[2]}/>} path='/events/tech-event/3'/>
@@ -699,6 +712,7 @@ function App() {
           <Route element={<EventPage eventDesc={eventsList[20]}/>} path='/events/non-tech-event/11'/>
           <Route element={<EventPage eventDesc={eventsList[21]}/>} path='/events/non-tech-event/12'/>
         </Routes>
+        <ScrollToTop />
       </div>
     </Router>
   );

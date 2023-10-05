@@ -22,7 +22,7 @@ function Main() {
             department. On this auspicious occasion, 10 technical and 10
             cultural events are scheduled to be conducted.Some of the activities
             of the Techno-Cultural Fest include Electro-Hunt, IQuid,
-            Analogy-O-Mania !, Paper presentation, Fashion show, Jokes on the
+            Analogy-O-Mania, Paper presentation, Fashion show, Jokes on the
             Rocks , Music, Dance, Short film, Photography and a lot more. It is
             a unique window of opportunity for students from various disciplines
             to demonstrate their abilities and expertise. This event will

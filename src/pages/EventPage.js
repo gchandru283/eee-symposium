@@ -10,7 +10,7 @@ function EventPage({ eventDesc }) {
   return (
     <>
       <Header />
-      <div className="pt-24 pb-20 flex flex-col items-center gap-5 lg:gap-7 bg-gradient-to-t from-gray-300 to-gray-200 font-sans">
+      <div className="h-full pt-24 pb-20 flex flex-col items-center gap-5 lg:gap-7 bg-gradient-to-t from-gray-300 to-gray-200 font-sans">
         <div className="text-center lg:text-5xl text-3xl font-semibold pb-3 font-labrada">
           {eventDesc.eventDescription}
         </div>
@@ -102,7 +102,7 @@ function EventPage({ eventDesc }) {
           </ol>         
         </div>) : null }
 
-         {eventDesc.themes ? (<div className="lg:w-4/ w-11/12">
+         {eventDesc.themes ? (<div className="lg:w-4/5 w-11/12">
           <span className="text-xl lg:text-3xl font-semibold">
             Themes
           </span>

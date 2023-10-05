@@ -82,7 +82,7 @@ function Footer() {
 
       <div className="max-w-2xl w-full h-fit select-none">
         <p className="lg:text-3xl text-2xl font-medium font-fira-sans-condensed px-5 pb-5">Follow us on..</p>
-        <div className="flex justify-between lg:px-40 md:px-20 px-12 pb-10 lg:pb-0">
+        <div className="flex justify-between lg:px-32 md:px-16 px-12 pb-10 lg:pb-0">
           <Link to="https://www.facebook.com/eknasympo">
             <img
               src="./assets/icons/facebook1.png"
@@ -92,6 +92,12 @@ function Footer() {
           <Link to="https://instagram.com/_ekna2k23_">
             <img
               src="./assets/icons/instagram1.png"
+              className="h-12 object-contain"
+            />
+          </Link>
+          <Link to="mailto:eknasympo@gmail.com">
+            <img
+              src="./assets/icons/mail1.png"
               className="h-12 object-contain"
             />
           </Link>
