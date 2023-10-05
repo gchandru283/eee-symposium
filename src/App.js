@@ -127,7 +127,7 @@ function App() {
         'If there is any connectivity error, The team will be eliminated.'
       ],
       eventOrganizers: [
-        'Sudharsan S - 9003321969',
+        'Sudarsan S - 9003321969',
         'Vishnupriya V - 9941283045'
       ]
     },
@@ -140,7 +140,7 @@ function App() {
       type: 0,
       imgUrl: '/assets/techEvents/electro-hunt.png',
       registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLScgz42-rupFAXp2GDZqLtj7yW9SuLlMrCPBRDKDRdrhejOISQ/viewform?usp=pp_url',
-      description: "Electro hunt is a treasure hunt event based on electronic components, clues will be related to electronics and solving the clue will lead to a final component(eg. Resistor,capacitor,etc...). With that you will be completing the circuit. This is a technical mixed with fun event on time basis.",
+      description: "Electro hunt is a treasure hunt event based on electronic components, clues will be related to electronics and solving the clue will lead to a final component(eg. Resistor,capacitor,etc...). With that you will be completing the circuit. This is a technical event mixed with fun on time basis.",
       location: 'Main Campus',
       date: 'November 7',
       time: '9 am to 1 pm',
@@ -251,20 +251,21 @@ function App() {
       location: 'Main Campus',
       date: 'November 7',
       time: '9 am to 1 pm',
+      mailId:'eknatechnicalevents@gmail.com',
       prize:["Exciting prizes + Certificate"], //Trophy + Certificate
       rules: [
         'Maximum number of participants in a team is three.',
         'One person may not be a part of multiple teams for the same event.',
         'Paper should be in IEEE Format and should not exceed  15 pages.',
-        'Kindly mail your soft copy of the paper document and ppt.The difficulties will be addressed through the same.Mail ID:',
-        'The mail of the subject should contain:Title-Theme of the paper,team name and name of the authors.',
+        'Kindly mail your soft copy of the paper document and ppt.The difficulties will be addressed through the same Mail Id',
+        'The mail of the subject should contain: Title-Theme of the paper,team name and name of the authors.',
         'Presentations file must be in the .ppt format',
         'Hard copies should be submitted to the panel of judges before the starting of presentation enclosed in a stick file.',
         'The teams will get 10 minutes for presentation and followed by question and answer session.',
         'Last day to submit your soft copies of paper document and ppt (via email) will be a week prior of presentation (02.11.2023).',
         'The decision of the judges will be final and no arguments or appeal will be entertained.',
       ],
-      note: ["**Topics are general and free style.You can choose any topic for your presentation."],
+      note: ["**Topics are general and free style. You can choose any topic for your presentation."],
       eventOrganizers: [
        'Roshan J - 9894462395',
        'Archana H - 6374847337',
@@ -552,7 +553,7 @@ function App() {
         'The cubes must not have any electronic components and any type of modifications.',
         'Minimum of 3 rounds will be conducted.',
         'The results will be declared on Time-basis [ Shortest Average Time ]',
-        "'The judges' decision is final.",
+        "The judges decision is final.",
         'Violation of the above rules might end in disqualification from the event.'
       ],
       eventOrganizers: [

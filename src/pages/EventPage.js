@@ -78,9 +78,8 @@ function EventPage({ eventDesc }) {
         </div>
 
           {eventDesc.template ? (<p className="font-semibold text-center text-md md:text-xl flex flex-wrap gap-x-2"> ** To download IEEE Template,<span className="underline underline-offset-4 text-blue-800"><a href={eventDesc.template}>Click here!</a></span></p>) : null }
-
-          <p className="font-semibold text-center text-md md:text-xl px-4"> *Use the below QR for payment. Payment proof Screenshot should be attached while registering for an event.</p>
-          <img src="/assets/qr.png" className="lg:p-2 p-1 bg-white lg:w-44 w-40"/>
+          <p className="font-semibold text-center text-md md:text-xl px-4"> *Use the below QR for payment & add NOTE as <span className="font-mono">YourName_Ekna</span>. Payment proof Screenshot should be attached while registering for an event.</p>
+          <img src="/assets/qr-code.png" className="lg:p-2 p-1 bg-white lg:w-44 w-40"/>
 
         <div className="lg:w-4/5 w-11/12">
           <span className="text-xl lg:text-3xl font-semibold">
@@ -120,10 +119,11 @@ function EventPage({ eventDesc }) {
           <ol className="p-4 lg:pl-20 pl-8 lg:text-justify pr-0 text-md md:text-xl ">
             {eventDesc.rules.map((rule) => (
               <li className="list-decimal py-0.5">{rule}</li>
-            ))}
+              ))}
           </ol>
-          {eventDesc.note ? (<div className="p-2 pt-0 lg:pl-20 text-center font-semibold text-md md:text-xl flex flex-wrap gap-x-5 gap-y-1">{eventDesc.note.map((note) => (<div>{note}</div>))}</div>) : null}
+          {eventDesc.note ? (<div className="p-2 py-0 lg:pl-20 text-center font-semibold text-md md:text-xl flex flex-wrap gap-x-5 gap-y-1">{eventDesc.note.map((note) => (<div>{note}</div>))}</div>) : null}
         </div>
+              {eventDesc.mailId ? (<p className="font-semibold text-center text-md md:text-xl flex flex-wrap gap-x-2"> MailId :<span className="underline underline-offset-4 text-blue-800"><a href={`mailto:${eventDesc.mailId}`}>eknatechnicalevents@gmail.com</a></span></p>) : null }
 
         <div className="lg:w-4/5 w-11/12">
           <span className="text-xl lg:text-3xl font-semibold">
