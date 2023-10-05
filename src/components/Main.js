@@ -87,12 +87,12 @@ function Main() {
             </p>
           </div>
             <a href="/events">
-            <button class="select-none bg-gray-300 hover:bg-gray-200 text-gray-800 lg:font-bold font-medium text-xl py-2 px-4 mx-10 rounded inline-flex items-center justify-center">
+            <button class="select-none bg-gray-300 hover:bg-gray-200 text-gray-800 font-bold text-xl py-2 px-4 mx-10 rounded inline-flex items-center justify-center">
               <img src="assets/icons/register.png" className="w-9" />
               <span>Register</span>
             </button>
           </a>
-          <div className="lg:text-xl text-md font-semibold text-yellow-400 text-center w-full flex justify-center flex-wrap lg:gap-x-4 gap-x-2 pt-10">
+          <div className="lg:text-xl text-md font-semibold text-yellow-400 text-center w-full flex justify-center flex-wrap lg:gap-x-4 gap-x-2 px-10 pt-10">
                 <p>**Registration Starts on  : Oct 6th</p> <p>&</p> <p> Ends on  : Oct 30th</p>
           </div>
 
