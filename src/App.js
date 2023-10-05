@@ -165,7 +165,7 @@ function App() {
       eventUrl:'/events/tech-event/6',
       type: 0,
       imgUrl: '/assets/techEvents/water-rocketry.jpeg',
-      registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSc0LleuBSJbswt60UnEZArRhwAEe5rCgHkFzI3qjNWD9cXPPA/viewform?usp=pp_url',
+      registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSexMXMCRSoxqKs47vExb5q33UJpL-LCRvLtc-GAg7fI2YVNSg/viewform?usp=pp_url',
       description: "Teams with handmade water rockets compete against each other to find the best rocket among them. Top 3 Water rockets that perfectly manages the best aerodynamics, size to weight ratio and low wind drag would be rewarded.",
       location: 'Main Campus',
       date: 'November 7',
@@ -196,7 +196,7 @@ function App() {
       location: 'Main Campus',
       date: 'November 7',
       time: '9 am to 1 pm',
-      prize:['null'], //Trophy + Certificate
+      prize:['Exciting prizes + Certificate'], //Trophy + Certificate
       rules: [
         'A team should consist of two members. ',
         'There will be two rounds. First round topics will be reveal two days before the event, kindly prepare the model. ',       
@@ -347,8 +347,8 @@ function App() {
       eventUrl:'/events/non-tech-event/2',
       type: 1,
       imgUrl: '/assets/nontechEvents/solo-steale.jpg',
-      registrationLink: 'null',
-      description: "Soul Steale is a solo dance contest , where you can convey emotions and themes . Yes it's your time to showcase your dance skills and mesmerizing talents !",
+      registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdB7OevZWLVFOl1wCaZWZohtRI5m-dchg1YpSxSzlUvbzEI9A/viewform?usp=pp_url',
+      description: "Solo dance is a beautiful expression of self; it's a conversation between body and soul.Solo dance refers to a dance performance in which a single dancer or performer dances alone, without the presence of a partner or a group of dancers . It allows the dancer to showcase their individual skills, creativity, and expression through movement without the need for synchronization with others. Solo dance performances are often seen in dance competitions, recitals, and as part of professional dance routines.",
       location: 'Main Campus',
       date: 'November 7',
       time: '2 pm to 6 pm',
@@ -363,8 +363,7 @@ function App() {
       ],
       eventOrganizers: [
        'Sneha K - 7806889146',
-       'Kalai Selvam G - 8778790392',
-       'Ramkumar A - 9344093084'
+       'Ram Kumar A - 9344093084'
       ]
     },
 
@@ -375,7 +374,7 @@ function App() {
       eventUrl:'/events/non-tech-event/3',
       type: 1,
       imgUrl: '/assets/nontechEvents/rythmic-squad.jpg',
-      registrationLink: 'null',
+      registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdB7OevZWLVFOl1wCaZWZohtRI5m-dchg1YpSxSzlUvbzEI9A/viewform?usp=pp_url',
       description: ' Rythmic Squad is a group dance contest , where the dance troops perform synchronised level of Grace and expression . You are welcomed to showcase your rich creativity in dance',
       location: 'Main Campus',
       date: 'November 7',
@@ -401,8 +400,8 @@ function App() {
       eventUrl:'/events/non-tech-event/4',
       type: 1,
       imgUrl: '/assets/nontechEvents/tango-tippers.jpg',
-      registrationLink: 'null',
-      description: "Tongo Tippers is a Freestyle dance contest . If you are a spontaneous dancer , the stage is yours. It's your time to express your emotions, thoughts and creativity . You are welcomed to Show your raw and authentic performance !",
+      registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdB7OevZWLVFOl1wCaZWZohtRI5m-dchg1YpSxSzlUvbzEI9A/viewform?usp=pp_url',
+      description: "Get ready to witness the mesmerizing world of freestyle dance at our upcoming competition! Our talented dancers will take the stage and express their creativity and emotions through the art of movement. From graceful contemporary to energetic hip-hop, our dancers will captivate you with their unique styles and storytelling abilities . Don't miss the chance to be part of this thrilling event and witness the magic of freestyle dance in action!",
       location: 'Main Campus',
       date: 'November 7',
       time: '2 pm to 6 pm',
@@ -417,6 +416,7 @@ function App() {
       ],
       eventOrganizers: [
        'Sneha K - 7806889146',
+	'Kalaiselvam G - 8778790392',
        'Ramkumar A - 9344093084'
       ]
     },
