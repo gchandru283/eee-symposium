@@ -39,7 +39,7 @@ function Main() {
 
         <div className=" flex justify-center items-center py-5 lg:py-10">
           <iframe
-            className="mt-5 w-4/5 lg:h-72 h-48 lg:w-2/5"
+            className="mt-5 w-4/5 lg:h-72 h-48 lg:w-2/5 select-none"
             src="https://www.youtube.com/embed/X6VaBPzjh6A"
             title="EKNA'23 || It's a grand opening of an amazing event Ekna'23 by AURCC || Department of EEE"
             frameborder="0"
@@ -88,7 +88,7 @@ function Main() {
           </div>
             <a href="/events">
             <button class="select-none bg-gray-300 hover:bg-gray-200 text-gray-800 font-bold text-xl py-2 px-4 mx-10 rounded inline-flex items-center justify-center">
-              <img src="assets/icons/register.png" className="w-9" />
+              <img src="assets/icons/register.png" className="w-9 select-none" />
               <span>Register</span>
             </button>
           </a>

@@ -3,11 +3,7 @@ import { Link } from "react-router-dom";
 
 function Footer() {
 
-    const scrollToFooter = () => {
-        const footer = document.getElementById('footer');
-        footer.scrollIntoView({ behavior: 'smooth' });
-    };
-  return (
+     return (
     <div className="w-full h-full  bg-gradient-to-t from-slate-500 to-slate-800 lg:py-8 py-3 flex flex-wrap justify-around text-gray-300 gap-7">
       <div className="flex flex-col gap-10">
         <div className="flex flex-col gap-5 ">
@@ -15,7 +11,7 @@ function Footer() {
             Location
           </p>
           <iframe
-            className="mx-auto border-2 border-y-4 border-slate-700 "
+            className="mx-auto border-2 border-y-4 border-slate-700 select-none"
             id="gmap-canvas"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.9491172651287!2d76.88388301532656!3d11.04244189214134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85910327ab1e3%3A0x9f7a2b4ef20fe07!2sAnna%20University%20Regional%20Campus%2C%20Coimbatore!5e0!3m2!1sen!2sin!4v1653732177820!5m2!1sen!2sin"
             title="Map"
@@ -34,7 +30,7 @@ function Footer() {
           </ul>
         </div>
       </div>
-      <div className=" flex justify-center lg:pt-10 ">
+      <div className=" flex justify-center lg:pt-10 select-none">
         <img src="./assets/icons/au-logo.png" className=" h-44 md:h-48" />
       </div>
 
@@ -86,37 +82,37 @@ function Footer() {
           <Link to="https://www.facebook.com/eknasympo">
             <img
               src="./assets/icons/facebook1.png"
-              className="h-12 object-contain"
+              className="h-12 object-contain select-none"
             />
           </Link>
           <Link to="https://instagram.com/_ekna2k23_">
             <img
               src="./assets/icons/instagram1.png"
-              className="h-12 object-contain"
+              className="h-12 object-contain select-none"
             />
           </Link>
           <Link to="mailto:eknasympo@gmail.com">
             <img
               src="./assets/icons/mail1.png"
-              className="h-12 object-contain"
+              className="h-12 object-contain select-none"
             />
           </Link>
           <Link to="https://youtube.com/@eknasympo2k23">
             <img
               src="./assets/icons/youtube1.png"
-              className="h-12 object-contain"
+              className="h-12 object-contain select-none"
             />
           </Link>
           <Link to="https://www.linkedin.com/in/ekna-sympo">
             <img
               src="./assets/icons/linkedin1.png"
-              className="h-12 object-contain"
+              className="h-12 object-contain select-none"
             />
           </Link>
           <Link to="https://x.com/eknasympo">
             <img
               src="./assets/icons/twitter1.png"
-              className="h-12 object-contain"
+              className="h-12 object-contain select-none"
             />
           </Link>
         </div>

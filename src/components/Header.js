@@ -67,7 +67,7 @@ const Header = () => {
           </Link>
         </div>
       </div>
-      <div className="flex flex-col gap-1 text-lg items-center transition">
+      <div className="flex flex-col gap-1 text-lg items-center transition select-none">
         <Link to="/" className=" w-auto pr-14 text-gray-100 transition-all duration-300 will-change-transform hover:scale-105">
           Home
         </Link>
