@@ -303,7 +303,9 @@ function App() {
       eventOrganizers: [
        'Harish S - 9345329412',
        'Griffin B - 7010373305'
-      ]
+      ],
+      note: ["*Kindly mail your soft copy to the below address."],
+      mailId :'eknatechnicalevents@gmail.com'
     },
 
     {
@@ -348,7 +350,7 @@ function App() {
       eventUrl:'/events/non-tech-event/2',
       type: 1,
       imgUrl: '/assets/nontechEvents/solo-steale.jpg',
-      registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdB7OevZWLVFOl1wCaZWZohtRI5m-dchg1YpSxSzlUvbzEI9A/viewform?usp=pp_url',
+      registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSePOnVDcR5pLXvK_2SXTpceQF2Gab9ojKABGi0Tts0CvO330A/viewform?usp=pp_url',
       description: "Solo dance is a beautiful expression of self; it's a conversation between body and soul.Solo dance refers to a dance performance in which a single dancer or performer dances alone, without the presence of a partner or a group of dancers . It allows the dancer to showcase their individual skills, creativity, and expression through movement without the need for synchronization with others. Solo dance performances are often seen in dance competitions, recitals, and as part of professional dance routines.",
       location: 'Main Campus',
       date: 'November 7',
@@ -364,7 +366,8 @@ function App() {
       ],
       eventOrganizers: [
        'Sneha K - 7806889146',
-       'Ram Kumar A - 9344093084'
+       'Kalaiselvam G - 8778790392',
+       'Ramkumar A - 9344093084',
       ]
     },
 
@@ -375,7 +378,7 @@ function App() {
       eventUrl:'/events/non-tech-event/3',
       type: 1,
       imgUrl: '/assets/nontechEvents/rythmic-squad.jpg',
-      registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdB7OevZWLVFOl1wCaZWZohtRI5m-dchg1YpSxSzlUvbzEI9A/viewform?usp=pp_url',
+      registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLScW9MiWSHxkBfBU_4HZMrHy85qKTe9KMzY1zVqDzGTZ-K1HUg/viewform?usp=pp_url',
       description: ' Rythmic Squad is a group dance contest , where the dance troops perform synchronised level of Grace and expression . You are welcomed to showcase your rich creativity in dance',
       location: 'Main Campus',
       date: 'November 7',
@@ -391,7 +394,8 @@ function App() {
       ],
       eventOrganizers: [
        'Sneha K - 7806889146',
-       'Ram Kumar A - 9344093084'
+       'Kalaiselvam G - 8778790392',
+       'Ramkumar A - 9344093084'
       ]
     },
     {
@@ -401,7 +405,7 @@ function App() {
       eventUrl:'/events/non-tech-event/4',
       type: 1,
       imgUrl: '/assets/nontechEvents/tango-tippers.jpg',
-      registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdB7OevZWLVFOl1wCaZWZohtRI5m-dchg1YpSxSzlUvbzEI9A/viewform?usp=pp_url',
+      registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfCYY4ftAgjHodUKLfTAB1guXGfXZx2cXefv1UvBUr6rw3bdA/viewform?usp=pp_url',
       description: "Get ready to witness the mesmerizing world of freestyle dance at our upcoming competition! Our talented dancers will take the stage and express their creativity and emotions through the art of movement. From graceful contemporary to energetic hip-hop, our dancers will captivate you with their unique styles and storytelling abilities . Don't miss the chance to be part of this thrilling event and witness the magic of freestyle dance in action!",
       location: 'Main Campus',
       date: 'November 7',
@@ -417,7 +421,7 @@ function App() {
       ],
       eventOrganizers: [
        'Sneha K - 7806889146',
-	'Kalaiselvam G - 8778790392',
+	    'Kalaiselvam G - 8778790392',
        'Ramkumar A - 9344093084'
       ]
     },
@@ -572,6 +576,7 @@ function App() {
       registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdwxdqecq_qL3tqTyjLYWY3Z0FLSPekOZ7TzrX1V1CboISKDg/viewform?usp=pp_url',
       description: "Step into the spotlight and share your cinematic vision with the world. Snap Cinema Showcase invites creators of all levels to submit their short films. It's time to ignite the screen with your creativity!",
       location: 'Main Campus',
+      mailId:'akkashk08@gmail.com',
       date: 'November 7',
       time: '2 pm to 6 pm',
       prize:["Exciting prizes + Certificate"], //Trophy + Certificate
@@ -587,7 +592,8 @@ function App() {
        'Nasir Hussain S - 9360447279',
        'Akkash K - 96591 10292',
        'Swathi E - 8148039757'
-      ]
+      ],
+      note: ['* Video can be sent to the following Mail Id.'],
     },
 
     {
