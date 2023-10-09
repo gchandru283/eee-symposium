@@ -37,7 +37,7 @@ function Main() {
           </p>
         </div>
 
-        <div className=" flex justify-center items-center py-5 lg:py-10">
+        {/* <div className=" flex justify-center items-center py-5 lg:py-10">
           <iframe
             className="mt-5 w-4/5 lg:h-72 h-48 lg:w-2/5 select-none"
             src="https://www.youtube.com/embed/X6VaBPzjh6A"
@@ -46,7 +46,7 @@ function Main() {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           ></iframe>
-        </div>
+        </div> */}
         <div className="flex flex-wrap w-full pb-5 justify-center items-center">
           <div className="w-full lg:w-2/5">
             <img
