@@ -18,9 +18,9 @@ const Header = () => {
 
     return (
     <div
-      className={`select-none fixed z-20 bg-black bg-opacity-80 w-screen md:px-16 px-3 ${
+      className={`select-none fixed z-20 bg-black bg-opacity-80 w-screen md:px-16 px-3 overflow-hidden items-center ${
         isNavOpen ? "h-52  will-change-scroll duration-150" : "h-16"
-      } overflow-hidden items-center`}
+      }`}
     >
       <div className=" flex w-full h-16 justify-between items-center">
         <div className="flex gap-5 items-center">
@@ -67,20 +67,20 @@ const Header = () => {
           </Link>
         </div>
       </div>
-      <div className="flex flex-col gap-1 text-lg items-center transition select-none">
-        <Link to="/" className=" w-auto pr-14 text-gray-100 transition-all duration-300 will-change-transform hover:scale-105">
+      <div className="flex flex-col gap-1 text-lg w-10/12 border-2 border-white items-center transition select-none">
+        <Link to="/" className="text-gray-100 transition-all duration-300 will-change-transform hover:scale-105">
           Home
         </Link>
         <hr className=" border-gray-800 w-full" />
-        <Link className=" w-auto pr-14 text-gray-100 transition-all duration-300 will-change-transform hover:scale-105" to="/events">
+        <Link className="text-gray-100 transition-all duration-300 will-change-transform hover:scale-105" to="/events">
           Events
         </Link>
         <hr className=" border-gray-800 w-full" />
-        <Link className=" w-auto pr-14 text-gray-100 transition-all duration-300 will-change-transform hover:scale-105" to="/sponsors">
+        <Link className="text-gray-100 transition-all duration-300 will-change-transform hover:scale-105" to="/sponsors">
           Sponsors
         </Link>
         <hr className=" border-gray-800 w-full" />
-        <Link className=" w-auto pr-14 text-gray-100 transition-all duration-300 will-change-transform hover:scale-105" to="/contact">
+        <Link className="text-gray-100 transition-all duration-300 will-change-transform hover:scale-105" to="/contact">
           Help
         </Link>
       </div>

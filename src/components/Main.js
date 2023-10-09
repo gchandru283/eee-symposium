@@ -81,7 +81,7 @@ function Main() {
                 Accommodation and transportation will be provided.
               </li>
             </ul>
-            <p className="text-cyan-500 text-lg my-4 font-bold">
+            <p className="text-cyan-500 text-lg my-4 font-bold md:text-left text-center">
               Register for any two events with just
               ₹150 of ticket,
             </p>

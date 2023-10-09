@@ -12,7 +12,7 @@ function Sponsors({ sponsors, mediaPartners }) {
             Sponsors
           </p>
         </div>
-        <div class="lg:py-4 mx-5 lg:mx-20 ">
+        <div class="lg:py-4 mx-3 lg:mx-20 ">
           <p class=" lg:text-xl mb-7 lg:pl-12 pl-3">
             Sponsors are our foremost supporters for happening various events in
             this symposium. To visit our sponsorship brochure, Click the button

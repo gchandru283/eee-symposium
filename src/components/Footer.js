@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Footer() {
 
      return (
-    <div className="w-full h-full  bg-gradient-to-t from-slate-500 to-slate-800 lg:py-8 py-3 flex flex-wrap justify-around text-gray-300 gap-7">
+    <div className="w-full h-full bg-gradient-to-t from-slate-500 to-slate-800 lg:p-8 py-3 flex flex-wrap justify-around text-gray-300 gap-7">
       <div className="flex flex-col gap-10">
         <div className="flex flex-col gap-5 ">
           <p className="text-center font-medium text-2xl lg:text-4xl border-b-2 px-2 lg:pb-1 font-oswald text-green-300 border-green-200 m-auto">
@@ -22,7 +22,7 @@ function Footer() {
           <div className="text-center font-medium text-2xl lg:text-4xl m-auto border-b-2 px-2 lg:pb-1 font-oswald text-green-300 border-green-200">
             Address
           </div>
-          <ul className="lg:pl-7 text-lg lg:text-xl lg:scale-110 font-roboto-condensed">
+          <ul className="pl-5 lg:pl-7 text-lg lg:text-xl lg:scale-110 font-roboto-condensed">
             <li>Anna University Regional Campus - CBE,</li>
             <li>Maruthamalai Main Road,</li>
             <li>Navavoor,</li>
@@ -30,15 +30,15 @@ function Footer() {
           </ul>
         </div>
       </div>
-      <div className=" flex justify-center lg:pt-10 select-none">
-        <img src="./assets/icons/au-logo.png" className=" h-44 md:h-48" />
+      <div className=" flex justify-center lg:pt-20 md:px-64 px-16 lg:px-2 select-none ">
+        <img src="./assets/icons/au-logo.png" className="h-40 md:h-48" />
       </div>
 
-      <div className="flex flex-col lg:w-1/3 w-4/5">
+      <div className="flex flex-col lg:w-1/4 items-center">
         <div className="text-center font-medium text-2xl lg:text-4xl mb-5 mx-auto border-b-2 px-2 lg:pb-1 font-oswald text-green-300 border-green-200">
           Contact Us
         </div>
-        <div className="flex flex-col gap-4 lg:gap-7 lg:pl-12 font-roboto-condensed">
+        <div className="flex flex-col gap-4 lg:gap-7  font-roboto-condensed">
           <div className="lg:scale-110">
             <p className="text-xl font-medium">Payment</p>
             <ul className="pl-5 text-lg ">
