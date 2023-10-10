@@ -79,37 +79,37 @@ function Footer() {
       <div className="max-w-2xl w-full h-fit select-none">
         <p className="lg:text-3xl text-2xl font-medium font-fira-sans-condensed px-5 pb-5">Follow us on..</p>
         <div className="flex justify-between lg:px-32 md:px-16 px-12 pb-10 lg:pb-0 tap-highlight-transparent">
-          <Link to="https://www.facebook.com/eknasympo">
+          <Link to="https://www.facebook.com/eknasympo" target="blank">
             <img
               src="./assets/icons/facebook1.png"
               className="h-12 object-contain select-none"
             />
           </Link>
-          <Link to="https://instagram.com/_ekna2k23_">
+          <Link to="https://instagram.com/_ekna2k23_"  target="blank">
             <img
               src="./assets/icons/instagram1.png"
               className="h-12 object-contain select-none"
             />
           </Link>
-          <Link to="mailto:eknasympo@gmail.com">
+          <Link to="mailto:eknasympo@gmail.com" target="blank">
             <img
               src="./assets/icons/mail1.png"
               className="h-12 object-contain select-none"
             />
           </Link>
-          <Link to="https://youtube.com/@eknasympo2k23">
+          <Link to="https://youtube.com/@eknasympo2k23"  target="blank">
             <img
               src="./assets/icons/youtube1.png"
               className="h-12 object-contain select-none"
             />
           </Link>
-          <Link to="https://www.linkedin.com/in/ekna-sympo">
+          <Link to="https://www.linkedin.com/in/ekna-sympo"  target="blank">
             <img
               src="./assets/icons/linkedin1.png"
               className="h-12 object-contain select-none"
             />
           </Link>
-          <Link to="https://x.com/eknasympo">
+          <Link to="https://x.com/eknasympo" target="blank">
             <img
               src="./assets/icons/twitter1.png"
               className="h-12 object-contain select-none"
