@@ -69,7 +69,7 @@ function EventPage({ eventDesc }) {
           ></iframe>
         ) : null}
 
-        <div className="py-5 select-none">
+        <div className="py-5 tap-highlight-transparent">
           <a href={eventDesc.registrationLink} target="blank">
           <button class="bg-sky-700 hover:bg-sky-800 text-white font-semibold text-lg lg:text-xl py-1 lg:py-2 lg:px-5 px-3 mx-10 rounded inline-flex items-center justify-center">
             <img src="/assets/icons/register1.png" className="w-9" />
@@ -123,7 +123,7 @@ function EventPage({ eventDesc }) {
           </ol>
           {eventDesc.note ? (<div className="px-2 lg:pl-20 text-center font-semibold text-md md:text-xl flex flex-wrap gap-x-5 gap-y-1">{eventDesc.note.map((note) => (<div>{note}</div>))}</div>) : null}
         </div>
-              {eventDesc.mailId ? (<p className="font-semibold text-center text-md md:text-xl flex flex-wrap gap-x-2"> Mail Id :<span className="underline underline-offset-4 text-blue-800"><a href={`mailto:${eventDesc.mailId}`}>{eventDesc.mailId}</a></span></p>) : null }
+              {eventDesc.mailId ? (<p className="font-semibold text-center text-md md:text-xl flex flex-wrap gap-x-2"> Mail Id :<span className="underline underline-offset-4 text-blue-800 tap-highlight-transparent"><a href={`mailto:${eventDesc.mailId}`}>{eventDesc.mailId}</a></span></p>) : null }
 
         <div className="lg:w-4/5 w-11/12">
           <span className="text-xl lg:text-3xl font-semibold">

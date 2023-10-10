@@ -78,7 +78,7 @@ function Footer() {
 
       <div className="max-w-2xl w-full h-fit select-none">
         <p className="lg:text-3xl text-2xl font-medium font-fira-sans-condensed px-5 pb-5">Follow us on..</p>
-        <div className="flex justify-between lg:px-32 md:px-16 px-12 pb-10 lg:pb-0">
+        <div className="flex justify-between lg:px-32 md:px-16 px-12 pb-10 lg:pb-0 tap-highlight-transparent">
           <Link to="https://www.facebook.com/eknasympo">
             <img
               src="./assets/icons/facebook1.png"

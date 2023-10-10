@@ -23,7 +23,7 @@ function Sponsors({ sponsors, mediaPartners }) {
           href="https://drive.google.com/file/d/1DIBZhR3g_1dDbkutzcfplx5hM2uij2UV/view?usp=drive_link"
           target="blank"
         >
-          <button class="bg-blue-600 hover:bg-blue-700 hover:scale-105 transition-all font-medium lg:text-xl text-lg lg:px-7 px-5 mx-10 rounded-lg lg:p-2 p-1 text-gray-200 font-sans select-none">
+          <button class="bg-blue-600 hover:bg-blue-700 hover:scale-105 transition-all font-medium lg:text-xl text-lg lg:px-7 px-5 mx-10 rounded-lg lg:p-2 p-1 text-gray-200 font-sans tap-highlight-transparent">
             <span>Sponsors Brochure</span>
           </button>
         </a>
