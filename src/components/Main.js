@@ -37,16 +37,16 @@ function Main() {
           </p>
         </div>
 
-        {/* <div className=" flex justify-center items-center py-5 lg:py-10">
+         <div className=" flex justify-center items-center py-5 lg:py-14">
           <iframe
-            className="mt-5 w-4/5 lg:h-72 h-48 lg:w-2/5 select-none"
-            src="https://www.youtube.com/embed/X6VaBPzjh6A"
+            className="mt-5 w-full md:max-w-xl max-w-xs md:h-80 h-48 select-none"
+            src="https://www.youtube.com/embed/BzIyc3oIRp0?&theme=dark&autoplay=1&fs=1&autohide=2&modestbranding=1&rel=0"
             title="EKNA'23 || It's a grand opening of an amazing event Ekna'23 by AURCC || Department of EEE"
-            frameborder="0"
+            frameborder="1"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           ></iframe>
-        </div> */}
+        </div> 
         <div className="flex flex-wrap w-full pb-5 justify-center items-center">
           <div className="w-full lg:w-2/5">
             <img

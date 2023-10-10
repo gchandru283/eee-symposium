@@ -146,7 +146,7 @@ function App() {
       time: '9 am to 1 pm',
       prize:["Exciting prizes + Certificate"], //Trophy + Certificate
       rules: [
-        'The Team should consist of 4 members.',
+        'The Team should consist of 2 members.',
         'The Event will be based on Basis Electrical and Electronics quizzes or riddles.',        
         'Find the clues,solve the riddles and discover the gem(Component).',        
         'Complete the Final circuit with the gem to win the Treasure .',        
@@ -225,8 +225,8 @@ function App() {
       time: '9 am to 1 pm',
       prize:["Exciting prizes + Certificate"], 
       rules: [
-        'Only individuals are allowed. No teams.',
-        'Only Motors and batteries may be use.',
+        'A team should compulsory consist 2 members',
+        'Only E-waste can be used',
         'Compulsorily bring your model.',
         'Based on the workload winner and runner up will be announced.',
         'Participants are expected to maintain a respectful and good attitude throughout the event. Any form of cheating plagiarism or disruptive will result in immediate disqualification. ',
@@ -291,8 +291,8 @@ function App() {
       rules: [
         'Minimum 2 maximum 4 members per team.',
         'The poster dimension should be 36 inches wide by 40 inches wide .',
-        'Posters will be on display for the duration of conference.',
-        'Presentation-5 min of duration.',
+        'Poster will be displayed during the conference.',
+        'The team will get 5 mins for presentation.',
         'Topic of poster should be clearly mentioned at the top margin.',
         'Font size should be large enough.Normal text should be no smaller than 20 pt.Texts in plots and figures should also be atleast 20 pt.500 words is a good poster length.',
         'Use italics instead of underlining.Keep graphs clean and simple.',

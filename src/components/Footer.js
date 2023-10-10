@@ -52,7 +52,7 @@ function Footer() {
             <p className="text-xl font-medium">General Queries</p>
             <ul className="pl-5 text-lg">
               <li> Gokul - +91 9597208840</li>
-              <li> Jeysri - +91 82209 23564</li>
+              <li> Jeyasri - +91 82209 23564</li>
               <li> Theeksha - +91 6379 111 267</li>
               <li> Chidambaram - +91 6380411852</li>
             </ul>
@@ -62,7 +62,7 @@ function Footer() {
             <p className="text-xl font-medium">Tech events</p>
             <ul className="pl-5 text-lg">
               <li> Srihari - +919360149213.</li>
-              <li>Sruthika - +91 75982 80648</li>
+              <li> Suruthika - +91 75982 80648</li>
             </ul>
           </div>
 

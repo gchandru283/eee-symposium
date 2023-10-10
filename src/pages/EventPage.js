@@ -78,7 +78,7 @@ function EventPage({ eventDesc }) {
         </div>
 
           {eventDesc.template ? (<p className="font-semibold text-center text-md md:text-xl flex flex-wrap gap-x-2"> ** To download IEEE Template,<span className="underline underline-offset-4 text-blue-800"><a href={eventDesc.template}>Click here!</a></span></p>) : null }
-          <p className="font-semibold text-center text-md md:text-xl px-4 w-full md:w-4/5"> *Use the below QR for payment & add NOTE as <span className="font-mono">YourName - EventRegistered (Ex: Name - dance, singing)</span>. Payment proof Screenshot should be attached while registering for an event.</p>
+          <p className="font-semibold text-center text-md md:text-xl px-4 w-full md:w-4/5"> *Use the below QR for payment. Payment proof Screenshot should be attached while registering for an event</p>
           <img src="/assets/qr-code.png" className="lg:p-2 p-1 bg-white lg:w-44 w-40"/>
 
         <div className="lg:w-4/5 w-11/12">

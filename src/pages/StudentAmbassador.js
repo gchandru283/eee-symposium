@@ -55,7 +55,6 @@ function StudentAmbassador() {
               Polish your professional skills for future career opportunities.
             </li>
             <li>Gain valuable volunteer experience.</li>
-            <li>Gain valuable volunteer experience.</li>
             <li>Develop strong leadership skills.</li>
             <li>Increase your self-esteem and self-confidence.</li>
             <li>Opportunity to represent your institution.</li>
