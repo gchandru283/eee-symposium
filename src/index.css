@@ -41,3 +41,8 @@ code {
 background-color: black;
 opacity: 0;}
 
+.tap-highlight-transparent {
+  -webkit-tap-highlight-color: transparent; /* For iOS */
+  /* tap-highlight-color: transparent; For other browsers */
+}
+
