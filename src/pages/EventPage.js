@@ -60,12 +60,10 @@ function EventPage({ eventDesc }) {
 
         {eventDesc.youtubeLink ? (
           <iframe
-            className="mt-5 w-4/5 lg:h-72 h-48 lg:w-2/5"
+            className="mt-5 w-full md:max-w-xl max-w-xs md:h-80 h-48 select-none"
             src={`${eventDesc.youtubeLink}`}
-            title={`${eventDesc.youtubeTitle}`}
-            frameborder="0"
+            frameborder="1"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
           ></iframe>
         ) : null}
 

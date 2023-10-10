@@ -41,11 +41,9 @@ function Main() {
           <iframe
             className="mt-5 w-full md:max-w-xl max-w-xs md:h-80 h-48 select-none"
             src="https://www.youtube.com/embed/BzIyc3oIRp0?&theme=dark&autoplay=1&fs=1&autohide=2&modestbranding=1&rel=0"
-            title="EKNA'23 || It's a grand opening of an amazing event Ekna'23 by AURCC || Department of EEE"
             frameborder="1"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
+            ></iframe>
         </div> 
         <div className="flex flex-wrap w-full pb-5 justify-center items-center">
           <div className="w-full lg:w-2/5">
