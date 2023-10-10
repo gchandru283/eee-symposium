@@ -86,8 +86,8 @@ function Main() {
               ₹150 of ticket,
             </p>
           </div>
-            <a href="/events">
-            <button class="bg-gray-300 hover:bg-gray-200 text-gray-800 font-bold text-xl py-2 px-4 mx-10 rounded inline-flex items-center justify-center tap-highlight-transparent">
+            <a href="/events" className="tap-highlight-transparent">
+            <button class="bg-gray-300 hover:bg-gray-200 text-gray-800 font-bold text-xl py-2 px-4 mx-10 rounded inline-flex items-center justify-center">
               <img src="assets/icons/register.png" className="w-9 " />
               <span>Register</span>
             </button>
