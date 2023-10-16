@@ -16,7 +16,7 @@ function EventPage({ eventDesc }) {
         </div>
         <img
           className="rounded-xl w-4/5 lg:max-w-sm md:max-w-xs object-cover "
-          src={eventDesc.imgUrl}
+          src={eventDesc.imgUrl} alt={eventDesc.eventname}
         />
         <div className=" w-5/6 lg:px-24 flex flex-wrap items-baseline justify-around gap-y-3 py-2">
           <div className="w-32 lg:w-24 md:flex-grow">

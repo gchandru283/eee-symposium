@@ -4,7 +4,6 @@ import Home from './pages/Home';
 import Events from './pages/Events';
 import StudentAmbassador from './pages/StudentAmbassador';
 import Sponsors from './pages/Sponsors';
-import Footer from './components/Footer';
 import EventPage from './pages/EventPage';
 import Contact from './pages/Contact';
 
@@ -322,11 +321,11 @@ function App() {
       time: '2 pm to 6 pm',
       prize:["Exciting prizes + Certificate"], //Trophy + Certificate
       rules: [
-        'Edit should be subtle.',
-        'Team participation is not allowed.',
-        'You may be asked to explain how you enjoyed taking the shot.', 
-        'Photo should be in .jpeg format.',
-        'Photos can be sent using the following methods along with your necessary details.'
+        ' Edit should be subtle.(colour grading only).',
+        ' You may be asked to explain how you enjoyed taking the shot. ',
+        ' Photo should be in .jpg format, ',
+        " No of participant's : Solo participant's with one photograph(individual).",
+        ' Photos can be sent using the following methods along with your necessary details.',
       ],
       themes :[ 'Vintage retro',
                 'Street Photography',
@@ -407,6 +406,7 @@ function App() {
       imgUrl: '/assets/nontechEvents/tango-tippers.jpg',
       registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfCYY4ftAgjHodUKLfTAB1guXGfXZx2cXefv1UvBUr6rw3bdA/viewform?usp=pp_url',
       description: "Get ready to witness the mesmerizing world of freestyle dance at our upcoming competition! Our talented dancers will take the stage and express their creativity and emotions through the art of movement. From graceful contemporary to energetic hip-hop, our dancers will captivate you with their unique styles and storytelling abilities . Don't miss the chance to be part of this thrilling event and witness the magic of freestyle dance in action!",
+      themes:['Folk dance','Western dance','Hip hop','Melody dance'],
       location: 'Main Campus',
       date: 'November 7',
       time: '2 pm to 6 pm',
