@@ -421,7 +421,7 @@ function App() {
       ],
       eventOrganizers: [
        'Sneha K - 7806889146',
-	    'Kalaiselvam G - 8778790392',
+	     'Kalaiselvam G - 8778790392',
        'Ramkumar A - 9344093084'
       ]
     },

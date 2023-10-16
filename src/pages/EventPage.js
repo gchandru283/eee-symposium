@@ -15,10 +15,6 @@ function EventPage({ eventDesc }) {
           {eventDesc.eventDescription}
         </div>
 
-        <div>
-            <div dangerouslySetInnerHTML={{ __html: eventDesc.eventDescription }} />
-      </div>
-
         <img
           className="rounded-xl w-4/5 lg:max-w-sm md:max-w-xs object-cover "
           src={eventDesc.imgUrl} alt={eventDesc.eventname}
@@ -88,7 +84,7 @@ function EventPage({ eventDesc }) {
           <span className="text-xl lg:text-3xl font-semibold">
             Description
           </span>
-          <div className="p-4 lg:pl-14 lg:text-justify pr-0 text-md md:text-xl ">
+          <div className="p-4 lg:pl-14 lg:text-justify pr-0 text-md md:text-xl " da>
             {eventDesc.description}
           </div>         
         </div>
