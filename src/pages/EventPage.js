@@ -14,6 +14,11 @@ function EventPage({ eventDesc }) {
         <div className="text-center lg:text-5xl text-3xl font-semibold pb-3 font-labrada">
           {eventDesc.eventDescription}
         </div>
+
+        <div>
+            <div dangerouslySetInnerHTML={{ __html: eventDesc.eventDescription }} />
+      </div>
+
         <img
           className="rounded-xl w-4/5 lg:max-w-sm md:max-w-xs object-cover "
           src={eventDesc.imgUrl} alt={eventDesc.eventname}
@@ -116,7 +121,7 @@ function EventPage({ eventDesc }) {
           </span>
           <ol className="p-4 lg:pl-20 pl-8 lg:text-justify pr-0 text-md md:text-xl ">
             {eventDesc.rules.map((rule) => (
-              <li className="list-decimal py-0.5">{rule}</li>
+              <li className="list-decimal py-0.5" dangerouslySetInnerHTML={{ __html: rule }} ></li>
               ))}
           </ol>
           {eventDesc.note ? (<div className="px-2 lg:pl-20 text-center font-semibold text-md md:text-xl flex flex-wrap gap-x-5 gap-y-1">{eventDesc.note.map((note) => (<div>{note}</div>))}</div>) : null}

@@ -415,7 +415,7 @@ function App() {
         'Only Solo performance.',
         'Sound track will be played on the spot the participant will be perform.',
         'Maximum timing 2 minutes.',
-        'Round 1 - Prelims & Round 2 - Final',
+        'Rounds<br>&nbsp; Round 1 - Prelims <br>&nbsp; Round 2 - Final',
         'No vulgarity in performance and costumes.',
         'Judges decision will be final.'
       ],
