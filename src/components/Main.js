@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Main() {
   return (
@@ -44,7 +45,7 @@ function Main() {
             frameborder="1"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             ></iframe>
-        </div> 
+        </div>
         <div className="flex flex-wrap w-full pb-5 justify-center items-center">
           <div className="w-full lg:w-2/5">
             <img

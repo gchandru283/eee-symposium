@@ -24,10 +24,10 @@ const Header = () => {
     >
       <div className=" flex w-full h-16 justify-between items-center">
         <div className="flex gap-5 items-center">
-          <img
+          <a href="/"><img
             src="/assets/icons/ekna_side.png"
             className="object-contain md:h-14 h-10"
-          />
+          /></a>
           <div className="hidden lg:inline bg-orange-100 text-gray-800 font-dm-sans font-light hover:bg-yellow-100 text-sm items-center px-2 py-0.5 rounded-md transition-all duration-500 will-change-transform hover:scale-105">
             <a href="/student-ambassador">Student Ambassador</a>
           </div>

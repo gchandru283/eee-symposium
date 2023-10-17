@@ -11,7 +11,7 @@ function Footer() {
             Location
           </p>
           <iframe
-            className="mx-auto border-2 border-y-4 border-slate-700 select-none"
+            className="mx-auto border-2 border-y-4 border-slate-700 hover:scale-105 duration-500 active:scale-105 tap-highlight-transparent"
             id="gmap-canvas"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.9491172651287!2d76.88388301532656!3d11.04244189214134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85910327ab1e3%3A0x9f7a2b4ef20fe07!2sAnna%20University%20Regional%20Campus%2C%20Coimbatore!5e0!3m2!1sen!2sin!4v1653732177820!5m2!1sen!2sin"
             title="Map"
@@ -30,7 +30,7 @@ function Footer() {
           </ul>
         </div>
       </div>
-      <div className=" flex justify-center lg:pt-20 md:px-64 px-16 lg:px-2 select-none ">
+      <div className=" flex justify-center lg:pt-20 md:px-64 px-16 lg:px-2 select-none">
         <img src="./assets/icons/au-logo.png" className="h-40 md:h-48" />
       </div>
 
@@ -82,37 +82,37 @@ function Footer() {
           <Link to="https://www.facebook.com/eknasympo" target="blank">
             <img
               src="./assets/icons/facebook1.png"
-              className="h-12 object-contain select-none"
+              className="h-12 object-contain select-none hover:scale-110 duration-300 active:scale-110"
             />
           </Link>
           <Link to="https://instagram.com/_ekna2k23_"  target="blank">
             <img
               src="./assets/icons/instagram1.png"
-              className="h-12 object-contain select-none"
+              className="h-12 object-contain select-none hover:scale-110 duration-300 active:scale-110"
             />
           </Link>
           <Link to="mailto:eknasympo@gmail.com" target="blank">
             <img
               src="./assets/icons/mail1.png"
-              className="h-12 object-contain select-none"
+              className="h-12 object-contain select-none hover:scale-110 duration-300 active:scale-110"
             />
           </Link>
           <Link to="https://youtube.com/@eknasympo2k23"  target="blank">
             <img
               src="./assets/icons/youtube1.png"
-              className="h-12 object-contain select-none"
+              className="h-12 object-contain select-none hover:scale-110 duration-300 active:scale-110"
             />
           </Link>
           <Link to="https://www.linkedin.com/in/ekna-sympo"  target="blank">
             <img
               src="./assets/icons/linkedin1.png"
-              className="h-12 object-contain select-none"
+              className="h-12 object-contain select-none hover:scale-110 duration-300 active:scale-110"
             />
           </Link>
           <Link to="https://x.com/eknasympo" target="blank">
             <img
               src="./assets/icons/twitter1.png"
-              className="h-12 object-contain select-none"
+              className="h-12 object-contain select-none hover:scale-110 duration-300 active:scale-110"
             />
           </Link>
         </div>
