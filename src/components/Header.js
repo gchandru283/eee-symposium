@@ -19,7 +19,7 @@ const Header = () => {
     return (
     <div
       className={`select-none fixed z-20 bg-black bg-opacity-80 w-screen md:px-16 px-3 overflow-hidden items-center ${
-        isNavOpen ? "h-52  will-change-scroll duration-150" : "h-16"
+        isNavOpen ? "h-52 will-change-scroll duration-150" : "h-16"
       }`}
     >
       <div className=" flex w-full h-16 justify-between items-center">
@@ -85,6 +85,7 @@ const Header = () => {
         </Link>
       </div>
     </div>
+
   );
 };
 

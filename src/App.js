@@ -7,15 +7,6 @@ import Sponsors from './pages/Sponsors';
 import EventPage from './pages/EventPage';
 import Contact from './pages/Contact';
 
-const ScrollToTop = () => {
-  const { pathname } = useLocation();
-
-  React.useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
-
-  return null;
-};
 
 function App() {
 
@@ -289,7 +280,7 @@ function App() {
       themes:[' Free style ideas'],
       rules: [
         'Minimum 2 maximum 4 members per team.',
-        'The poster dimension should be 36 inches wide by 40 inches wide .',
+        'The poster dimension should be 11.7 x 16.5 inches (A3).',
         'Poster will be displayed during the conference.',
         'The team will get 5 mins for presentation.',
         'Topic of poster should be clearly mentioned at the top margin.',
@@ -681,7 +672,7 @@ function App() {
 
   return (
     <Router>
-      <div>
+      
         <Routes>
         
           <Route element={<Home/>} path="/" /> 
@@ -712,8 +703,8 @@ function App() {
           <Route element={<EventPage eventDesc={eventsList[20]}/>} path='/events/non-tech-event/11'/>
           <Route element={<EventPage eventDesc={eventsList[21]}/>} path='/events/non-tech-event/12'/>
         </Routes>
-        <ScrollToTop />
-      </div>
+      
+ 
     </Router>
   );
 }
