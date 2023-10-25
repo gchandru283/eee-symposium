@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import React from 'react';
 import Home from './pages/Home';
 import Events from './pages/Events';
@@ -23,7 +23,7 @@ function App() {
       location: 'Main Campus',
       date: 'November 7',
       time: '9 am to 1 pm',
-      prize:["Exciting prizes + Certificate"], //Trophy + Certificate
+      prize:["Exciting prizes + Certificate"],
       rules: [
         'The competition unfolds in three distinct phases: Preliminary, Secondary, and Finale.',
       'Teams progressing through each round will be contingent on their ability to navigate it successfully, with careful consideration given to the time taken.',
@@ -52,7 +52,7 @@ function App() {
       location: 'Main Campus',
       date: 'November 7',
       time: '9 am to 1 pm',
-      prize:["Exciting prizes + Certificate"], //Trophy + Certificate
+      prize:["Exciting prizes + Certificate"],
       rules: [
         'Two rounds will be conducted.',
         'Top 10 scorers from the first round will compete in the second round for top 3 positions.',
@@ -81,7 +81,7 @@ function App() {
       location: 'Main Campus',
       date: 'November 7',
       time: '9 am to 1 pm',
-      prize:["Exciting prizes + Certificate"], //Trophy + Certificate
+      prize:["Exciting prizes + Certificate"],
       rules: [
         'It is an individual event where two rounds will be conducted.',
         'In the first round, technical topics written in a lot and on the spot,the given topic should be spoken for 2-3 minutes.',
@@ -109,7 +109,7 @@ function App() {
       location: 'Main Campus',
       date: 'November 7',
       time: '9 am to 1 pm',
-      prize:["Exciting prizes + Certificate"], //Trophy + Certificate
+      prize:["Exciting prizes + Certificate"],
       rules: [
         'Each team should have 2 participants.',
         'Only one device is allowed.',
@@ -134,7 +134,7 @@ function App() {
       location: 'Main Campus',
       date: 'November 7',
       time: '9 am to 1 pm',
-      prize:["Exciting prizes + Certificate"], //Trophy + Certificate
+      prize:["Exciting prizes + Certificate"],
       rules: [
         'The Team should consist of 2 members.',
         'The Event will be based on Basis Electrical and Electronics quizzes or riddles.',        
@@ -160,7 +160,7 @@ function App() {
       location: 'Main Campus',
       date: 'November 7',
       time: '9 am to 1 pm',
-      prize:["Exciting prizes + Certificate"], //Trophy + Certificate
+      prize:["Exciting prizes + Certificate"],
       rules: [
         'All should bring 1.5 litre bottle only.',
         'Best of 2 chance(distance base).',
@@ -186,7 +186,7 @@ function App() {
       location: 'Main Campus',
       date: 'November 7',
       time: '9 am to 1 pm',
-      prize:['Exciting prizes + Certificate'], //Trophy + Certificate
+      prize:['Exciting prizes + Certificate'],
       rules: [
         'A team should consist of two members. ',
         'There will be two rounds. First round topics will be reveal two days before the event, kindly prepare the model. ',       
@@ -242,7 +242,7 @@ function App() {
       date: 'November 7',
       time: '9 am to 1 pm',
       mailId:'eknatechnicalevents@gmail.com',
-      prize:["Exciting prizes + Certificate"], //Trophy + Certificate
+      prize:["Exciting prizes + Certificate"],
       rules: [
         'Maximum number of participants in a team is three.',
         'One person may not be a part of multiple teams for the same event.',
@@ -276,7 +276,7 @@ function App() {
       location: 'Main Campus',
       date: 'November 7',
       time: '9 am to 1 pm',
-      prize:["Exciting prizes + Certificate"], //Trophy + Certificate
+      prize:["Exciting prizes + Certificate"],
       themes:[' Free style ideas'],
       rules: [
         'Minimum 2 maximum 4 members per team.',
@@ -310,7 +310,7 @@ function App() {
       location: 'Main Campus',
       date: 'November 7',
       time: '2 pm to 6 pm',
-      prize:["Exciting prizes + Certificate"], //Trophy + Certificate
+      prize:["Exciting prizes + Certificate"],
       rules: [
         ' Edit should be subtle.(colour grading only).',
         ' You may be asked to explain how you enjoyed taking the shot. ',
@@ -345,7 +345,7 @@ function App() {
       location: 'Main Campus',
       date: 'November 7',
       time: '2 pm to 6 pm',
-      prize:["Exciting prizes + Certificate"], //Trophy + Certificate
+      prize:["Exciting prizes + Certificate"],
       rules: [
         'Any style of Dance is allowed to perform.',
         'Maximum timing 3 minutes.',
@@ -373,7 +373,7 @@ function App() {
       location: 'Main Campus',
       date: 'November 7',
       time: '2 pm to 6 pm',
-      prize:["Exciting prizes + Certificate"], //Trophy + Certificate
+      prize:["Exciting prizes + Certificate"],
       rules: [
         'Team consist of minimum 5 participants and maximum upto 10 participants.',
         'Any style of dance is allowed.',
@@ -401,7 +401,7 @@ function App() {
       location: 'Main Campus',
       date: 'November 7',
       time: '2 pm to 6 pm',
-      prize:["Exciting prizes + Certificate"], //Trophy + Certificate
+      prize:["Exciting prizes + Certificate"],
       rules: [
         'Only Solo performance.',
         'Sound track will be played on the spot the participant will be perform.',
@@ -429,7 +429,7 @@ function App() {
       location: 'Main Campus',
       date: 'November 7',
       time: '2 pm to 6 pm',
-      prize:["Exciting prizes + Certificate"], //Trophy + Certificate
+      prize:["Exciting prizes + Certificate"],
       rules: [
         'Duration maximum 5 minutes.',
         'Avoid hate speech, offensive content, or material that may incite violence or discrimination. Comedy should entertain without causing harm.',
@@ -455,7 +455,7 @@ function App() {
       location: 'Main Campus',
       date: 'November 7',
       time: '2 pm to 6 pm',
-      prize:["Exciting prizes + Certificate"], //Trophy + Certificate
+      prize:["Exciting prizes + Certificate"],
       rules: [
         'Duration of the song can be 3 to 4 minutes.',
         'The song can be either in the form of classical or western.',
@@ -483,7 +483,7 @@ function App() {
       location: 'Main Campus',
       date: 'November 7',
       time: '2 pm to 6 pm',
-      prize:["Exciting prizes + Certificate"], //Trophy + Certificate
+      prize:["Exciting prizes + Certificate"],
       rules: [
         'A Team should consist of Two Members.',
         'There will be Three rounds.Those who crack the First Round and Second Round Criteria shall attend the Third Round. Third Round will be the Final Deciding Round.',
@@ -510,7 +510,7 @@ function App() {
       location: 'Main Campus',
       date: 'November 7',
       time: '2 pm to 6 pm',
-      prize:["Exciting prizes + Certificate"], //Trophy + Certificate
+      prize:["Exciting prizes + Certificate"],
       rules: [
         ' No of participants – 1',
         'Artwork can be abstract, still life, symbolism, cubism, landscape, portraits etc.',
@@ -540,7 +540,7 @@ function App() {
       location: 'Main Campus',
       date: 'November 7',
       time: '2 pm to 6 pm',
-      prize:["Exciting prizes + Certificate"], //Trophy + Certificate
+      prize:["Exciting prizes + Certificate"],
       rules: [
         'Only 3×3×3 cubes are allowed.',
         "All must bring their own Rubik's cube. No cubes will be provided here.",
@@ -570,7 +570,7 @@ function App() {
       mailId:'akkashk08@gmail.com',
       date: 'November 7',
       time: '2 pm to 6 pm',
-      prize:["Exciting prizes + Certificate"], //Trophy + Certificate
+      prize:["Exciting prizes + Certificate"],
       rules: [
         'Duration: Maximum 10 minutes.',
         'Any theme of your content.',        
@@ -599,7 +599,7 @@ function App() {
       location: 'Main Campus',
       date: 'November 7',
       time: '2 pm to 6 pm',
-      prize:["Exciting prizes + Certificate"], //Trophy + Certificate
+      prize:["Exciting prizes + Certificate"],
       rules: [
         'Group Performance: Maximum: 10 participants',
 		'Select any theme accordingly',
@@ -633,7 +633,7 @@ function App() {
       location: 'Main Campus',
       date: 'November 7',
       time: '2 pm to 6 pm',
-      prize:["Exciting prizes + Certificate"], //Trophy + Certificate
+      prize:["Exciting prizes + Certificate"],
       rules: [
         'Group Performance: Maximum 8 members per team.',
         'Duration: 4-5 minutes.',
