@@ -37,7 +37,7 @@ const Header = () => {
           onClick={toggleNav}
           src="/assets/icons/menu.png"
         />
-        <div className=" lg:hidden bg-orange-100 text-gray-800 font-dm-sans font-light hover:bg-yellow-100 text-sm items-center px-2 py-0.5 rounded-md ">
+        <div className=" lg:hidden bg-orange-100 text-gray-800 font-dm-sans font-light hover:bg-yellow-100 text-sm items-center px-2 py-0.5 rounded-md tap-highlight-transparent">
           <a href="/student-ambassador">Student Ambassador</a>
         </div>
         <div className="hidden lg:flex w-full max-w-sm md:text-xl lg:text-2xl justify-between text-white">
