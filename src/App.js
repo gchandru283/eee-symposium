@@ -389,8 +389,8 @@ function App() {
       ]
     },
     {
-      eventName: 'Tongo Tippers',
-      eventDescription:'Tongo Tippers - Free Style',
+      eventName: 'Tango Tippers',
+      eventDescription:'Tango Tippers - Free Style',
       id: 'non-tech-event-4',
       eventUrl:'/events/non-tech-event/4',
       type: 1,
