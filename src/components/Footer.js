@@ -1,10 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 function Footer() {
+  
+  const socialMedia = [
+    {
+      id:1, src:"./assets/icons/facebook.png", src1:"./assets/icons/facebook1.png", link:"https://www.facebook.com/eknasympo"
+    },
+    {
+      id:2, src:"./assets/icons/instagram.png",src1:"./assets/icons/instagram1.png", link:"https://instagram.com/_ekna2k23_"
+    },
+    {
+      id:3, src:"./assets/icons/mail.png",src1:"./assets/icons/mail1.png", link:"mailto:eknasympo@gmail.com"
+    },
+    {
+      id:4, src:"./assets/icons/youtube.png",src1:"./assets/icons/youtube1.png", link:"https://youtube.com/@eknasympo2k23"
+    }, 
+    {
+      id:5, src:"./assets/icons/linkedin.png",src1:"./assets/icons/linkedin1.png", link:"https://www.linkedin.com/in/ekna-sympo"
+    },
+    {
+      id:6, src:"./assets/icons/twitter.png",src1:"./assets/icons/twitter1.png", link:"https://x.com/eknasympo"
+    },
+  ];
+  const [mouseHover,setMouseHover] = useState();
 
      return (
-    <div className="w-full h-full bg-gradient-to-t from-slate-500 to-slate-800 lg:p-8 py-3 flex flex-wrap justify-around text-gray-300 gap-7">
+    <div className="w-full h-full bg-gradient-to-t from-slate-400 to-slate-800 lg:p-8 py-3 flex flex-wrap justify-around text-gray-300 gap-7">
       <div className="flex flex-col gap-10">
         <div className="flex flex-col gap-5 ">
           <p className="text-center font-medium text-2xl lg:text-4xl border-b-2 px-2 lg:pb-1 font-oswald text-green-300 border-green-200 m-auto">
@@ -79,46 +101,17 @@ function Footer() {
       <div className="max-w-2xl w-full h-fit select-none">
         <p className="lg:text-3xl text-2xl font-medium font-fira-sans-condensed px-5 pb-5">Follow us on..</p>
         <div className="flex justify-between lg:px-32 md:px-16 px-12 pb-10 lg:pb-0 tap-highlight-transparent">
-          <Link to="https://www.facebook.com/eknasympo" target="blank">
+        {socialMedia.map((icon) => (
+        <Link to={icon.link} target="blank" key={icon.id} onMouseEnter={()=>setMouseHover(icon.id)} onMouseLeave={()=>setMouseHover(null)}>
             <img
-              src="./assets/icons/facebook1.png"
+              src={mouseHover === icon.id ? icon.src : icon.src1}
               className="h-12 object-contain select-none hover:scale-110 duration-300 active:scale-110"
             />
-          </Link>
-          <Link to="https://instagram.com/_ekna2k23_"  target="blank">
-            <img
-              src="./assets/icons/instagram1.png"
-              className="h-12 object-contain select-none hover:scale-110 duration-300 active:scale-110"
-            />
-          </Link>
-          <Link to="mailto:eknasympo@gmail.com" target="blank">
-            <img
-              src="./assets/icons/mail1.png"
-              className="h-12 object-contain select-none hover:scale-110 duration-300 active:scale-110"
-            />
-          </Link>
-          <Link to="https://youtube.com/@eknasympo2k23"  target="blank">
-            <img
-              src="./assets/icons/youtube1.png"
-              className="h-12 object-contain select-none hover:scale-110 duration-300 active:scale-110"
-            />
-          </Link>
-          <Link to="https://www.linkedin.com/in/ekna-sympo"  target="blank">
-            <img
-              src="./assets/icons/linkedin1.png"
-              className="h-12 object-contain select-none hover:scale-110 duration-300 active:scale-110"
-            />
-          </Link>
-          <Link to="https://x.com/eknasympo" target="blank">
-            <img
-              src="./assets/icons/twitter1.png"
-              className="h-12 object-contain select-none hover:scale-110 duration-300 active:scale-110"
-            />
-          </Link>
+          </Link>))}
+         
         </div>
       </div>
     </div>
   );
 }
-
 export default Footer;

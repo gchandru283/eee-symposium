@@ -189,7 +189,7 @@ function App() {
       prize:['Exciting prizes + Certificate'],
       rules: [
         'A team should consist of two members. ',
-        'There will be two rounds. First round topics will be reveal two days before the event, kindly prepare the model. ',       
+        'There will be two rounds. First round topics are,<br>&nbsp; &nbsp; &nbsp; i. Drone <br> &nbsp; &nbsp;&nbsp; ii. Electric Machines <br> &nbsp; &nbsp; iii. Indoor Robotics<br> kindly prepare the model. ',       
         'Based on the first round results, two teams per topic will be qualify for second round. ',
         'Second round will be the final round . ',
         'Participants are expected to maintain a respectful and good attitude throughout the event. Any form of cheating plagiarism or disruptive will result in immediate disqualification. ',
