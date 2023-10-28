@@ -2,7 +2,10 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const Header = () => {
-  
+  const [mouseHover,setMouseHover] = useState(true);
+const toggleHover = ()=>{
+    setMouseHover(!mouseHover);
+}
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   const toggleNav = () => {

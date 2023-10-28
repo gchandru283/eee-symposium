@@ -1,7 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 function Main() {
+     
   return (
     <div className="">
       <section className="flex h-screen w-100 bg-gradient-to-b from-black to-slate-950 justify-center items-center ">
@@ -16,6 +16,7 @@ function Main() {
           <h2 className="text-4xl lg:text-6xl my-5 text-center font-oswald font-medium text-green-400">
             About Ekna'23
           </h2>
+          
           <p className="lg:text-justify text-white lg:text-2xl text-lg lg:pt-10 pt-5">
             Ekna'23 is a National Level Techno-Cultural Fest that will be held
             on November 7,2023. It is a whimsical creation of the staff and
@@ -37,6 +38,8 @@ function Main() {
             on November 7,2023.
           </p>
         </div>
+
+        
 
          <div className=" flex justify-center items-center py-5 lg:py-14">
           <iframe
@@ -99,6 +102,6 @@ function Main() {
       </section>
     </div>
   );
-}
 
+      }
 export default Main;
