@@ -1,37 +1,57 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 function Footer() {
   const preloadedImages = {};
-  const [mouseHover,setMouseHover] = useState();
+  const [mouseHover, setMouseHover] = useState();
   const socialMedia = [
     {
-      id:1, src:"./assets/icons/facebook.png", src1:"./assets/icons/facebook1.png", link:"https://www.facebook.com/eknasympo"
+      id: 1,
+      src: "./assets/icons/facebook.png",
+      src1: "./assets/icons/facebook1.png",
+      link: "https://www.facebook.com/eknasympo",
     },
     {
-      id:2, src:"./assets/icons/instagram.png",src1:"./assets/icons/instagram1.png", link:"https://instagram.com/_ekna2k23_"
+      id: 2,
+      src: "./assets/icons/instagram.png",
+      src1: "./assets/icons/instagram1.png",
+      link: "https://instagram.com/_ekna2k23_",
     },
     {
-      id:3, src:"./assets/icons/mail.png",src1:"./assets/icons/mail1.png", link:"mailto:eknasympo@gmail.com"
+      id: 3,
+      src: "./assets/icons/mail.png",
+      src1: "./assets/icons/mail1.png",
+      link: "mailto:eknasympo@gmail.com",
     },
     {
-      id:4, src:"./assets/icons/youtube.png",src1:"./assets/icons/youtube1.png", link:"https://youtube.com/@eknasympo2k23"
-    }, 
-    {
-      id:5, src:"./assets/icons/linkedin.png",src1:"./assets/icons/linkedin1.png", link:"https://www.linkedin.com/in/ekna-sympo"
+      id: 4,
+      src: "./assets/icons/youtube.png",
+      src1: "./assets/icons/youtube1.png",
+      link: "https://youtube.com/@eknasympo2k23",
     },
     {
-      id:6, src:"./assets/icons/twitter.png",src1:"./assets/icons/twitter1.png", link:"https://x.com/eknasympo"
+      id: 5,
+      src: "./assets/icons/linkedin.png",
+      src1: "./assets/icons/linkedin1.png",
+      link: "https://www.linkedin.com/in/ekna-sympo",
+    },
+    {
+      id: 6,
+      src: "./assets/icons/twitter.png",
+      src1: "./assets/icons/twitter1.png",
+      link: "https://x.com/eknasympo",
     },
   ];
-  
-  socialMedia.map((icon) => {
-    
-    if (!preloadedImages[icon.id]) {
-      preloadedImages[icon.id] = new Image();
-      preloadedImages[icon.id].src = icon.src1;
-    }})
-  
+
+  useEffect(() => {
+    socialMedia.map((icon) => {
+      if (!preloadedImages[icon.id]) {
+        preloadedImages[icon.id] = new Image();
+        preloadedImages[icon.id].src = icon.src1;
+      }
+    });
+  }, []);
+
   return (
     <div className="w-full h-full bg-gradient-to-t from-slate-400 to-slate-800 lg:p-8 py-3 flex flex-wrap justify-around text-gray-300 gap-7">
       <div className="flex flex-col gap-10">
@@ -106,16 +126,24 @@ function Footer() {
       </div>
 
       <div className="max-w-2xl w-full h-fit select-none">
-        <p className="lg:text-3xl text-2xl font-medium font-fira-sans-condensed px-5 pb-5">Follow us on..</p>
+        <p className="lg:text-3xl text-2xl font-medium font-fira-sans-condensed px-5 pb-5">
+          Follow us on..
+        </p>
         <div className="flex justify-between lg:px-32 md:px-16 px-12 pb-10 lg:pb-0 tap-highlight-transparent">
-        {socialMedia.map((icon) => (
-        <Link to={icon.link} target="blank" key={icon.id} onMouseEnter={()=>setMouseHover(icon.id)} onMouseLeave={()=>setMouseHover(null)}>
-            <img
-              src={mouseHover === icon.id ? icon.src : preloadedImages[icon.id].src}
-              className="h-12 object-contain"
-            />
-          </Link>))}
-         
+          {socialMedia.map((icon) => (
+            <Link
+              to={icon.link}
+              target="blank"
+              key={icon.id}
+              onMouseEnter={() => setMouseHover(icon.id)}
+              onMouseLeave={() => setMouseHover(null)}
+            >
+              <img
+                src={mouseHover === icon.id ? icon.src : preloadedImages[icon.id].src}
+                className="h-12 object-contain"
+              />
+            </Link>
+          ))}
         </div>
       </div>
     </div>
