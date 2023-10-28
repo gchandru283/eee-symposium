@@ -112,7 +112,7 @@ function Footer() {
         <Link to={icon.link} target="blank" key={icon.id} onMouseEnter={()=>setMouseHover(icon.id)} onMouseLeave={()=>setMouseHover(null)}>
             <img
               src={mouseHover === icon.id ? icon.src : preloadedImages[icon.id].src}
-              className="h-12 object-contain select-none hover:scale-110 transition-all active:scale-110"
+              className="h-12 object-contain"
             />
           </Link>))}
          
