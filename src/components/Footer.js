@@ -3,14 +3,7 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   const preloadedImages = {};
-
-{socialMedia.map((icon) => {
-  
-  if (!preloadedImages[icon.id]) {
-    preloadedImages[icon.id] = new Image();
-    preloadedImages[icon.id].src = icon.src1;
-  }})}
-  
+  const [mouseHover,setMouseHover] = useState();
   const socialMedia = [
     {
       id:1, src:"./assets/icons/facebook.png", src1:"./assets/icons/facebook1.png", link:"https://www.facebook.com/eknasympo"
@@ -31,9 +24,15 @@ function Footer() {
       id:6, src:"./assets/icons/twitter.png",src1:"./assets/icons/twitter1.png", link:"https://x.com/eknasympo"
     },
   ];
-  const [mouseHover,setMouseHover] = useState();
-
-     return (
+  
+  socialMedia.map((icon) => {
+    
+    if (!preloadedImages[icon.id]) {
+      preloadedImages[icon.id] = new Image();
+      preloadedImages[icon.id].src = icon.src1;
+    }})
+  
+  return (
     <div className="w-full h-full bg-gradient-to-t from-slate-400 to-slate-800 lg:p-8 py-3 flex flex-wrap justify-around text-gray-300 gap-7">
       <div className="flex flex-col gap-10">
         <div className="flex flex-col gap-5 ">
@@ -113,7 +112,7 @@ function Footer() {
         <Link to={icon.link} target="blank" key={icon.id} onMouseEnter={()=>setMouseHover(icon.id)} onMouseLeave={()=>setMouseHover(null)}>
             <img
               src={mouseHover === icon.id ? icon.src : preloadedImages[icon.id].src}
-              className="h-12 object-contain select-none hover:scale-110 active:scale-110"
+              className="h-12 object-contain select-none hover:scale-110 transition-all active:scale-110"
             />
           </Link>))}
          
