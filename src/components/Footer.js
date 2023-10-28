@@ -2,6 +2,14 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 function Footer() {
+  const preloadedImages = {};
+
+{socialMedia.map((icon) => {
+  
+  if (!preloadedImages[icon.id]) {
+    preloadedImages[icon.id] = new Image();
+    preloadedImages[icon.id].src = icon.src1;
+  }})}
   
   const socialMedia = [
     {
@@ -104,7 +112,7 @@ function Footer() {
         {socialMedia.map((icon) => (
         <Link to={icon.link} target="blank" key={icon.id} onMouseEnter={()=>setMouseHover(icon.id)} onMouseLeave={()=>setMouseHover(null)}>
             <img
-              src={mouseHover === icon.id ? icon.src : icon.src1}
+              src={mouseHover === icon.id ? icon.src : preloadedImages[icon.id].src}
               className="h-12 object-contain select-none hover:scale-110 active:scale-110"
             />
           </Link>))}
