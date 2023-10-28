@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const Header = () => {
+  
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   const toggleNav = () => {
@@ -40,7 +41,8 @@ const Header = () => {
         <div className=" lg:hidden bg-orange-100 text-gray-800 font-dm-sans font-light hover:bg-yellow-100 text-sm items-center px-2 py-0.5 rounded-md tap-highlight-transparent">
           <a href="/student-ambassador">Student Ambassador</a>
         </div>
-        <div className="hidden lg:flex w-full max-w-sm md:text-xl lg:text-2xl justify-between text-white">
+        
+        <div className="hidden lg:flex w-full max-w-sm md:text-xl lg:text-2xl justify-between items-center text-white">
           <Link
             to="/"
             className="transition-all duration-500 will-change-transform hover:scale-110"
