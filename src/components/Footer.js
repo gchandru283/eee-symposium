@@ -105,7 +105,7 @@ function Footer() {
         <Link to={icon.link} target="blank" key={icon.id} onMouseEnter={()=>setMouseHover(icon.id)} onMouseLeave={()=>setMouseHover(null)}>
             <img
               src={mouseHover === icon.id ? icon.src : icon.src1}
-              className="h-12 object-contain select-none hover:scale-110 duration-300 active:scale-110"
+              className="h-12 object-contain select-none hover:scale-110 active:scale-110"
             />
           </Link>))}
          
