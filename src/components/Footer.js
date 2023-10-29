@@ -65,7 +65,7 @@ function Footer() {
             <ul className="pl-5 text-lg ">
               <li> Jegan - +91 9025450960</li>
               <li> Gowtham - +91 8778293837</li>
-              <li> UPI ID - 9025450960728@paytm</li>
+              <li> UPI ID - ravijegan2003-1@oksbi</li>
             </ul>
           </div>
 
