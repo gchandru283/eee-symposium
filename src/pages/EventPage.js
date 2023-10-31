@@ -95,7 +95,7 @@ function EventPage({ eventDesc }) {
           (<a href={eventDesc.registrationLink} target="blank">
           <button class="bg-sky-700 hover:bg-sky-800 text-white font-semibold text-lg lg:text-xl py-1 lg:py-2 lg:px-5 px-3 mx-10 rounded inline-flex items-center justify-center">
             <img src="/assets/icons/register1.png" className="w-9" />
-            <span>Register Now</span>
+            <span>Oops! Registration Closed</span>
           </button></a>)}
         </div>
 
