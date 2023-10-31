@@ -95,7 +95,7 @@ function Main() {
             </button>
           </a>
           <div className="lg:text-xl text-md font-semibold text-yellow-400 text-center w-full flex justify-center flex-wrap lg:gap-x-4 gap-x-2 px-10 pt-10">
-                <p>**Registration Extended till  : Nov 5th - 6:00 PM</p> 
+                <p>**Registration Extended till  Nov 5th - 6:00 PM</p> 
           </div>
 
         </div>
