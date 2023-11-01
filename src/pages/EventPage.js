@@ -87,16 +87,15 @@ function EventPage({ eventDesc }) {
         ) : null}
 
         <div className="py-5 tap-highlight-transparent">
-          { timeExpired ?
-          (<button class="bg-orange-500 text-white font-semibold text-lg lg:text-xl py-1 lg:py-2 lg:px-5 px-3 mx-10 rounded cursor-not-allowed inline-flex items-center justify-center">
-             <img src="/assets/icons/register1.png" className="w-9" />
-             <span>Oops! Registration Closed</span>
-          </button>) :  
+          { eventDesc.eventName == "Avant Garde" || eventDesc.eventName == "Rythmic Squad" ?  
           (<a href={eventDesc.registrationLink} target="blank">
           <button class="bg-sky-700 hover:bg-sky-800 text-white font-semibold text-lg lg:text-xl py-1 lg:py-2 lg:px-5 px-3 mx-10 rounded inline-flex items-center justify-center">
             <img src="/assets/icons/register1.png" className="w-9" />
             <span> Register Now </span>
-          </button></a>)}
+          </button></a>) : (<button class="bg-orange-500 text-white font-semibold text-lg lg:text-xl py-1 lg:py-2 lg:px-5 px-3 mx-10 rounded cursor-not-allowed inline-flex items-center justify-center">
+             <img src="/assets/icons/register1.png" className="w-9" />
+             <span>Oops! Registration Closed</span>
+          </button>)}
         </div>
 
           {eventDesc.template ? (<p className="font-semibold text-center text-md md:text-xl flex flex-wrap gap-x-2"> ** To download IEEE Template,<span className="underline underline-offset-4 text-blue-800"><a href={eventDesc.template}>Click here!</a></span></p>) : null }
