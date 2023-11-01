@@ -87,7 +87,11 @@ function EventPage({ eventDesc }) {
         ) : null}
 
         <div className="py-5 tap-highlight-transparent">
+<<<<<<< HEAD
           { eventDesc.type == "0" || eventDesc.eventName === "Quizzathon" || eventDesc.eventName === "Tango Tippers" ?
+=======
+          { eventDesc.eventDescription === "Paper Presentation" ?
+>>>>>>> c70e1960325f8233c45bd99d3be242c114d0f5ce
           (<button class="bg-orange-500 text-white font-semibold text-lg lg:text-xl py-1 lg:py-2 lg:px-5 px-3 mx-10 rounded cursor-not-allowed inline-flex items-center justify-center">
              <img src="/assets/icons/register1.png" className="w-9" />
              <span>Oops! Registration Closed</span>
@@ -95,7 +99,7 @@ function EventPage({ eventDesc }) {
           (<a href={eventDesc.registrationLink} target="blank">
           <button class="bg-sky-700 hover:bg-sky-800 text-white font-semibold text-lg lg:text-xl py-1 lg:py-2 lg:px-5 px-3 mx-10 rounded inline-flex items-center justify-center">
             <img src="/assets/icons/register1.png" className="w-9" />
-            <span>Register Now</span>
+            <span> Register Now </span>
           </button></a>)}
         </div>
 
