@@ -216,7 +216,6 @@ function App() {
       prize:["Exciting prizes + Certificate"], 
       rules: [
         'A team should compulsory consist 2 members',
-        'Only E-waste can be used',
         'Compulsorily bring your model.',
         'Based on the workload winner and runner up will be announced.',
         'Participants are expected to maintain a respectful and good attitude throughout the event. Any form of cheating plagiarism or disruptive will result in immediate disqualification. ',
