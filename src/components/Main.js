@@ -94,9 +94,9 @@ function Main() {
               <span>Register</span>
             </button>
           </a>
-          <div className="lg:text-xl text-md font-semibold text-yellow-400 text-center w-full flex justify-center flex-wrap lg:gap-x-4 gap-x-2 px-10 pt-10">
+          {/* <div className="lg:text-xl text-md font-semibold text-yellow-400 text-center w-full flex justify-center flex-wrap lg:gap-x-4 gap-x-2 px-10 pt-10">
                 <p>**Registration Extended only for Non-Technical Events</p> 
-          </div>
+          </div> */}
 
         </div>
       </section>
